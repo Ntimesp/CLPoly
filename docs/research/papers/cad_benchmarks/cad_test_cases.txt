@@ -1,0 +1,389 @@
+# CAD Test Cases
+# 
+# Format:
+#   [BEGIN <name>]
+#   VARS: <var1>, <var2>, ...
+#   POLYS:
+#   <polynomial_1>
+#   <polynomial_2>
+#   ...
+#   [END <name>]
+#
+# Sources:
+#   - Lee2025: "Cylindrical Algebraic Decomposition in Macaulay2"
+#     arXiv:2503.21731
+#   - Chen2023: "A Geometric Approach to Cylindrical Algebraic Decomposition"
+#     arXiv:2311.10515
+#   - Li2020: "Deciding Satisfiability of Polynomial Formulas by Sample-Cell Projection"
+#     arXiv:2003.00409
+
+# ============================================
+# Lee 2025 Test Cases (Hyperspheres)
+# ============================================
+
+[BEGIN Hypersphere-1]
+VARS: x1
+POLYS:
+(x1-1)^2 - 4
+(x1+1)^2 - 4
+[END Hypersphere-1]
+
+[BEGIN Hypersphere-2]
+VARS: x1, x2
+POLYS:
+(x1-1)^2 + (x2-1)^2 - 4
+(x1+1)^2 + (x2+1)^2 - 4
+[END Hypersphere-2]
+
+[BEGIN Hypersphere-3]
+VARS: x1, x2, x3
+POLYS:
+(x1-1)^2 + (x2-1)^2 + (x3-1)^2 - 4
+(x1+1)^2 + (x2+1)^2 + (x3+1)^2 - 4
+[END Hypersphere-3]
+
+[BEGIN Hypersphere-4]
+VARS: x1, x2, x3, x4
+POLYS:
+(x1-1)^2 + (x2-1)^2 + (x3-1)^2 + (x4-1)^2 - 4
+(x1+1)^2 + (x2+1)^2 + (x3+1)^2 + (x4+1)^2 - 4
+[END Hypersphere-4]
+
+# ============================================
+# Chen 2023 Test Cases (20 examples)
+# ============================================
+
+[BEGIN 5-VAR]
+VARS: x, y, z, u, w
+POLYS:
+w^2 + ((x+y)^2*u - y*z)
+[END 5-VAR]
+
+[BEGIN Hong-4]
+VARS: x0, x1, x2, x3
+POLYS:
+x0^2 + x1^2 + x2^2 + x3^2 - 1
+x0*x1*x2*x3 - 1
+[END Hong-4]
+
+[BEGIN Hong-5]
+VARS: x0, x1, x2, x3, x4
+POLYS:
+x0^2 + x1^2 + x2^2 + x3^2 + x4^2 - 1
+x0*x1*x2*x3*x4 - 1
+[END Hong-5]
+
+[BEGIN Hong-6]
+VARS: x0, x1, x2, x3, x4, x5
+POLYS:
+x0^2 + x1^2 + x2^2 + x3^2 + x4^2 + x5^2 - 1
+x0*x1*x2*x3*x4*x5 - 1
+[END Hong-6]
+
+[BEGIN Hong-7]
+VARS: x0, x1, x2, x3, x4, x5, x6
+POLYS:
+x0^2 + x1^2 + x2^2 + x3^2 + x4^2 + x5^2 + x6^2 - 1
+x0*x1*x2*x3*x4*x5*x6 - 1
+[END Hong-7]
+
+[BEGIN Hong-8]
+VARS: x0, x1, x2, x3, x4, x5, x6, x7
+POLYS:
+x0^2 + x1^2 + x2^2 + x3^2 + x4^2 + x5^2 + x6^2 + x7^2 - 1
+x0*x1*x2*x3*x4*x5*x6*x7 - 1
+[END Hong-8]
+
+[BEGIN cyclic-4]
+VARS: x0, x1, x2, x3
+POLYS:
+x0 + x1 + x2 + x3
+x0*x1 + x1*x2 + x2*x3 + x3*x0
+x0*x1*x2 + x1*x2*x3 + x2*x3*x0 + x3*x0*x1
+x0*x1*x2*x3 - 1
+[END cyclic-4]
+
+[BEGIN cyclic-5]
+VARS: x0, x1, x2, x3, x4
+POLYS:
+x0 + x1 + x2 + x3 + x4
+x0*x1 + x1*x2 + x2*x3 + x3*x4 + x4*x0
+x0*x1*x2 + x1*x2*x3 + x2*x3*x4 + x3*x4*x0 + x4*x0*x1
+x0*x1*x2*x3 + x1*x2*x3*x4 + x2*x3*x4*x0 + x3*x4*x0*x1 + x4*x0*x1*x2
+x0*x1*x2*x3*x4 - 1
+[END cyclic-5]
+
+[BEGIN cyclic-6]
+VARS: x0, x1, x2, x3, x4, x5
+POLYS:
+x0 + x1 + x2 + x3 + x4 + x5
+x0*x1 + x1*x2 + x2*x3 + x3*x4 + x4*x5 + x5*x0
+x0*x1*x2 + x1*x2*x3 + x2*x3*x4 + x3*x4*x5 + x4*x5*x0 + x5*x0*x1
+x0*x1*x2*x3 + x1*x2*x3*x4 + x2*x3*x4*x5 + x3*x4*x5*x0 + x4*x5*x0*x1 + x5*x0*x1*x2
+x0*x1*x2*x3*x4 + x1*x2*x3*x4*x5 + x2*x3*x4*x5*x0 + x3*x4*x5*x0*x1 + x4*x5*x0*x1*x2 + x5*x0*x1*x2*x3
+x0*x1*x2*x3*x4*x5 - 1
+[END cyclic-6]
+
+[BEGIN EBD-2]
+VARS: x, y, z
+POLYS:
+x + y^2 + z
+x - y^2 + z
+x^2 + y^2 + z^2 - 1
+[END EBD-2]
+
+[BEGIN EBD-5]
+VARS: v, u, x, y, z
+POLYS:
+x - y + z^2
+z^2 - u^2 + v^2 - 1
+x + y + z^2
+z^2 + u^2 - v^2 - 1
+x^2 - 1
+z
+[END EBD-5]
+
+[BEGIN EBD-8]
+VARS: w, x, y, z
+POLYS:
+x*y - z^2 - w^2 + 2*z
+x^2 + y^2 + z^2 + w + z
+-w^2 - y^2 - z^2 + x + z
+z + w
+[END EBD-8]
+
+[BEGIN FIS-1]
+VARS: a, b, c, x, y
+POLYS:
+b^2*(x-c)^2 + a^2*y^2 - a^2*b^2
+x^2 + y^2 - 1
+[END FIS-1]
+
+[BEGIN FIS-2]
+VARS: s, x, y, z
+POLYS:
+x*s*(1-x/400)/200 + y*s*(1-x/400) - 35*x/2
+250*x*s*(1-y/600)*(z+3/250) - 55*y/2
+500*(y+x/20)*(1-z/700) - 5*z
+[END FIS-2]
+
+[BEGIN FIS-3]
+VARS: l, z, r, s1, c1, s2, c2
+POLYS:
+r - c1 + l*(s1*s2 - c1*c2)
+z - s1 - l*(s1*c2 + s2*c1)
+s1^2 + c1^2 - 1
+s2^2 + c2^2 - 1
+[END FIS-3]
+
+[BEGIN FIS-4]
+VARS: x, y, z
+POLYS:
+x^2 + y^2*z + z^3
+3*x^2 + 3*y^2 + z^2 - 1
+x^2 + z^2 - y^3*(y-1)^3
+[END FIS-4]
+
+[BEGIN FIS-5]
+VARS: a, b, x, y, z
+POLYS:
+x*y + a*x*z + y*z - 1
+x*y*z + x*z + x*y - a
+x*z + y*z - a*z - x - y - 1
+a*x*y - b*y*z
+a*y*z - b*z*x
+[END FIS-5]
+
+[BEGIN FIS-6]
+VARS: a, b, x, y, z
+POLYS:
+x*y + a*x*z + y*z - 1
+x*y*z + x*z + x*y - b
+x*z + y*z - a*z - x - y - 1
+[END FIS-6]
+
+[BEGIN FIS-7]
+VARS: x4, x1, x3, x2, x0
+POLYS:
+x0*x2 - 1
+x0^2 - 2*x0*x1 + x2^2 - 2*x2*x3 - x4
+-16*x1*x4^2 - 800*x3^3 - 1240*x3^2*x4 - 408*x3*x4^2 - 40*x4^3 + 240*x1*x3 - 532*x1*x4 - 17720*x3^2 - 6214*x3*x4 - 550*x4^2 - 4480*x1 + 25240*x3 + 5695*x4 + 1050
+32*x1^2 + 168*x1*x3 + 40*x1*x4 + 8*x3^2 + 20*x3*x4 + 4*x4^2 - 270*x1 - 390*x3 - 105*x4 + 450
+320*x1*x3*x4 + 32*x1*x4^2 + 16*x3*x4^2 + 8320*x1*x3 + 264*x1*x4 + 240*x3^2 - 372*x3*x4 - 140*x4^2 - 14840*x1 - 23380*x3 - 2575*x4 + 36750
+[END FIS-7]
+
+[BEGIN FIS-8]
+VARS: x8, x9, x0, x1, x2, x3, x4, x5, x6, x7
+POLYS:
+x4
+x5
+x0*x8 + x1*x9 - 1
+2*x0*x2 + 2*x1*x3 + 2*x4*x5 - x0 - x1 - x4
+x0*x6 + x0*x7 - x1*x7 - x4*x6 - x0 + x8
+x2*x6 + x2*x7 - x3*x7 - x5*x6 - x2 + x9
+2*x0*x2 - 2*x0*x4 + 2*x1*x3 - 2*x1*x5 - x2^2 - x3^2 + x4^2 + x5^2
+x0^2 + x1^2 - x2^2 - x3^2 + x4^2 - x5^2 + x2 + x3 + x5
+14*x9^3 + 2*x8^2 - 12*x8*x9 - 16*x9^2 + 4*x8 + 17*x9 - 10
+14*x8*x9^2 - 3*x8^2 - 10*x8*x9 - 11*x9^2 + x8 + 20*x9 - 6
+14*x8^2*x9 - 6*x8^2 - 20*x8*x9 + 20*x9^2 + 16*x8 - 9*x9 + 2
+14*x8^3 - 19*x8^2 + 58*x8*x9 + 5*x9^2 - 17*x8 - 32*x9 + 46
+x2*x3*(x2 - x3)
+[END FIS-8]
+
+# ============================================
+# Li 2020 Test Cases (21 examples from LiMbS)
+# ============================================
+
+[BEGIN Han-3]
+VARS: x1, x2, x3
+POLYS:
+(x1^2 + x2^2 + x3^2)^2 - 4*(x1^2*x2^2 + x2^2*x3^2 + x3^2*x1^2)
+[END Han-3]
+
+[BEGIN Han-4]
+VARS: x1, x2, x3, x4
+POLYS:
+(x1^2 + x2^2 + x3^2 + x4^2)^2 - 4*(x1^2*x2^2 + x2^2*x3^2 + x3^2*x4^2 + x4^2*x1^2)
+[END Han-4]
+
+[BEGIN Han-5]
+VARS: x1, x2, x3, x4, x5
+POLYS:
+(x1^2 + x2^2 + x3^2 + x4^2 + x5^2)^2 - 4*(x1^2*x2^2 + x2^2*x3^2 + x3^2*x4^2 + x4^2*x5^2 + x5^2*x1^2)
+[END Han-5]
+
+[BEGIN Han-6]
+VARS: x1, x2, x3, x4, x5, x6
+POLYS:
+(x1^2 + x2^2 + x3^2 + x4^2 + x5^2 + x6^2)^2 - 4*(x1^2*x2^2 + x2^2*x3^2 + x3^2*x4^2 + x4^2*x5^2 + x5^2*x6^2 + x6^2*x1^2)
+[END Han-6]
+
+[BEGIN P]
+VARS: a, b, c, d, e, f
+POLYS:
+(a*b + c)*(c - e*f + c*f^2)*(1 + b^2 + d^2 + a*(-2*(b*c + d*e) + a*(1 + c^2 + e^2)) + 2*(b - a*c)*(-d + a*e)*f + (b - a*c)^2*f^2) - a*b*(d*f - b*(1 + f^2) + a*(c - e*f + c*f^2))*(-d*e + c*d*f - b*(c - e*f + c*f^2) + a*(1 + e^2 + c*(c - 2*e*f + c*f^2)))
+[END P]
+
+[BEGIN Hong-10]
+VARS: x0, x1, x2, x3, x4, x5, x6, x7, x8, x9
+POLYS:
+x0^2 + x1^2 + x2^2 + x3^2 + x4^2 + x5^2 + x6^2 + x7^2 + x8^2 + x9^2 - 1
+x0*x1*x2*x3*x4*x5*x6*x7*x8*x9 - 1
+[END Hong-10]
+
+[BEGIN Hong-11]
+VARS: x0, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10
+POLYS:
+x0^2 + x1^2 + x2^2 + x3^2 + x4^2 + x5^2 + x6^2 + x7^2 + x8^2 + x9^2 + x10^2 - 1
+x0*x1*x2*x3*x4*x5*x6*x7*x8*x9*x10 - 1
+[END Hong-11]
+
+[BEGIN Hong2-11]
+VARS: x0, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10
+POLYS:
+x0^2 + x1^2 + x2^2 + x3^2 + x4^2 + x5^2 + x6^2 + x7^2 + x8^2 + x9^2 + x10^2 - 22
+x0*x1*x2*x3*x4*x5*x6*x7*x8*x9*x10 - 1
+[END Hong2-11]
+
+[BEGIN Hong2-12]
+VARS: x0, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11
+POLYS:
+x0^2 + x1^2 + x2^2 + x3^2 + x4^2 + x5^2 + x6^2 + x7^2 + x8^2 + x9^2 + x10^2 + x11^2 - 24
+x0*x1*x2*x3*x4*x5*x6*x7*x8*x9*x10*x11 - 1
+[END Hong2-12]
+
+[BEGIN C-3-1]
+VARS: x1, y1, x2, y2, x3, y3
+POLYS:
+x1^2 + x2^2 + x3^2 - 1
+y1^2 + y2^2 + y3^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 - 1/1000000
+[END C-3-1]
+
+[BEGIN C-3-32]
+VARS: x1, y1, x2, y2, x3, y3
+POLYS:
+x1^2 + x2^2 + x3^2 - 32
+y1^2 + y2^2 + y3^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 - 1/1000000
+[END C-3-32]
+
+[BEGIN C-3-63]
+VARS: x1, y1, x2, y2, x3, y3
+POLYS:
+x1^2 + x2^2 + x3^2 - 63
+y1^2 + y2^2 + y3^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 - 1/1000000
+[END C-3-63]
+
+[BEGIN C-3-64]
+VARS: x1, y1, x2, y2, x3, y3
+POLYS:
+x1^2 + x2^2 + x3^2 - 64
+y1^2 + y2^2 + y3^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 - 1/1000000
+[END C-3-64]
+
+[BEGIN C-4-1]
+VARS: x1, y1, x2, y2, x3, y3, x4, y4
+POLYS:
+x1^2 + x2^2 + x3^2 + x4^2 - 1
+y1^2 + y2^2 + y3^2 + y4^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 + (x4-y4)^2 - 1/1000000
+[END C-4-1]
+
+[BEGIN C-4-32]
+VARS: x1, y1, x2, y2, x3, y3, x4, y4
+POLYS:
+x1^2 + x2^2 + x3^2 + x4^2 - 32
+y1^2 + y2^2 + y3^2 + y4^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 + (x4-y4)^2 - 1/1000000
+[END C-4-32]
+
+[BEGIN C-4-63]
+VARS: x1, y1, x2, y2, x3, y3, x4, y4
+POLYS:
+x1^2 + x2^2 + x3^2 + x4^2 - 63
+y1^2 + y2^2 + y3^2 + y4^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 + (x4-y4)^2 - 1/1000000
+[END C-4-63]
+
+[BEGIN C-4-64]
+VARS: x1, y1, x2, y2, x3, y3, x4, y4
+POLYS:
+x1^2 + x2^2 + x3^2 + x4^2 - 64
+y1^2 + y2^2 + y3^2 + y4^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 + (x4-y4)^2 - 1/1000000
+[END C-4-64]
+
+[BEGIN C-5-1]
+VARS: x1, y1, x2, y2, x3, y3, x4, y4, x5, y5
+POLYS:
+x1^2 + x2^2 + x3^2 + x4^2 + x5^2 - 1
+y1^2 + y2^2 + y3^2 + y4^2 + y5^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 + (x4-y4)^2 + (x5-y5)^2 - 1/1000000
+[END C-5-1]
+
+[BEGIN C-5-32]
+VARS: x1, y1, x2, y2, x3, y3, x4, y4, x5, y5
+POLYS:
+x1^2 + x2^2 + x3^2 + x4^2 + x5^2 - 32
+y1^2 + y2^2 + y3^2 + y4^2 + y5^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 + (x4-y4)^2 + (x5-y5)^2 - 1/1000000
+[END C-5-32]
+
+[BEGIN C-5-63]
+VARS: x1, y1, x2, y2, x3, y3, x4, y4, x5, y5
+POLYS:
+x1^2 + x2^2 + x3^2 + x4^2 + x5^2 - 63
+y1^2 + y2^2 + y3^2 + y4^2 + y5^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 + (x4-y4)^2 + (x5-y5)^2 - 1/1000000
+[END C-5-63]
+
+[BEGIN C-5-64]
+VARS: x1, y1, x2, y2, x3, y3, x4, y4, x5, y5
+POLYS:
+x1^2 + x2^2 + x3^2 + x4^2 + x5^2 - 64
+y1^2 + y2^2 + y3^2 + y4^2 + y5^2 - 64
+(x1-y1)^2 + (x2-y2)^2 + (x3-y3)^2 + (x4-y4)^2 + (x5-y5)^2 - 1/1000000
+[END C-5-64]

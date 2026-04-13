@@ -53,3 +53,14 @@ test/associatedgraph_test.cc
 reference/
 CMakeLists.txt
 /build.sh
+
+# CAD benchmark temporary files
+# - Cloned GitHub repositories for reference
+docs/research/papers/cad_benchmarks/GeometricCADv2/
+docs/research/papers/cad_benchmarks/LiMbS/
+# - Extracted text files from PDFs
+docs/research/papers/cad_benchmarks/*.txt
+# - But keep the main test cases file
+!docs/research/papers/cad_benchmarks/cad_test_cases.txt
+# MacOS temporary files
+.DS_Store

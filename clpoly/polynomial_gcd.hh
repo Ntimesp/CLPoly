@@ -108,6 +108,14 @@ namespace clpoly{
             return {{F,1}};
         auto f_cont=cont(F);
         auto F_=F/f_cont;
+        // sign 归一化（对齐 SymPy/Maple/FLINT 约定）：
+        // 把 F_ 的首项 sign 提到 f_cont，使 factor 永远首项正。
+        // 不做的话 squarefreebasis 在 associate 比较时会把 unit 残留进 basis（issue #14）。
+        if (!F_.empty() && F_.front().second < ZZ(0))
+        {
+            F_=-F_;
+            f_cont=-f_cont;
+        }
         auto lst=squarefreefactorize(f_cont);
         polynomial_<ZZ,lex_<var_order>> F_1(F.comp_ptr()),F_2(F.comp_ptr()),F_3(F.comp_ptr());
         for(uint64_t i=1;;++i)
@@ -631,8 +639,15 @@ namespace clpoly{
             // std::cout<<"c:"<<tmp<<std::endl;
             // std::cout<<"c:"<<cont<<std::endl;
         }
+        // issue #17 修复：sign 归一化（首项系数 > 0 约定，对齐 Maple/SymPy/FLINT）
+        // 对 single-group 输入（path "cont=std::move(tmp)"）必要；对 multi-group
+        // 输入（polynomial_GCD 自归正）是 no-op
+        if (!cont.empty() && cont.front().second < ZZ(0))
+        {
+            for (auto& term : cont) term.second = -term.second;
+        }
         return cont;
-    } 
+    }
     // polynomial_<ZZ,univariate_priority_order> cont(const polynomial_<ZZ,univariate_priority_order> &F_)
     // {
     //     auto & v_order=F_.comp();
@@ -1058,14 +1073,15 @@ namespace clpoly{
     }
     inline ZZ cont(const upolynomial_<ZZ> &G)
     {
-        if (G.empty())
-            return 1;
-        auto ptr=G.begin();
-        ZZ c=(ptr++)->second;
-        for (;ptr!=G.end();++ptr)
+        // issue #17 修复：cont 始终非负（对齐 Maple/SymPy/FLINT 约定）
+        // 关键：初始 c=0 让首步 gcd(0, c_0) = |c_0| 自动归正（GMP mpz_gcd 取绝对值）
+        ZZ c = 0;
+        for (auto &t : G)
         {
-            c=gcd(c,ptr->second);
+            c = gcd(c, t.second);
         }
+        if (c == 0)
+            return 1;  // 零多项式（无项 or 所有 c_i=0）约定返 1
         return c;
 
     }

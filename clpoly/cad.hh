@@ -161,8 +161,9 @@ namespace clpoly{
         prims.reserve(basis_prims.size());
 
         for (auto& poly : basis_prims) {
-            if (is_number(poly))
-                continue;
+            // squarefreebasis 输出不含常数（上游 issue #14 已修复，2026-05 PR #16/#18）。
+            // 若触发断言说明 squarefreebasis 回归。
+            assert(!is_number(poly));
 
             if (get_first_var(poly) == x) {
                 prims.push_back(std::move(poly));
@@ -308,8 +309,9 @@ namespace clpoly{
         prims.reserve(basis_prims.size());
 
         for (auto& poly : basis_prims) {
-            if (is_number(poly))
-                continue;
+            // squarefreebasis 输出不含常数（上游 issue #14 已修复，2026-05 PR #16/#18）。
+            // 若触发断言说明 squarefreebasis 回归。
+            assert(!is_number(poly));
 
             if (get_first_var(poly) == x) {
                 // Lazard 投影算子要求：若多项式含 x 因子（如 x*(x+1), 需将 x 单独作为一个 prim 加入投影集。
@@ -388,8 +390,9 @@ namespace clpoly{
             conts.reserve(conts.size()+basis_prims.size());
 
             for (auto& poly : basis_prims) {
-                if (is_number(poly))
-                    continue;
+                // squarefreebasis 输出不含常数（上游 issue #14 已修复，2026-05 PR #16/#18）。
+                // 若触发断言说明 squarefreebasis 回归。
+                assert(!is_number(poly));
 
                 if (get_first_var(poly) == x) {
                     // Lazard 投影算子要求：若多项式含 x 因子（如 x*(x+1), 需将 x 单独作为一个 prim 加入投影集。

@@ -10,24 +10,22 @@
 
 using namespace clpoly;
 
-// 计算squarefreebasis的prod
-polynomial_ZZ squarefreebasis_prod(const std::vector<polynomial_ZZ>& F)
-{
-    auto basis_info = squarefreebasis(F);
-    const auto& basis = basis_info.first;  // list of squarefree factors
-    polynomial_ZZ prod = 1;
-    for (const auto& b : basis) {
-        prod = prod * b;
-    }
-    return prod;
-}
-
-// 检查squarefreebasis的prod是否相等
+// 检查两个投影结果是否等价。
+// 设计契约：投影只归一化输入（cont/prim + basis），输出不做处理留给下一层，
+// 因此输出可能含重复项/内嵌因子内容，正确性判据是输出的 squarefree basis 一致。
+// squarefreebasis 修复后（issue #14/#17，上游 2026-05）输出已 canonical：
+// 去重、无 unit、首项正，可直接集合比较。
 void verify_proj_eq(const std::vector<polynomial_ZZ>& F,const std::vector<polynomial_ZZ>& G)
 {
-    polynomial_ZZ prodF = pow(squarefreebasis_prod(F),2);
-    polynomial_ZZ prodG = pow(squarefreebasis_prod(G),2);
-    CLPOLY_ASSERT_EQ(prodF, prodG);
+    auto Fn = squarefreebasis(F).first;
+    auto Gn = squarefreebasis(G).first;
+    CLPOLY_ASSERT_EQ(Fn.size(), Gn.size());
+    for (const auto& p : Fn) {
+        auto it = std::find(Gn.begin(), Gn.end(), p);
+        CLPOLY_ASSERT(it != Gn.end());
+        if (it != Gn.end())
+            Gn.erase(it);
+    }
 }
 
 int main() {

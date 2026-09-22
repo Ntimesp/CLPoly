@@ -104,8 +104,8 @@ FullProjTiming project_full_with_timing(
         conts.reserve(conts.size() + basis_prims.size());
 
         for (auto& poly : basis_prims) {
-            if (is_number(poly))
-                continue;
+            // 与 cad.hh __project_full 同步（b330e64）：防御过滤改 assert
+            assert(!is_number(poly));
 
             if (get_first_var(poly) == x) {
                 // Lazard 投影算子要求：若多项式含 x 因子，需将 x 单独作为一个 prim

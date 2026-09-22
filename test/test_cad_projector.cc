@@ -43,18 +43,24 @@ int main() {
     CLPOLY_TEST("MCCALLUM Projection operators");
     {
         auto mccallum_res = polys;
+        auto mccallum_fac = polys;  // FACTOR 分支（SQUAREFREE 为默认参数）
         std::vector<polynomial_ZZ> expected_res;
         // Project x3
         mccallum_res = project(mccallum_res, x3, projection_method::MCCALLUM);
+        mccallum_fac = project(mccallum_fac, x3, projection_method::MCCALLUM,
+                               basis_computation_method::FACTOR);
         expected_res = {x1-1, x2, pow(x2,2)+polynomial_ZZ({{{},2}}), x1, \
 pow(x1,2)+x2, -pow(x2,2)+4*x1+polynomial_ZZ({{{},-4}}), \
 pow(x2,4)+pow(x2,3)*x1+pow(x1,3)+4*pow(x2,2)+2*x2*x1-pow(x1,2)+polynom\
 ial_ZZ({{{},4}}), pow(x1,4)+3*x2*pow(x1,2)+2*pow(x2,2)+x1-1, \
 -pow(x1,3)+pow(x2,2)-x2*x1+polynomial_ZZ({{{},2}})};
         verify_proj_eq(mccallum_res,expected_res);
+        verify_proj_eq(mccallum_fac,expected_res);  // FACTOR 分支应与同一正确答案一致
 
         // Project x2
         mccallum_res = project(mccallum_res, x2, projection_method::MCCALLUM);
+        mccallum_fac = project(mccallum_fac, x2, projection_method::MCCALLUM,
+                               basis_computation_method::FACTOR);
         expected_res = {x1-1, x1, polynomial_ZZ(), polynomial_ZZ({{{},2}}), \
 polynomial_ZZ({{{},4}}), pow(x1,3)-pow(x1,2)+polynomial_ZZ({{{},4}}), \
 pow(x1,4)+x1-1, polynomial_ZZ({{{},3}}), \
@@ -76,24 +82,31 @@ pow(x1,8)-2*pow(x1,7)+2*pow(x1,5)+15*pow(x1,4)-9*pow(x1,3)-pow(x1,2)-1\
 pow(x1,8)-pow(x1,7)+2*pow(x1,5)-2*pow(x1,4)+10*pow(x1,3)-7*pow(x1,2)-1\
 0*x1+polynomial_ZZ({{{},25}})};
         verify_proj_eq(mccallum_res,expected_res);
+        verify_proj_eq(mccallum_fac,expected_res);  // FACTOR 分支应与同一正确答案一致
     }
 
     // ----- LAZARD projection -----
     CLPOLY_TEST("LAZARD Projection operators");
     {
         auto lazard_res = polys;   // intentionally keeping the typo
+        auto lazard_fac = polys;   // FACTOR 分支（SQUAREFREE 为默认参数）
         std::vector<polynomial_ZZ> expected_res;
         // Project x3
         lazard_res = project(lazard_res, x3, projection_method::LAZARD);
+        lazard_fac = project(lazard_fac, x3, projection_method::LAZARD,
+                             basis_computation_method::FACTOR);
         expected_res = {x1-1, pow(x2,2)+polynomial_ZZ({{{},2}}), x1, pow(x1,2)+x2, \
 -pow(x2,2)+4*x1+polynomial_ZZ({{{},-4}}), \
 pow(x2,4)+pow(x2,3)*x1+pow(x1,3)+4*pow(x2,2)+2*x2*x1-pow(x1,2)+polynom\
 ial_ZZ({{{},4}}), pow(x1,4)+3*x2*pow(x1,2)+2*pow(x2,2)+x1-1, \
 -pow(x1,3)+pow(x2,2)-x2*x1+polynomial_ZZ({{{},2}})};
         verify_proj_eq(lazard_res,expected_res);
+        verify_proj_eq(lazard_fac,expected_res);  // FACTOR 分支应与同一正确答案一致
 
         // Project x2
         lazard_res = project(lazard_res, x2, projection_method::LAZARD);
+        lazard_fac = project(lazard_fac, x2, projection_method::LAZARD,
+                             basis_computation_method::FACTOR);
         expected_res = {x1-1, x1, polynomial_ZZ({{{},2}}), polynomial_ZZ({{{},4}}), \
 pow(x1,3)-pow(x1,2)+polynomial_ZZ({{{},4}}), pow(x1,4)+x1-1, \
 pow(x1,3)+polynomial_ZZ({{{},-2}}), polynomial_ZZ({{{},-8}}), \
@@ -114,6 +127,7 @@ pow(x1,8)-2*pow(x1,7)+2*pow(x1,5)+15*pow(x1,4)-9*pow(x1,3)-pow(x1,2)-1\
 pow(x1,8)-pow(x1,7)+2*pow(x1,5)-2*pow(x1,4)+10*pow(x1,3)-7*pow(x1,2)-1\
 0*x1+polynomial_ZZ({{{},25}})};
         verify_proj_eq(lazard_res,expected_res);
+        verify_proj_eq(lazard_fac,expected_res);  // FACTOR 分支应与同一正确答案一致
     }
 
     // ----- LAZARD projection with x factor (covers __divide_by_first_var) -----
@@ -127,14 +141,16 @@ pow(x1,8)-pow(x1,7)+2*pow(x1,5)-2*pow(x1,4)+10*pow(x1,3)-7*pow(x1,2)-1\
         
         std::vector<polynomial_ZZ> polys = {f};
         
-        // Project x (消去 x)，使用 LAZARD + SQUAREFREE（默认）
-        // 这会触发 __divide_by_first_var 代码路径
+        // Project x（消去 x）：SQUAREFREE 走 __divide_by_first_var 手动拆 x 因子；
+        // FACTOR 下 factorbasis 已完全分解，x 因子自然单独成项。两者应与同一正确答案一致。
         auto proj_res = project(polys, x, projection_method::LAZARD);
-        
-        // 验证投影结果与预期等价（使用 squarefreebasis prod 比较）
+        auto proj_fac = project(polys, x, projection_method::LAZARD,
+                                basis_computation_method::FACTOR);
+
         // x*(x+y-1) 的 Lazard 投影应包含：tc=y-1（来自 x+y-1 的 tailcoeff，判别式）
         std::vector<polynomial_ZZ> expected_res = {y-1};
         verify_proj_eq(proj_res, expected_res);
+        verify_proj_eq(proj_fac, expected_res);  // FACTOR 分支应与同一正确答案一致
     }
 
     return clpoly_test::test_summary();

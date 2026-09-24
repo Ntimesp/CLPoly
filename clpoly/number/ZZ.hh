@@ -388,18 +388,18 @@ public:
             if (b._val >= 0)
                 mpz_add_ui(res._mpz, res._mpz, static_cast<unsigned long>(b._val));
             else
-                mpz_sub_ui(res._mpz, res._mpz, static_cast<unsigned long>(-b._val));
+                mpz_sub_ui(res._mpz, res._mpz, static_cast<unsigned long>(uint64_t(0) - static_cast<uint64_t>(b._val)));
         } else if (a._is_small()) {
             if (a._val >= 0)
                 mpz_add_ui(res._mpz, b._mpz, static_cast<unsigned long>(a._val));
             else {
-                mpz_sub_ui(res._mpz, b._mpz, static_cast<unsigned long>(-a._val));
+                mpz_sub_ui(res._mpz, b._mpz, static_cast<unsigned long>(uint64_t(0) - static_cast<uint64_t>(a._val)));
             }
         } else if (b._is_small()) {
             if (b._val >= 0)
                 mpz_add_ui(res._mpz, a._mpz, static_cast<unsigned long>(b._val));
             else
-                mpz_sub_ui(res._mpz, a._mpz, static_cast<unsigned long>(-b._val));
+                mpz_sub_ui(res._mpz, a._mpz, static_cast<unsigned long>(uint64_t(0) - static_cast<uint64_t>(b._val)));
         } else {
             mpz_add(res._mpz, a._mpz, b._mpz);
         }
@@ -421,7 +421,7 @@ public:
             if (b._val >= 0)
                 mpz_sub_ui(res._mpz, res._mpz, static_cast<unsigned long>(b._val));
             else
-                mpz_add_ui(res._mpz, res._mpz, static_cast<unsigned long>(-b._val));
+                mpz_add_ui(res._mpz, res._mpz, static_cast<unsigned long>(uint64_t(0) - static_cast<uint64_t>(b._val)));
         } else if (a._is_small()) {
             _mpz_set_s64(res._mpz, a._val);
             mpz_sub(res._mpz, res._mpz, b._mpz);
@@ -429,7 +429,7 @@ public:
             if (b._val >= 0)
                 mpz_sub_ui(res._mpz, a._mpz, static_cast<unsigned long>(b._val));
             else
-                mpz_add_ui(res._mpz, a._mpz, static_cast<unsigned long>(-b._val));
+                mpz_add_ui(res._mpz, a._mpz, static_cast<unsigned long>(uint64_t(0) - static_cast<uint64_t>(b._val)));
         } else {
             mpz_sub(res._mpz, a._mpz, b._mpz);
         }
@@ -539,7 +539,7 @@ public:
             if (b._val >= 0)
                 mpz_add_ui(_mpz, _mpz, static_cast<unsigned long>(b._val));
             else
-                mpz_sub_ui(_mpz, _mpz, static_cast<unsigned long>(-b._val));
+                mpz_sub_ui(_mpz, _mpz, static_cast<unsigned long>(uint64_t(0) - static_cast<uint64_t>(b._val)));
         } else {
             mpz_add(_mpz, _mpz, b._mpz);
         }
@@ -560,7 +560,7 @@ public:
             if (b._val >= 0)
                 mpz_sub_ui(_mpz, _mpz, static_cast<unsigned long>(b._val));
             else
-                mpz_add_ui(_mpz, _mpz, static_cast<unsigned long>(-b._val));
+                mpz_add_ui(_mpz, _mpz, static_cast<unsigned long>(uint64_t(0) - static_cast<uint64_t>(b._val)));
         } else {
             mpz_sub(_mpz, _mpz, b._mpz);
         }
@@ -694,7 +694,7 @@ public:
         if (_is_small()) {
             if (_val >= 0) return static_cast<uint64_t>(_val) % d;
             // negative: floor mod = d - ((-val) % d), but 0 if divides evenly
-            uint64_t r = static_cast<uint64_t>(-_val) % d;
+            uint64_t r = (uint64_t(0) - static_cast<uint64_t>(_val)) % d;
             return r == 0 ? 0 : d - r;
         }
         return mpz_fdiv_ui(_mpz, d);
@@ -704,7 +704,6 @@ public:
     size_t sizeinbase(int base) const {
         if (_is_small()) {
             if (_val == 0) return 1;
-            int64_t v = _val < 0 ? -_val : _val;
             // Special case: _val == INT64_MIN, -_val overflows
             if (_val == INT64_MIN) {
                 mpz_t tmp;
@@ -714,6 +713,7 @@ public:
                 mpz_clear(tmp);
                 return r;
             }
+            int64_t v = _val < 0 ? -_val : _val;
             size_t count = 0;
             while (v > 0) { v /= base; ++count; }
             return count;
@@ -920,12 +920,12 @@ inline ZZ pow(const ZZ& base, uint64_t exp) {
 inline ZZ gcd(const ZZ& a, const ZZ& b) {
     if (a._is_small() && b._is_small()) {
         // Simple GCD for small integers
-        int64_t x = a._val < 0 ? -a._val : a._val;
-        int64_t y = b._val < 0 ? -b._val : b._val;
-        // Handle INT64_MIN
+        // Handle INT64_MIN before evaluating any signed negation.
         if (a._val == INT64_MIN || b._val == INT64_MIN) {
             // fall through to mpz
         } else {
+            int64_t x = a._val < 0 ? -a._val : a._val;
+            int64_t y = b._val < 0 ? -b._val : b._val;
             while (y) { int64_t t = y; y = x % y; x = t; }
             return ZZ(x);
         }

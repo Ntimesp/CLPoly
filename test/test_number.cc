@@ -214,6 +214,15 @@ int main() {
 
         a %= ZZ(3);
         CLPOLY_ASSERT_EQ(a, ZZ(2));
+
+        // Mixed GMP/small-integer compound assignments with INT64_MIN.
+        ZZ big("18446744073709551616");
+        big += ZZ(INT64_MIN);
+        CLPOLY_ASSERT_EQ(big, ZZ("9223372036854775808"));
+
+        big = ZZ("18446744073709551616");
+        big -= ZZ(INT64_MIN);
+        CLPOLY_ASSERT_EQ(big, ZZ("27670116110564327424"));
     }
 
     // ================================================================
@@ -234,6 +243,28 @@ int main() {
         ZZ e = d - b;
         CLPOLY_ASSERT_TRUE(e < ZZ(INT64_MIN));
         CLPOLY_ASSERT_EQ(e + b, d);
+    }
+
+    CLPOLY_TEST("ZZ_add_int64_min");
+    {
+        ZZ low(INT64_MIN);
+        ZZ big("18446744073709551616"); // 2^64, stored by GMP
+
+        // Both operand orders require the magnitude of the negative small integer.
+        CLPOLY_ASSERT_EQ(big + low, ZZ("9223372036854775808"));
+        CLPOLY_ASSERT_EQ(low + big, ZZ("9223372036854775808"));
+        // Two small operands overflow and enter the GMP fallback.
+        CLPOLY_ASSERT_EQ(low + low, ZZ("-18446744073709551616"));
+    }
+
+    CLPOLY_TEST("ZZ_subtract_int64_min");
+    {
+        ZZ low(INT64_MIN);
+        ZZ big("18446744073709551616");
+
+        CLPOLY_ASSERT_EQ(big - low, ZZ("27670116110564327424"));
+        // Small operands, with a result exceeding INT64_MAX.
+        CLPOLY_ASSERT_EQ(ZZ(1) - low, ZZ("9223372036854775809"));
     }
 
     CLPOLY_TEST("ZZ_overflow_mul");
@@ -319,6 +350,10 @@ int main() {
         CLPOLY_ASSERT_EQ(gcd(ZZ(5), ZZ(0)), ZZ(5));
         CLPOLY_ASSERT_EQ(gcd(ZZ(-12), ZZ(8)), ZZ(4));
         CLPOLY_ASSERT_EQ(gcd(ZZ(12), ZZ(-8)), ZZ(4));
+
+        // |INT64_MIN| cannot be represented by int64_t.
+        CLPOLY_ASSERT_EQ(gcd(ZZ(INT64_MIN), ZZ(0)), ZZ("9223372036854775808"));
+        CLPOLY_ASSERT_EQ(gcd(ZZ(INT64_MIN), ZZ(12)), ZZ(4));
 
         // big integer gcd
         ZZ a("123456789012345678901234567890");
@@ -505,6 +540,8 @@ int main() {
         ZZ b(1000);
         CLPOLY_ASSERT_EQ(sizeinbase(b, 10), (size_t)4);
         CLPOLY_ASSERT_EQ(sizeinbase(ZZ(0), 10), (size_t)1);
+        // The magnitude 2^63 has 64 binary digits.
+        CLPOLY_ASSERT_EQ(sizeinbase(ZZ(INT64_MIN), 2), (size_t)64);
     }
 
     CLPOLY_TEST("ZZ_fdiv_ui");
@@ -513,6 +550,8 @@ int main() {
         CLPOLY_ASSERT_EQ(ZZ(-10).fdiv_ui(3), (uint64_t)2);  // floor mod
         CLPOLY_ASSERT_EQ(ZZ(0).fdiv_ui(7), (uint64_t)0);
         CLPOLY_ASSERT_EQ(ZZ(21).fdiv_ui(7), (uint64_t)0);
+        // -2^63 = 3 * (-3074457345618258603) + 1.
+        CLPOLY_ASSERT_EQ(ZZ(INT64_MIN).fdiv_ui(3), (uint64_t)1);
     }
 
     CLPOLY_TEST("ZZ_shift");

@@ -511,8 +511,10 @@ namespace clpoly{
     {
         std::vector<std::vector<polynomial_<Tc,lex_<custom_var_order>>>> TT;
         //找出最大的不符合非平方的k
-        int k=T.size()-1;
-        for(;k>0;k--)
+        // XY16 Algorithm 3.1, lines 1--3: the first polynomial also
+        // participates; only k < 0 means every level is squarefree.
+        int k=static_cast<int>(T.size())-1;
+        for(;k>=0;k--)
         {
             auto res=discriminant(T[k],get_first_var(T[k]));
             for(int i=k-1;i>=0;i--)
@@ -523,7 +525,7 @@ namespace clpoly{
             if(res.empty()) break;
         }
 
-        if(k==0)
+        if(k<0)
         {
             TT.push_back(T);
             return TT;

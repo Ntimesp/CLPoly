@@ -167,5 +167,40 @@ int main() {
         CLPOLY_ASSERT_TRUE(is_regular(T_single));
     }
 
+    // ======== RCtoSqrfree: single equation with repeated roots ========
+    CLPOLY_TEST("RCtoSqrfree_single_equation");
+    {
+        lex_<custom_var_order> od(custom_var_order({x}));
+        using P = polynomial_<ZZ, lex_<custom_var_order>>;
+        P f(&od), expected(&od);
+        f = pow(x - 1, 3) * pow(x + 2, 2);
+        expected = (x - 1) * (x + 2);
+
+        auto result = RCtoSqrfree(std::vector<P>{f});
+        CLPOLY_ASSERT_TRUE(result.size() == 1 && result[0].size() == 1);
+        if (result.size() == 1 && result[0].size() == 1) {
+            // Pseudo-division may introduce a nonzero constant factor.
+            CLPOLY_ASSERT_EQ(pp(result[0][0]), expected);
+        }
+    }
+
+    // ======== RCtoSqrfree: only the first equation has repeated roots ========
+    CLPOLY_TEST("RCtoSqrfree_first_equation");
+    {
+        lex_<custom_var_order> od(custom_var_order({y, x}));
+        using P = polynomial_<ZZ, lex_<custom_var_order>>;
+        P f(&od), g(&od), expected(&od);
+        f = pow(x - 1, 3) * pow(x + 2, 2);
+        g = y - x;
+        expected = (x - 1) * (x + 2);
+
+        auto result = RCtoSqrfree(std::vector<P>{f, g});
+        CLPOLY_ASSERT_TRUE(result.size() == 1 && result[0].size() == 2);
+        if (result.size() == 1 && result[0].size() == 2) {
+            CLPOLY_ASSERT_EQ(pp(result[0][0]), expected);
+            CLPOLY_ASSERT_EQ(result[0][1], g);
+        }
+    }
+
     return clpoly_test::test_summary();
 }

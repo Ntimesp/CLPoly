@@ -7,6 +7,7 @@
 #ifndef CLPOLY_HH
 #define CLPOLY_HH
 #include <clpoly/polynomial.hh>
+#include <clpoly/polynomial_interval.hh>
 #include <clpoly/resultant.hh>
 #include <clpoly/polynomial_gcd.hh>
 #include <clpoly/upolynomial.hh>

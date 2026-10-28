@@ -21,6 +21,7 @@ TESTS=(
     test_charset
     test_graph
     test_number
+    test_polynomial_interval
     test_random
     test_parse
     test_factorize_zp

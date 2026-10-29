@@ -94,23 +94,43 @@ int main() {
         polynomial_<ZZ, lex_<custom_var_order>> h(&od);
         h = pow(x, 2) + 1;
         CLPOLY_ASSERT_FALSE(is_reduced(h, g));
+
+        // 零和非零常数关于任何非常数多项式都已约化。
+        f = 0;
+        CLPOLY_ASSERT_TRUE(is_reduced(f, g));
+        f = 2;
+        CLPOLY_ASSERT_TRUE(is_reduced(f, g));
     }
 
-    // ======== basset ========
-    CLPOLY_TEST("basset_basic");
+    // ======== __basset ========
+    CLPOLY_TEST("__basset_basic");
     {
         lex_<custom_var_order> od(custom_var_order({x, y, z}));
         polynomial_<ZZ, lex_<custom_var_order>> f1(&od), f2(&od);
         f1 = pow(x, 2) + y;
         f2 = x*y + z;
         std::vector<polynomial_<ZZ, lex_<custom_var_order>>> P = {f1, f2};
-        auto B = basset<ZZ>(P.begin(), P.end());
-        // basset should return non-empty result
+        auto B = __basset<ZZ>(P.begin(), P.end());
+        // 基列非空。
         CLPOLY_ASSERT_TRUE(B.size() > 0);
-        // Each element in basset should have a main variable
+        // 此例中的基列方程均为非常数。
         for (auto& b : B) {
             CLPOLY_ASSERT_FALSE(b.empty());
         }
+    }
+
+    CLPOLY_TEST("__basset_nonzero_constant");
+    {
+        lex_<custom_var_order> od(custom_var_order({x}));
+        using P = polynomial_<ZZ, lex_<custom_var_order>>;
+        P f(&od), constant(&od);
+        f = x*x - 1;
+        constant = 2;
+        const std::vector<P> input{f, constant};
+
+        // 非零常数构成矛盾列，直接结束，不调用常数上的约化判定。
+        CLPOLY_ASSERT_EQ(__basset<ZZ>(input.begin(), input.end()),
+                         std::vector<P>{constant});
     }
 
     // ======== sqrfree (vector version) ========

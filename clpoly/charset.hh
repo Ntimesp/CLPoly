@@ -11,6 +11,13 @@
 #include <clpoly/polynomial.hh>
 
 namespace clpoly{
+    // 变量与顺序来自各多项式的 lex_<custom_var_order> 比较器，无需另传 vars。
+    // 例如比较器优先级为 {x1,x2,x3} 时，三角列按主变量 x3、x2、x1 排列。
+    // 调用者须保证多项式已规范化、比较器一致且在整个调用期间有效。
+
+    // 比较吴秩：先比较论文记号 cls（主变量在文献变量序中的编号），再比较主变量次数。
+    // 非零常数的 cls 为 0；cls 和主变量次数均相同视为同秩。
+    // 常数同秩且低于非常数；代码将零也归为常数，但 BasSet 输入必须排除零。
     template <class Tc>
     bool rankcompare
     (const polynomial_<Tc,lex_<custom_var_order>> &F,
@@ -34,19 +41,15 @@ namespace clpoly{
         return false;
     }
 
-    //判断F是否对G约化
+    // 按 G 的主变量判断 deg(F,mvar(G)) < deg(G,mvar(G))。
+    // 前提：cls(G)>0，即 G 非常数；F 可以是零或非零常数，此时返回 true。
     template <class Tc>
     bool is_reduced
     (const polynomial_<Tc,lex_<custom_var_order>> &F,
     const polynomial_<Tc,lex_<custom_var_order>> &G)
     {
-        if(F.empty()) return true;
-        //判断F是否对G约化
-        if(is_number(G)) return false;
-        if(is_number(F)) return false;
-
-        if(degree(F,get_first_var(G))<get_first_deg(G))  return true;
-        else return false;
+        assert(!is_number(G));
+        return degree(F,get_first_var(G))<get_first_deg(G);
     }
 
     template <class comp>
@@ -73,8 +76,13 @@ namespace clpoly{
         return G;
     }
 
+    // 内部基列算法，由 charset 调用；王东明《计算机代数》书页 138，BasSet B1--B2。
+    // 输入为非零多项式组（空范围直接返回空）；每轮选最低秩，再筛选约化项。
+    // 非零常数可以输入：它会首先被选中并立即结束，返回仅含该常数的列。
+    // 输出按秩递增；主变量顺序与比较器优先级相反，供后续回代使用。
+    // 不接受含零多项式的范围；选中零时断言失败，不将它作为约化对象。
     template <class Tc,class InputIt>
-    std::vector<polynomial_<Tc,lex_<custom_var_order>>> basset
+    std::vector<polynomial_<Tc,lex_<custom_var_order>>> __basset
     (InputIt first,InputIt second)
     {
         if(first==second) return {};
@@ -85,7 +93,10 @@ namespace clpoly{
             std::size_t min=0;
             for(std::size_t i=1;i<F.size();++i)
                 if(rankcompare(F[i],F[min]))    min=i;
+            assert(!F[min].empty());
             B.push_back(F[min]);
+            // BasSet B2.3：cls 为 0 时结束，不对常数调用 is_reduced。
+            if(is_number(F[min])) break;
             //求出新的F
             Temp.clear();
             for(auto i:F)
@@ -96,6 +107,10 @@ namespace clpoly{
         return B;
     }
 
+    // 吴特征列算法，王东明《计算机代数》书页 138--139，CharSet C1--C2。
+    // 输入为同一比较器下的非零多项式组；反复求基列并加入非零伪余式。
+    // 返回升列 C，使输入对 C 的伪余式为零；常数矛盾列表示无公共零点。
+    // C 本身不总与输入零集相等，初式消失的分支由后续零点分解处理。
     template <class Tc>
     std::vector<polynomial_<Tc,lex_<custom_var_order>>> charset
     (const std::vector<polynomial_<Tc,lex_<custom_var_order>>>& P)
@@ -106,7 +121,7 @@ namespace clpoly{
         while(true)
         {
             R.clear();
-            C=basset<Tc>(F.begin(),F.end());
+            C=__basset<Tc>(F.begin(),F.end());
             // std::cout<<"C="<<C<<std::endl;
             // SHOW(C)
             if(is_number(C[0])) return C;
@@ -137,6 +152,14 @@ namespace clpoly{
         return C;
     }
 
+    // XY16 Algorithm 2.2（书页 40）：弱相对单纯分解 WRSD。
+    // cls 是论文记号，非库函数；非常数 f 的 cls 按 N+1-v_map[主变量] 计算。
+    // 输入 T 为零维正则链，满足 cls(T[i])=i+1；f 只含当前链变量。
+    // 从 T 的比较器计算 cls；内部递归前缀可以保留原比较器。
+    // cls 直接用于 T 的下标，因此 cls(T[i]) 必须从 1 开始连续，不能跳号。
+    // 例如比较器 {x1,y,x2,x3} 配主变量 {x3,x2,x1} 会将 x1 算成第 4 层并越界。
+    // 返回 (H,G)：分别覆盖 T 上 f 为零和非零的分支，链内方程顺序保持不变。
+    // H 使用弱分解的零集契约，不保证 prem(f,H)=0。
     template <class Tc>
     std::pair<
         std::vector<std::vector<polynomial_<Tc,lex_<custom_var_order>>>>,
@@ -271,6 +294,11 @@ namespace clpoly{
         return std::make_pair(H,G);
     }
 
+    // XY16 Algorithm 2.1（书页 34）：相对单纯分解 RSD。
+    // 输入顺序和比较器前提与 WRSD 相同：cls(T[i])=i+1。
+    // 比较器使 cls 跳号时，不能直接映射到方程下标；否则前缀迭代器可能越界。
+    // 返回 (H,G)：H 上 f 的逐次伪余式为零，G 上逐次结式非零；两类覆盖输入零集。
+    // 主变量从各方程读取，cls 从比较器计算；不重新排列 T，也不接收根盒。
     template <class Tc>
     std::pair<
         std::vector<std::vector<polynomial_<Tc,lex_<custom_var_order>>>>,
@@ -398,6 +426,8 @@ namespace clpoly{
         }
     }
 
+    // 在已合法排列的三角列上，用初式的逐次结式检查正则性。
+    // 调用者先保证三角结构；此函数不检查平方自由性或枚举实根。
     template <class Tc>
     bool is_regular
     (const std::vector<polynomial_<Tc,lex_<custom_var_order>>> &T)
@@ -505,6 +535,10 @@ namespace clpoly{
         return T;
     }
 
+    // XY16 Algorithm 3.1（书页 62）：将零维正则链分解为平方自由正则链。
+    // 输入按 cls 递增排列；每层主变量由 get_first_var 取得，比较器由输入携带。
+    // 返回各链的零集之并等于原零集，链内仍按原主变量顺序排列；空链返回 {T}。
+    // 检查包含第一条方程；依赖 WRSD 和子结式处理重根，不在此选择某个实根。
     template <class Tc>
     std::vector<std::vector<polynomial_<Tc,lex_<custom_var_order>>>> RCtoSqrfree
     (const std::vector<polynomial_<Tc,lex_<custom_var_order>>> &T)

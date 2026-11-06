@@ -6,6 +6,7 @@
  */
 #ifndef CLPOLY_HH
 #define CLPOLY_HH
+#include <clpoly/rational_sample.hh>
 #include <clpoly/polynomial.hh>
 #include <clpoly/polynomial_interval.hh>
 #include <clpoly/resultant.hh>

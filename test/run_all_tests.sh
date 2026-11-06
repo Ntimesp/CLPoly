@@ -21,6 +21,8 @@ TESTS=(
     test_charset
     test_graph
     test_number
+    test_clpoly_api
+    test_rational_sample
     test_polynomial_interval
     test_random
     test_parse

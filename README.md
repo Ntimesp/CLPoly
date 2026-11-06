@@ -265,6 +265,20 @@ ZZ bound = RealRootBound(f);         // Cauchy 根界
 int sc = coeffsignchanges(f);        // 系数符号变化数（Descartes 规则）
 ```
 
+### 有理开区间采样
+
+`sample_rational` 在有理开区间中返回分母最小、其次分子绝对值最小的有理数。
+所有有限端点都严格排除，缺失端点表示无穷；空或倒置区间抛 `std::invalid_argument`。
+
+```cpp
+QQ q = sample_rational(QQ(1,3), QQ(1,2));       // 2/5
+QQ left = sample_rational(std::nullopt, QQ(0)); // -1
+```
+
+包含 `<clpoly/clpoly.hh>` 或独立的 `<clpoly/rational_sample.hh>` 即可使用。
+独立头文件只依赖 QQ 和标准库，不需要多项式、变量序或实根对象。
+接口、连分数算法与证明见[采样设计](docs/cad/design/rational-sampling.md)。
+
 ## 许可证
 
 MIT License

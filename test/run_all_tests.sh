@@ -43,6 +43,7 @@ TESTS=(
     test_cad_projector
     test_cad_tree
     test_open_cad
+    test_regular_chain
 )
 
 TOTAL_PASS=0

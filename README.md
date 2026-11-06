@@ -279,6 +279,22 @@ QQ left = sample_rational(std::nullopt, QQ(0)); // -1
 独立头文件只依赖 QQ 和标准库，不需要多项式、变量序或实根对象。
 接口、连分数算法与证明见[采样设计](docs/cad/design/rational-sampling.md)。
 
+### 零维正则链
+
+`regular_chain` 保存 QQ 方程及其正则／平方自由性质；分解算法是类外函数。
+公开构造器检查输入并转换到指定字典序，链和结果借用调用方保持存活的比较器。
+
+```cpp
+variable x("x"), y("y");
+const regular_chain::order_type order(custom_var_order({y,x}));
+regular_chain T({x,y}, std::vector<polynomial_ZZ>{x*x-2, y*y-x}, &order);
+auto branches = weak_split_zero(T, polynomial_ZZ(y-x));
+auto squarefree = squarefree_decomposition(T);
+```
+
+包含 `<clpoly/clpoly.hh>` 或 `<clpoly/regular_chain.hh>`。
+接口、变量序和分解契约见[正则链设计](docs/cad/design/modular-cad/regular-chain.md)。
+
 ## 许可证
 
 MIT License

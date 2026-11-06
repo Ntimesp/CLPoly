@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/private/tmp/clpoly-smtlib-diagnostics-20261106/cycle-probe"
+  ],
+  "status": "error",
+  "returncode": 1,
+  "wall_seconds": 0.657083208207041,
+  "stdout": "",
+  "stderr": "REPEATED-ACTIVE-INPUT RCtoSqrfree 3:0x16d0c5978{x^2}{y^3}{z^2+y*x}\ndiagnostic: repeated active recursive input\n"
+}

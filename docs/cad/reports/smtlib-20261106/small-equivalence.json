@@ -1,0 +1,770 @@
+[
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E21.smt2",
+    "wall_seconds": 0.2003795001655817,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "b17f30c343a96f3346cf3bb49e57366c15b28a621ec05ee6ac041fa9262fea5e",
+    "txt_sha256": "75ca28662a65c8180f31980405ab176bbc89732d7d12f409374af3d90d4e7dd9"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E23.smt2",
+    "wall_seconds": 0.17757537495344877,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "3a5611064726be8ac3267138f940eb6220f3e44f8c3e9bf480783c227f38d5a9",
+    "txt_sha256": "75ca28662a65c8180f31980405ab176bbc89732d7d12f409374af3d90d4e7dd9"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E26.smt2",
+    "wall_seconds": 0.17683487478643656,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "2b00c6d8a5b5c2b9909bac8670659397345abaca0b0e451b5ec3ea458af1c69a",
+    "txt_sha256": "91d80587073673d0c074c4df6f864fa4a7dbd097fdea65d55f208cc4f39dba20"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E28.smt2",
+    "wall_seconds": 0.1860785000026226,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "9effad38f763f74a812a514c8621bcc73d8832499055993b228132b173640569",
+    "txt_sha256": "7baf59ab7a466041561978e575c56bb7dcfe8985da69c5e3a95c988344fda8e0"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E7.smt2",
+    "wall_seconds": 0.17110124975442886,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "ff9946c61c60677ad0b74ac7e08611e820e757e1ec7d003cc0718ca32595e740",
+    "txt_sha256": "e82c894db480493abd1ca4e09d0c7b6330ff0fae4907a30411ecc14d2cc14372"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20211101-Geogebra/Square-Diagonal_Side.smt2",
+    "wall_seconds": 0.16623166669160128,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "bbc23e1f5ec6a15e14f48937f09bf718ef60562b5749ed42848edb55023424a3",
+    "txt_sha256": "d5c94052fcf15272f0849f3d3b1eff6fbdd830e460e00842d1098c0ed021feb1"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC10_ex1a.smt2",
+    "wall_seconds": 0.1712902500294149,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "9332d522f1b380ce5002bfcd55dac87a46033917cebae91be4b342eec6804d14",
+    "txt_sha256": "3ccf11ee14155ac5271aaef953414340f408657253d7cf2295822ec6d3d0453e"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC10_ex2a.smt2",
+    "wall_seconds": 0.16460037510842085,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "d84335ccb927600ff04f013e7df0a80bf0b8fe57ecf9d8693df7e38c708cd01e",
+    "txt_sha256": "3ccf11ee14155ac5271aaef953414340f408657253d7cf2295822ec6d3d0453e"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC10_ex4a.smt2",
+    "wall_seconds": 0.16858795890584588,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "410d0e8515ed548e8f5b29eb83ad77757fcbeb3a920c1fc2706468c816c4a480",
+    "txt_sha256": "3ccf11ee14155ac5271aaef953414340f408657253d7cf2295822ec6d3d0453e"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_JSC_SUMCracker_16a.smt2",
+    "wall_seconds": 0.17057429207488894,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "3a153d8c5c3a7f3b3237b83027337f50245d4d77752e72a37a7bb9074243b3b4",
+    "txt_sha256": "dec24801b3a4a9c03d1ded32be96deae8ff5bf1467b0e6c42003c64f04b221e8"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_JSC_SUMCracker_19a.smt2",
+    "wall_seconds": 0.17082141619175673,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "ee3e2fe35bae29d7e0e108bcc641f6fe0e560c578fe66b6658783505cdd4e4a3",
+    "txt_sha256": "90e44a1807811b5ffa446c49617aceb9bd19ccf09a9c498fb60c3f66ccf8d889"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC05_AmerMathMonthly10347LHSa.smt2",
+    "wall_seconds": 0.1717857075855136,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "450340e35d8d69035f7437201f983df32e3bd7d169c3f918c21fe947bcefc538",
+    "txt_sha256": "a7e79872373008493d3cc2dbbe501d3af4c544865b7657a9a9ce91e3acfbb95b"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC10_ex3a.smt2",
+    "wall_seconds": 0.16801891615614295,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "22cd285cfaebe0dedb0765e9e1cc4c6c06ee044ddb197fa9a3d2a00544abb136",
+    "txt_sha256": "cc0f1efc862e4ac8ba07a88974c94568b3412ea9b0f745cfd395995c07b9afa0"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC10_ex3b.smt2",
+    "wall_seconds": 0.16868366627022624,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "fc5d3cfa2e436e2e881d463b39e40cb5026aee8b69eeefd300e51bd24047dfa8",
+    "txt_sha256": "27b5d0e5afcd75a3c22b3a69981c660772e3b69202080aea91b04bf5c9dd85a1"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC10_ex4b.smt2",
+    "wall_seconds": 0.1767068332992494,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "06aad3000e35e6ceeb7668ef395265980f89204741e81ab3da4de640adbc723a",
+    "txt_sha256": "d4b094450375b5361e0536807c660c412d44aac81c3be6e9d012d405497d3bf3"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Disjunctive_Denominator_Simplifications/DDC_ProveIneq_ISSAC05_AmerMathMonthly10347LHSa.smt2",
+    "wall_seconds": 0.1759512908756733,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "c49ff994ca4fbfae3c752010835be2ff0601f25a4032d396199481aa82a9404f",
+    "txt_sha256": "aa0f6ce3b0769b370da094899871e9d0b0074c93ec04128ba10fe508f3c5333a"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Disjunctive_Denominator_Simplifications/DDC_ProveIneq_ISSAC10_ex3a.smt2",
+    "wall_seconds": 0.1780630829744041,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "2dac6e4b07b7936db3d7bd21bf41ac9db1d7e1a8cd68aaf8b528be06443e4ab1",
+    "txt_sha256": "4a0e55461bb471ea8f9e0f3cc32ba09ae518bf973de62b7ea4f2680ac316c92c"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC05_Bessack_1_0.smt2",
+    "wall_seconds": 0.17569625005126,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "7e7bd1fe39e343481469679853018cc91d095362ab49bd484302d868a3cb52ee",
+    "txt_sha256": "e6f6a827b2b8b419ac11a582468e3c9780f8c9b506f42dfb45b80454db2597b4"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_JSC_SUMCracker_16b.smt2",
+    "wall_seconds": 0.18035137513652444,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "5abbdcebcb69e6c6d62d3235af81142e334b87545538d0a15f751f4028f113be",
+    "txt_sha256": "7802e1a68892bfe4a88b670731392b025559127a895532f44c0e68f87fa5900a"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_JSC_SUMCracker_18.smt2",
+    "wall_seconds": 0.18630466563627124,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "0f3e2f30a735f1ae4dfb41b6f931d7084bc1f47315c76fb4c98a44caa6c5fd45",
+    "txt_sha256": "0a2fdf50d0167237b4da488d2a3751bf4750ee42ae49ba9f746b1f7b52af6583"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_JSC_SUMCracker_19b.smt2",
+    "wall_seconds": 0.17468800023198128,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "1d44c7ca519a6eb985f45ef9e7dbcca9adef06899f96b2db47653d6fd9613f13",
+    "txt_sha256": "9e0f4b90235d7e3d244d7740055fdc093a8d8552f7427cf34d66f7aa42a118f3"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_Mitrinovic_7_36.smt2",
+    "wall_seconds": 0.1638587499037385,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "ba2b350ac236120de37249d2f55531cc8bbf93ba2c4255e25cc742a9778f5b81",
+    "txt_sha256": "7d4cc09df796ce21cc7319d8b13ac80f4b49e34b47654b1e0a4b91ef91d57881"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC05_AmerMathMonthly10347LHSb.smt2",
+    "wall_seconds": 0.2525414591655135,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "1072b19d20bf3ab69481b197eb489409ab3afcd19677474cae8af38d63d4e189",
+    "txt_sha256": "81c1fcfb931e3a58884c731ed3b5408ee3cf15e0e3f28d367786ab1d32238a21"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC05_LevinLHS.smt2",
+    "wall_seconds": 0.1743466672487557,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "ea94f2a36d44bd627c3323bcc1211c2d2488410e74bbb77a1022b8917f1d3f50",
+    "txt_sha256": "e73d44a03997150b3cba38cb9b7f916bc70a1db64b966baf4d04f3344b1954ca"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC05_LevinRHSm.smt2",
+    "wall_seconds": 0.17249229224398732,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "f3bc7c42c067a29db72607ad45576d6e183e024c32b3ec5a377025477f5281c5",
+    "txt_sha256": "9752e66cbc556a9bec419852bd9d0aa314200dfe95c50cbe0131cf5a9649dcee"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_Mitrinovic_4_3.smt2",
+    "wall_seconds": 0.17030441667884588,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "986c85000af40abbcaa57309d7bd66d3390e384a160cddbcd56e18378305726c",
+    "txt_sha256": "a7fb8822c63bebcfa91b3cea9d5a496e73810816365ce12bc6f91b491287c3c9"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_Mitrinovic_4_4.smt2",
+    "wall_seconds": 0.17956245923414826,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "962463964ee3098509967b22821c132c12507b045375eb2bfbc5708cea496450",
+    "txt_sha256": "21600b43fe240729f54a64732fbc7f1acf2a6e528fcc4cfc1c7bf42bd8588d2f"
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_Mitrinovic_7_35.smt2",
+    "wall_seconds": 0.1806620410643518,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "91dff2a1422371fa29ea507b2149b783f3f1ba1452ae680e6f6169a1d77029d9",
+    "txt_sha256": "a692fc10ef4f9cf1467149ed1e1d70e774167b9d54a15122a49300bf091675db"
+  },
+  {
+    "path": "non-incremental/QF_NRA/hong/hong_1.smt2",
+    "wall_seconds": 0.18012750009074807,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "bff1427019f885235b84148eae20514c612c29e60b627aad0b68e1fb165af429",
+    "txt_sha256": "53e237d566f5b78f15ef9eecc2a662b7280e3a8b3d688fe982ffc55086e124ac"
+  },
+  {
+    "path": "non-incremental/QF_NRA/hong/hong_2.smt2",
+    "wall_seconds": 0.17743129236623645,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "f1d08056d78114b44f6d77596801d668e3739390c025a661947e3c7ce510476b",
+    "txt_sha256": "64d621de4908f935440d2785de58f5270cb54b87cf9fbb5fb041f1018e473641"
+  },
+  {
+    "path": "non-incremental/QF_NRA/hong/hong_3.smt2",
+    "wall_seconds": 0.17470262479037046,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "a4899300c9713da6d0844efced5009658eadbf321b41d77150adfec07307868c",
+    "txt_sha256": "83d60b5bf9c79d81ae37b2a8c05cb8fbcfc3dd4f25ac3aed7fc58426c051f206"
+  },
+  {
+    "path": "non-incremental/QF_NRA/kissing/kissing_2_1.smt2",
+    "wall_seconds": 0.16552295768633485,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "5d8f9aa13638ca41c9e03791174cb64731fcc9da62f102d72135a4c1878bc143",
+    "txt_sha256": "7fa67af95212a7c01a637f766b4cd3f61c8447ac467af35095a53df20b71c3ba"
+  },
+  {
+    "path": "non-incremental/QF_NRA/kissing/kissing_3_1.smt2",
+    "wall_seconds": 0.17229062505066395,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "8acd3fa3b4cb8428f69c9cd676f42e5ef0ae3035b36f8dc12bbf3abc32681142",
+    "txt_sha256": "8137c4ae3e557c367205362c459610cc55eaff4d79229f70d6583dec55e6bc63"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/CMOS/CMOS-opamp-chunk-0086.smt2",
+    "wall_seconds": 0.19726495910435915,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "8877af3e96a39cf6520a2e74c0d1b6bcda650e2ca802985435fe7ed36e571eed",
+    "txt_sha256": "c49fe4501fdd15c303742a32c4b5142ac35357e91a36989ca5b86923ac85d47f"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/CMOS/CMOS-opamp-chunk-0089.smt2",
+    "wall_seconds": 0.19584712479263544,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "7ef5c3678d44d6501028e36b251987dcf11260694c3e7ef8627fcce99c7797a4",
+    "txt_sha256": "c1d5259472d86c875c2ead1ac6d1bebc923b9b0dba9eaa683ea468b9742b0dda"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/1/VC1/L/Chua-1-VC1-L-chunk-0047.smt2",
+    "wall_seconds": 0.16882320772856474,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "bc75470d8167a7eec0c31cd38e2ed7404c58e89b5dafcc25464600a66f6d4b37",
+    "txt_sha256": "4e8765553ef8ebea9c1e6874896a687069ee78b485e91ac90dae03db43e33d3a"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/1/VC1/L/Chua-1-VC1-L-chunk-0093.smt2",
+    "wall_seconds": 0.18571645859628916,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "736dd9c42d291bd6862de08ee85ae1a5edd782769371eb6a2b93c48ca41a3638",
+    "txt_sha256": "943ab6104081700e61ffe0cebe1ea26acaa03bb46df386a0de1167b02a8fd8ad"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/1/VC2/L/Chua-1-VC2-L-chunk-0022.smt2",
+    "wall_seconds": 0.17710379185155034,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "f12181c442a0772a6251fe107cfe34d78a8f859a4d624a6354960565fcbdbac7",
+    "txt_sha256": "59205e159d63fb084d8bae5be7bb3a7f04a68a8ffd66b9b4d843166939606fbf"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/1/VC2/U/Chua-1-VC2-U-chunk-0045.smt2",
+    "wall_seconds": 0.1742601660080254,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "0ccca867a5cff77786bc43e14e1a3946db20e9732d3448422d8996aa957e6b9b",
+    "txt_sha256": "5b2c88441a7c46291af3129ff7bbb709e22f424ac3294f0577df01e37115399b"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/1/VC2/U/Chua-1-VC2-U-chunk-0078.smt2",
+    "wall_seconds": 0.17077354108914733,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "27a4090ffa3a87f02ef33b03a46b653ccd9ccb9f8481a7f73064b232cfd701d2",
+    "txt_sha256": "302445a0b8130811d86d53c8afee60b06061f4e1f63bf95c3cd1513ec16b8e56"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/2/IL/L/Chua-2-IL-L-chunk-0110.smt2",
+    "wall_seconds": 0.17899179179221392,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "26e3056fafd8f991d6084e1ebb473b6867009f575aedf9610f47f450204d59ef",
+    "txt_sha256": "058d19c5ebd164a9425e6c02ed8b980081925c0111e166b78aa1ad322403a491"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/2/VC2/L/Chua-2-VC2-L-chunk-0016.smt2",
+    "wall_seconds": 0.17890200018882751,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "187bb5ed41d2f8587a6a72d9596a3a417c3eb088685761e41e2209806718aed6",
+    "txt_sha256": "5b6b20e3d857222a9dfaaa06459fe0be4bb76730fea94e240f5eceb0f142c9f9"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/2/VC2/L/Chua-2-VC2-L-chunk-0029.smt2",
+    "wall_seconds": 0.17703100014477968,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "cdbebf5ffe51d1aa2dbcf99d0f071c69a43a5e621479fe64f4c9b244c4561cf1",
+    "txt_sha256": "a3c153a7607a3f52318592b32baea6f919e1a22e787d3f33ddd8d9925e99ba7a"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/2/VC2/L/Chua-2-VC2-L-chunk-0045.smt2",
+    "wall_seconds": 0.18215891672298312,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "a43ecd02d9f6a067815755fe41f63bd6ee6d4f9987f22f3df71688a5728f502d",
+    "txt_sha256": "8d54c754a323d0501f4f89db45b9bea79ddd42b70a16c54500d388a5a83d359f"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/2/VC2/U/Chua-2-VC2-U-chunk-0123.smt2",
+    "wall_seconds": 0.18404262512922287,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "5e1728307289a6d638e11c4a1a4e6fe30725596a4803fe83ae1380a7b225f2c3",
+    "txt_sha256": "8d493016a6720e93866f48fceec361d66830c80ea4493ac17bdf894567ea85bf"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Nichols-Plot/Inverted-Pendulum/Nichols-Plot-Inverted-Pendulum-Fails-1-6-chunk-0013.smt2",
+    "wall_seconds": 0.18004299979656935,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "1720dcea2b9e8f5f392b84de50dfbabdc154f08bec8034f93b3332eda342f2c7",
+    "txt_sha256": "b30dd8b6971f0203ac29c012192ecfc6f97cc17e36b7209e9881ceaa2a4eb4fd"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/problem/1/atan-problem-1-chunk-0090.smt2",
+    "wall_seconds": 6.8780328328721225,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "03845ac0eceb321f2866a0396d3b71492fba55255f0b3caa031a0b3957540d76",
+    "txt_sha256": "379d06ff18078052b9bee4ae44828bff21d47af5ffb3749451837e1a64b4f631"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0119.smt2",
+    "wall_seconds": 0.18017891701310873,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "5ae2b2f627c6e5a7a956729bf55eb8394b49bfcd8dcd862f63582a0ffa4b6c43",
+    "txt_sha256": "8fc704534ce160cbb3fe699451a6509a84b4f061e0c5ff556ee0c29ffa1c60bf"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/vega/3/weak/atan-vega-3-weak-chunk-0562.smt2",
+    "wall_seconds": 0.17319429200142622,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "9d46a338734d696e95620a6092874f4c82c723513c68e077dbae7eb7b5ce0fcd",
+    "txt_sha256": "991f95cbf4135b7b4747faab06c7dba6634c309dfeb8311c5c31bd83d90e9460"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/exp/problem/10/3/weak/exp-problem-10-3-weak-chunk-0212.smt2",
+    "wall_seconds": 0.17728308402001858,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "9442db85dbbe50f6bdbdb8655965c82b348242d716ec383a3936b968e47ac7d6",
+    "txt_sha256": "89de33c98b9f7b4ae43b451fb344918244009b8fc186d0687387c08edca4d34f"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/polypaver/sqrt43-int/3vars/polypaver-sqrt43-int-3vars-chunk-0069.smt2",
+    "wall_seconds": 0.17160337511450052,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "b63f8dbfdc6ceb72e9df5bc08b75a696bc0c4ab68f46bfe4b24299bbe5eee4bf",
+    "txt_sha256": "6744e683c1db7c540519c300a94363287b3cff1fec9382e9c5408a275d44c1aa"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sin/cos/sin-cos-346-b-chunk-0371.smt2",
+    "wall_seconds": 0.18841325026005507,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "a9ba70a7d95a54496e667d0105ced1cebee315baa33027e01eca032da95e7388",
+    "txt_sha256": "82ee1947e2982ca1bbe45397b2ce31d32060b5573015ef38ba5cfb8b6399f607"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sin/cos/sin-cos-346-b-chunk-0572.smt2",
+    "wall_seconds": 0.1762882499024272,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "b67eee95429af1e2f160bb4eb0d554b0b33aadc2511d4771c478fd2cfb506f78",
+    "txt_sha256": "85740220d14bdd8c1b7cd28c02cbc6e19de80e5424f769025159ad08078cf26a"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0113.smt2",
+    "wall_seconds": 0.18410299997776747,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "ec053955096e08c01b30c0ced319b16bd5bb6ed07fa3b3efaa43549dcba21d1b",
+    "txt_sha256": "22a09482c9e0b272127461174705c9cd7d220b8bf913d2c9306a3d797d41cda8"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0633.smt2",
+    "wall_seconds": 0.23216441692784429,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "9c8b0410df5cb006bdf75f4144604c59dc1ef41af99c6319944747622fedf96c",
+    "txt_sha256": "81da58f985f5804edf222579b7680439ed5516be81eb5f9c9c87fe55c754d260"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0721.smt2",
+    "wall_seconds": 0.16618508286774158,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "b08ed7aae270bf81a29ed96cb641224736fbd43bdb11a77591ac9f953a19cc18",
+    "txt_sha256": "9cca3af4db935dfb574fde58d155e5b849b9dbf13cf2ab4e17fb1b89bf49581e"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/CMOS/CMOS-opamp-chunk-0158.smt2",
+    "wall_seconds": 0.17410495784133673,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "d205408df39c45a202eeb99f14d1dad638dcda58d324624aff1f2a298618927a",
+    "txt_sha256": "8153f7afe0cb6f4d4a48e73332c0d16c101f3745612813205141d3b594b38a9a"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/CMOS/CMOS-opamp-chunk-0180.smt2",
+    "wall_seconds": 0.852802500128746,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "b0fc3c466f6208739ffd77a3efa3b7a78ab71795a6fd4610efc8fa5ad29175a5",
+    "txt_sha256": "3b5eff883a3222f420f7b3254f63c15df86199c910455e14b6919981b2d67f5c"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/2/VC1/U/Chua-2-VC1-U-chunk-0082.smt2",
+    "wall_seconds": 0.1851632921025157,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "85e426b01169ad92ebe02af2bece004b7e63b656f8cfa633ec65a11e7b7be877",
+    "txt_sha256": "d7391d1577e9c88c4b34c48fb6b5ead9543b206d754b788c499cc1ef0ecf84f7"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/problem/1/atan-problem-1-chunk-0096.smt2",
+    "wall_seconds": 0.18537550000473857,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "9dee4dc041784db8bd658c4a4e978d35bbebeb8836803fbb618f62df32c1e179",
+    "txt_sha256": "ac071bec28e5024af70c01765f6d05956935853473c290dd3fbe812b8b4cd0d4"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/problem/2/sqrt/weak/atan-problem-2-sqrt-weak-chunk-0032.smt2",
+    "wall_seconds": 0.17580399988219142,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "0946ea22316e7fac2d9e153b854b4a21f49689041caea183fdcaa0a360428b63",
+    "txt_sha256": "289e0f8db918900419ce033221e7afd4f8b84e669a456e90d67fddc240e2dd96"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/problem/2/weak2/atan-problem-2-weak2-chunk-0122.smt2",
+    "wall_seconds": 0.16972745768725872,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "9ca12da83f609f88fa57b271d81ae1524bd8bd76f604b5468f8b76bd64e881a8",
+    "txt_sha256": "7fa185dfc88d895d9081f9cef83bcd963572a6c2814d0a3b13c8d5f90d8f4258"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/problem/2/weakT/atan-problem-2-weakT-chunk-0059.smt2",
+    "wall_seconds": 0.16939450008794665,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "3d5fb1aa7c295af7fbc2708cea20c409d26ed7e18d277f9d88a583e6b551e1f1",
+    "txt_sha256": "5ee47e16e3f64616157e40922cfd485bceff1c796f858ef00cb018b7f281e7c5"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0479.smt2",
+    "wall_seconds": 0.16949400026351213,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "751ccee78bb3e1e6d44ef9b0e1aaac01e17c7cef6e5f44a28d681b5f51fc2481",
+    "txt_sha256": "29bf4dfff02025e6c5b9b6e281ff4ae9c763143a2cc11512e8d26e11b4e4dcab"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/vega/3/weak/atan-vega-3-weak-chunk-0168.smt2",
+    "wall_seconds": 0.1696258750744164,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "0d365a855dff09e379b3fc58b472a75ab1f611688dc5d5d840d36442cb741147",
+    "txt_sha256": "bbc45d7aca3158f24bac5659b1c129707373118200cf52c732483e805f055102"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0059.smt2",
+    "wall_seconds": 0.18024674989283085,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "c109373fb7df3f70989a0fc89837c6929ef903511ecbda460c5b697123979d3f",
+    "txt_sha256": "507aefd23f292fa392dd749a19ed576e1db88c1ffc3b80e72cbfbdea6cf54875"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/cos/problem/5/cos-problem-5-chunk-0048.smt2",
+    "wall_seconds": 0.1800472498871386,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "5ff569a6fc1af7a98462f3f0d0df04bba62cdcb647143f656a4510fdfca6f864",
+    "txt_sha256": "3c20625881d5a69251114dc9d9814dd891d5684b47bed43e52718d752d7753e8"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sin/cos/sin-cos-346-b-chunk-0260.smt2",
+    "wall_seconds": 0.16858754167333245,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "badc8b12ee944c4883e9b5f473d72093af52276230fda8fe1388c3b183a8ca48",
+    "txt_sha256": "330a3d2d4c54cfffe253d2044852d05bcabfac1ea4233ca80ab2b506df1904a6"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sin/cos/sin-cos-346-b-chunk-0363.smt2",
+    "wall_seconds": 0.16979474993422627,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "c52015e85001f97e3f0d8d9cee5e70e91e81b3dbb33db6fd5a42eec244a6f8b6",
+    "txt_sha256": "666d675efb70e7b752b4e5a94a35b0b921babbe0f4a23ce563e49b66c8d92cdb"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sin/problem/8/sin-problem-8-chunk-0059.smt2",
+    "wall_seconds": 0.17687600012868643,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "bac9b244c483c6e992ad9f777a8139a2fe9812fb8d883d6c310717e8f816002f",
+    "txt_sha256": "62c50140ed906356965a816dd75fe388acc8225199ff4171318984ed615e510d"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/7/sqrt-1mcosq-7-chunk-0097.smt2",
+    "wall_seconds": 0.17274445807561278,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "41469d01fe519a8f74d1ad6c61306e9cec3e14c366c50d02b612f0494d79ced1",
+    "txt_sha256": "b0fb8a367b7bddcbbed306b7180d96a1591386ae27b63f6f7ab8c3f3593401aa"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0026.smt2",
+    "wall_seconds": 0.16650437470525503,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "366b3f117231d71503a07f4dd7b35b5714dd80a1b3d9df776e619dd7d7c304ce",
+    "txt_sha256": "0734a5a3bd9f74884069e25e433d65a5290ec960551587f9571dc6928072f678"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0103.smt2",
+    "wall_seconds": 0.1823627920821309,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "73c93677b4c4baf63e1b9bab4111134c7e728a06827d2449a2f766569800ba55",
+    "txt_sha256": "53e5e8ec951cc65fb7d288260f6e7c9f402edfa0ba5f7503aefbc0de1f080aeb"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0227.smt2",
+    "wall_seconds": 0.19795170798897743,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "ac7317c8544f17de75f777233381100096b7dd57048b09a23c8e406932bf9d60",
+    "txt_sha256": "f5c99e85545313c4d1f0c5c711c52c8a8b7d12c17a94e5d54fbdad29bfd33011"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0238.smt2",
+    "wall_seconds": 0.2524442090652883,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "6afd64b6e7f82279b07791a1c91e5c9342f43fa7a96067c7654579651ef2da3b",
+    "txt_sha256": "fea56e1e3c968a550cdace93edbcf2ae91b552119fec252ba00d20e25b7df5da"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0257.smt2",
+    "wall_seconds": 0.4995061671361327,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "39761096ff8c6281bc2caae39e6af768e58d5aeaa4ae2c2b051a3efa5d40d06c",
+    "txt_sha256": "82782908af3e6c6e3d3f1af670fc5c831b4fff2c9ff50520952f471760c238a4"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0574.smt2",
+    "wall_seconds": 0.18714250018820167,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "7ff8fc117d8153f7912dcc20d9891de51b5bfc5114e525aa0fd64d0eb6690ad8",
+    "txt_sha256": "beba1e9225c3921adb69e56ee9ef5d1873c6244f01594785146bbff2c4835839"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0611.smt2",
+    "wall_seconds": 0.2030063751153648,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "4007ee8e90483cbaef70e28f5faa46b3e79cb8855834532a6882a2b38494c734",
+    "txt_sha256": "f65fe555aab1fc18c1f83f90a31cd13a5159a73e05e9059c5ed590df0ce2b2c4"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0632.smt2",
+    "wall_seconds": 0.23423983296379447,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "3d18139e97e1ce1102c3cb559cea819136807d43c7b1515e55aaf41b13a02346",
+    "txt_sha256": "5f4cec018320717aa567b8e5e74547ba8a70f0ab6bd52373b78e9ccbe4b0cf62"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0723.smt2",
+    "wall_seconds": 0.1811419576406479,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "cae1b298853d637efc358ccbfd6992e5439bcdcf568584cc6805ba394d5d51ed",
+    "txt_sha256": "3c24d54ddd2ece2a8be03cb1c6411dbe91966694b6931753e9ed2213db148986"
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/problem/sqrt-problem-Melquiond2-chunk-0055.smt2",
+    "wall_seconds": 0.17916141590103507,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "a40f1b1851e75d84a063092c785915cf23d0d17d7eeed3e8fa62a53d4e33925b",
+    "txt_sha256": "1e04e4ec7cdcf7f37d6cf7f04cb5acbedcefd94c91a1fb99b510a7e59f2ef61a"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-03.smt2",
+    "wall_seconds": 0.17262383364140987,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "52d626214f6da17cce18f10502564fa738525f45194a4cba651160842a8799d6",
+    "txt_sha256": "befd11d75f393cf72fac8b0895f0e0c6d983c87d7e2f11b8cf994c7f1a00dc40"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-04.smt2",
+    "wall_seconds": 0.17920541716739535,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "929b08ec5eab3abb0e971e942a6e426ea2e336734ee3a4b553e7ddf83868b0df",
+    "txt_sha256": "e5f5115f198a123dd92e53d6d261854569a5c56914676dca9221cb2f69034a30"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-05.smt2",
+    "wall_seconds": 0.17929775035008788,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "6c0441f3a42d951775645c4ec7a150657e717c9bda13d5fa47e47841441c5815",
+    "txt_sha256": "3b9adc8410d6d6d5f70241b0dbbdbc4b94a428f7581e10fbd27b2a4a64784508"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-06.smt2",
+    "wall_seconds": 0.1794765000231564,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "35f7c1c0b554af086028c1ea05a7396fa30c0e373f27479a4613837bee732379",
+    "txt_sha256": "dedb282b5b37cb4008310567e41817999c18da1d0c214941dd71625ccc905d36"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-07.smt2",
+    "wall_seconds": 0.16929104179143906,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "7c860f3d54015bce20b9fd468dd179919e95362d323775edd6362e033eb81675",
+    "txt_sha256": "80c1f34493443946acf4af01325c5ae719c6d42120a518a5c16f391e97ed8b97"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-08.smt2",
+    "wall_seconds": 0.16822183318436146,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "0738b000b67bf2450d215829bcea1d62078b6eb83c6689e90f4ba375ad63d3e9",
+    "txt_sha256": "5f5755122c68ddbdbb351e3d1f4387a40d75ac6edeeeebda942aa92936263f46"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-09.smt2",
+    "wall_seconds": 0.1743477089330554,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "90f6ad4178325813e3c5e4812a642adb49a7e9061f2a32b889ebbbd54873df0f",
+    "txt_sha256": "de84d8f827ba2fd7a76fcbaf5739dc656e8c79e959e39f0e58e05b6ea2e16677"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-10.smt2",
+    "wall_seconds": 0.17252283403649926,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "4242bc1810e417afe6d0104d5194524f0321b56cd928a2dbeffe5e13ab3db827",
+    "txt_sha256": "d5df94d6658100d2adc5f6abae4e7547aa6e57cfc8f7503cadcbe594b91ec51e"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-16.smt2",
+    "wall_seconds": 0.1739058750681579,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "3b2f27fd4591a314224bfdc19d25989ec1b7e5024b26b5687d63fc26fa5d4fb1",
+    "txt_sha256": "dc16de3d5f62f843bdd2e5e0dea093bf912dcdcafa69b5d67dfc05490ef8f360"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-18.smt2",
+    "wall_seconds": 0.16368283331394196,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "8049dd645e72ff3d93aff64da6675b845e917ea80e0a06191ec8f6671760b1f0",
+    "txt_sha256": "727d32a6007fe15a9332375b7fb0a0e20a938e9cfd3bbd4234ebb8bc235fa0c3"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-19.smt2",
+    "wall_seconds": 0.17169095762073994,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "721f4709a2c9a0876c7b97a17dde27f9cf541792e8baa0a2279d3d8ae8f0a49d",
+    "txt_sha256": "c340b841cfece7d58561894dd978e3aed46c52c7a4aa120f4a6e250f766c4e57"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-13.smt2",
+    "wall_seconds": 0.16289995796978474,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "faa1e236882010b3917746efe752e7bd97b033974ddd6babf4e3525915c1fb40",
+    "txt_sha256": "ad02cafd382d74c7bcef97fd28dd4fbeade8d38ef14950fa9267687d234ade24"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-14.smt2",
+    "wall_seconds": 0.1746423332951963,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "f91a0f29b9dfdaafcd307b31357d65f0e690cc99a22d3e11cf2f54ee7c800a98",
+    "txt_sha256": "28df190e788242fd502ec7d74fd31e72554547fc4ff6e70fcc0c0cbc591ffb60"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-15.smt2",
+    "wall_seconds": 0.1774813332594931,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "33371a6210a13958decc61e6b8f24e1f356cca5a084809efaeabb7320fd2e02e",
+    "txt_sha256": "790e71adc37fe3f8bce574b748f1d3d0022239fd58749bd00e7bfeed3803aa42"
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-17.smt2",
+    "wall_seconds": 0.17693354189395905,
+    "status": "equivalent",
+    "xor": "unsat",
+    "source_sha256": "2684f02dc49af833b69d5f6d82a655f838219056d29e86cb77979e7308ab7b7c",
+    "txt_sha256": "6fe95d04e6e08eeee771cc886b1f161d2d4e23275ed8b877dbc5e824d57f2316"
+  }
+]

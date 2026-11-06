@@ -1,0 +1,93 @@
+{
+  "cases": 96,
+  "solvers": {
+    "z3": {
+      "unsat": 46,
+      "sat": 48,
+      "timeout": 2
+    },
+    "clpoly": {
+      "unsat": 16,
+      "sat": 33,
+      "timeout": 47
+    }
+  },
+  "both_decided": 49,
+  "disagreements": [],
+  "declared_mismatches": {
+    "z3": [],
+    "clpoly": []
+  },
+  "families": {
+    "20161105-Sturm-MBO": {
+      "z3": {
+        "unsat": 5
+      },
+      "clpoly": {
+        "unsat": 5
+      }
+    },
+    "20211101-Geogebra": {
+      "z3": {
+        "sat": 1
+      },
+      "clpoly": {
+        "sat": 1
+      }
+    },
+    "20220314-Uncu": {
+      "z3": {
+        "sat": 11,
+        "unsat": 11
+      },
+      "clpoly": {
+        "sat": 8,
+        "timeout": 11,
+        "unsat": 3
+      }
+    },
+    "hong": {
+      "z3": {
+        "unsat": 3
+      },
+      "clpoly": {
+        "unsat": 2,
+        "timeout": 1
+      }
+    },
+    "kissing": {
+      "z3": {
+        "sat": 2
+      },
+      "clpoly": {
+        "sat": 2
+      }
+    },
+    "meti-tarski": {
+      "z3": {
+        "sat": 23,
+        "unsat": 23,
+        "timeout": 2
+      },
+      "clpoly": {
+        "timeout": 35,
+        "sat": 11,
+        "unsat": 2
+      }
+    },
+    "zankl": {
+      "z3": {
+        "sat": 11,
+        "unsat": 4
+      },
+      "clpoly": {
+        "sat": 11,
+        "unsat": 4
+      }
+    }
+  },
+  "common_solved_seconds": {
+    "z3": 0.4552646614611149,
+    "clpoly": 9.727436954621226
+  }
+}

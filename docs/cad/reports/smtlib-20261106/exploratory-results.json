@@ -1,0 +1,4235 @@
+[
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E1E24.smt2",
+    "family": "20161105-Sturm-MBO",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E1E24.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00942891696468,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E1E24.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E1E24.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004952874965966,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.1153974998742342, \"variables\": 7, \"polynomials\": 8, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.1153974998742342,
+        "variables": 7,
+        "polynomials": 8,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_10.smt2",
+    "family": "20161105-Sturm-MGC",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_10.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_10.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004127166233957,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0008616670966148376, \"variables\": 9, \"polynomials\": 13, \"clauses\": 13}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0008616670966148376,
+        "variables": 9,
+        "polynomials": 13,
+        "clauses": 13
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_10.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.2513847919180989,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/const1.i_3_6_2.bpl_5.smt2",
+    "family": "20170501-Heizmann-UltimateInvariantSynthesis",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/const1.i_3_6_2.bpl_5.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004064040724188,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/const1.i_3_6_2.bpl_5.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/const1.i_3_6_2.bpl_5.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004451834131032,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0027411249466240406, \"variables\": 76, \"polynomials\": 108, \"clauses\": 109}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0027411249466240406,
+        "variables": 76,
+        "polynomials": 108,
+        "clauses": 109
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0074a.smt2",
+    "family": "20180501-Economics-Mulligan",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0074a.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0074a.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.008080292027444,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00033587496727705, \"variables\": 8, \"polynomials\": 6, \"clauses\": 6}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00033587496727705,
+        "variables": 8,
+        "polynomials": 6,
+        "clauses": 6
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0074a.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.03150470880791545,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/2019-ezsmt/reverseFolding/45-reverse_folding-0-0.smt2",
+    "family": "2019-ezsmt",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/45-reverse_folding-0-0.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 7.089350541122258,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/45-reverse_folding-0-0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/45-reverse_folding-0-0.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 4.929070749785751,
+      "stdout": "",
+      "stderr": "unsupported: only nullary Real/Bool definitions are supported\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20200911-Pine/1599122160651294000.smt2",
+    "family": "20200911-Pine",
+    "declared_status": "unknown",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599122160651294000.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20200911-Pine/1599122160651294000.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.014953583013266,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.000645042397081852, \"variables\": 4, \"polynomials\": 12, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.000645042397081852,
+        "variables": 4,
+        "polynomials": 12,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599122160651294000.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.032645707949995995,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20211101-Geogebra/RegHeptagon-Diagonal_Side.smt2",
+    "family": "20211101-Geogebra",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/RegHeptagon-Diagonal_Side.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.09766145795583725,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/RegHeptagon-Diagonal_Side.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20211101-Geogebra/RegHeptagon-Diagonal_Side.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00483200000599,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0006808750331401825, \"variables\": 13, \"polynomials\": 16, \"clauses\": 16}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0006808750331401825,
+        "variables": 13,
+        "polynomials": 16,
+        "clauses": 16
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC05_SignPattern_1p_4m_1w_5p_p.smt2",
+    "family": "20220314-Uncu",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC05_SignPattern_1p_4m_1w_5p_p.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC05_SignPattern_1p_4m_1w_5p_p.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006800000090152,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0015782499685883522, \"variables\": 4, \"polynomials\": 14, \"clauses\": 14}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0015782499685883522,
+        "variables": 4,
+        "polynomials": 14,
+        "clauses": 14
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC05_SignPattern_1p_4m_1w_5p_p.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.03555254079401493,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/schelling_POMC_no_hints.smt2",
+    "family": "20240407-pPDA-Chiari-Pontiggia-Winkler",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/schelling_POMC_no_hints.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004983291961253,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/schelling_POMC_no_hints.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/schelling_POMC_no_hints.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006622583139688,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.011414959095418453, \"variables\": 424, \"polynomials\": 708, \"clauses\": 708}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.011414959095418453,
+        "variables": 424,
+        "polynomials": 708,
+        "clauses": 708
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/LassoRanker/CooperatingT2/mc91test.t2.c_Iteration5_Loop_4-pieceTemplate.smt2",
+    "family": "LassoRanker",
+    "declared_status": "unknown",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/CooperatingT2/mc91test.t2.c_Iteration5_Loop_4-pieceTemplate.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/LassoRanker/CooperatingT2/mc91test.t2.c_Iteration5_Loop_4-pieceTemplate.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.021064958069474,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.06482045818120241, \"variables\": 1395, \"polynomials\": 2826, \"clauses\": 2947}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.06482045818120241,
+        "variables": 1395,
+        "polynomials": 2826,
+        "clauses": 2947
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/CooperatingT2/mc91test.t2.c_Iteration5_Loop_4-pieceTemplate.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.1738147079013288,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_BeyerHenzingerMajumdarRybalchenko-PLDI2007-Figure4.bpl_Iteration2_0.smt2",
+    "family": "UltimateAutomizer",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_BeyerHenzingerMajumdarRybalchenko-PLDI2007-Figure4.bpl_Iteration2_0.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.31194225000217557,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_BeyerHenzingerMajumdarRybalchenko-PLDI2007-Figure4.bpl_Iteration2_0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_BeyerHenzingerMajumdarRybalchenko-PLDI2007-Figure4.bpl_Iteration2_0.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.008390833623707,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.002281959168612957, \"variables\": 67, \"polynomials\": 82, \"clauses\": 79}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.002281959168612957,
+        "variables": 67,
+        "polynomials": 82,
+        "clauses": 79
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hong/hong_19.smt2",
+    "family": "hong",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_19.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hong/hong_19.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004600000102073,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00035462481901049614, \"variables\": 19, \"polynomials\": 2, \"clauses\": 2}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00035462481901049614,
+        "variables": 19,
+        "polynomials": 2,
+        "clauses": 2
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_19.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005964666139334,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hycomp/etcs_braking_2.01.seq_lazy_linear_enc_global_2.smt2",
+    "family": "hycomp",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/etcs_braking_2.01.seq_lazy_linear_enc_global_2.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.019489167258143425,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/etcs_braking_2.01.seq_lazy_linear_enc_global_2.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hycomp/etcs_braking_2.01.seq_lazy_linear_enc_global_2.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 0.0698066670447588,
+      "stdout": "",
+      "stderr": "unsupported: non-Real declaration: Bool\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/kissing/kissing_3_6.smt2",
+    "family": "kissing",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_3_6.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/kissing/kissing_3_6.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.009241374675184,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0007510422728955746, \"variables\": 18, \"polynomials\": 21, \"clauses\": 21}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0007510422728955746,
+        "variables": 18,
+        "polynomials": 21,
+        "clauses": 21
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_3_6.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.034333750139921904,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0109.smt2",
+    "family": "meti-tarski",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0109.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.008338040672242641,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0109.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0109.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005110958125442,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00041008275002241135, \"variables\": 3, \"polynomials\": 9, \"clauses\": 9}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00041008275002241135,
+        "variables": 3,
+        "polynomials": 9,
+        "clauses": 9
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/matrix-3-all-8.smt2",
+    "family": "zankl",
+    "declared_status": "unknown",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/matrix-3-all-8.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/zankl/matrix-3-all-8.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004729749634862,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.042547416873276234, \"variables\": 75, \"polynomials\": 139, \"clauses\": 184}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.042547416873276234,
+        "variables": 75,
+        "polynomials": 139,
+        "clauses": 184
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/matrix-3-all-8.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005871708039194,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E14E18.smt2",
+    "family": "20161105-Sturm-MBO",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E14E18.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.009722082875669,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E14E18.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E14E18.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.007568208035082,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.13639287510886788, \"variables\": 7, \"polynomials\": 8, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.13639287510886788,
+        "variables": 7,
+        "polynomials": 8,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_09.smt2",
+    "family": "20161105-Sturm-MGC",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_09.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_09.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005261084064841,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0007200418040156364, \"variables\": 9, \"polynomials\": 13, \"clauses\": 13}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0007200418040156364,
+        "variables": 9,
+        "polynomials": 13,
+        "clauses": 13
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_09.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.2178270830772817,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/half_2.i_3_6_2.bpl_3.smt2",
+    "family": "20170501-Heizmann-UltimateInvariantSynthesis",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/half_2.i_3_6_2.bpl_3.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.003943375311792,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/half_2.i_3_6_2.bpl_3.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/half_2.i_3_6_2.bpl_3.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005264958366752,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0020597497932612896, \"variables\": 51, \"polynomials\": 76, \"clauses\": 76}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0020597497932612896,
+        "variables": 51,
+        "polynomials": 76,
+        "clauses": 76
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0006c.smt2",
+    "family": "20180501-Economics-Mulligan",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0006c.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0006c.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00827524997294,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0003154999576508999, \"variables\": 8, \"polynomials\": 9, \"clauses\": 9}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0003154999576508999,
+        "variables": 8,
+        "polynomials": 9,
+        "clauses": 9
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0006c.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.0314130405895412,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/2019-ezsmt/reverseFolding/37-reverse_folding-0-0.smt2",
+    "family": "2019-ezsmt",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/37-reverse_folding-0-0.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 3.527039332780987,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/37-reverse_folding-0-0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/37-reverse_folding-0-0.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 2.8837420409545302,
+      "stdout": "",
+      "stderr": "unsupported: only nullary Real/Bool definitions are supported\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20200911-Pine/1599121861113116000.smt2",
+    "family": "20200911-Pine",
+    "declared_status": "unknown",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599121861113116000.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20200911-Pine/1599121861113116000.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.010999666992575,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0005749999545514584, \"variables\": 4, \"polynomials\": 12, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0005749999545514584,
+        "variables": 4,
+        "polynomials": 12,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599121861113116000.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.03287637513130903,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_9a.smt2",
+    "family": "20211101-Geogebra",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_9a.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.008053041063249111,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_9a.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_9a.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.026368292048573,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0004238332621753216, \"variables\": 5, \"polynomials\": 9, \"clauses\": 9}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0004238332621753216,
+        "variables": 5,
+        "polynomials": 9,
+        "clauses": 9
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_Mitrinovic_8_4.smt2",
+    "family": "20220314-Uncu",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_Mitrinovic_8_4.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_Mitrinovic_8_4.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.023807500023395,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00041104061529040337, \"variables\": 6, \"polynomials\": 9, \"clauses\": 10}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00041104061529040337,
+        "variables": 6,
+        "polynomials": 9,
+        "clauses": 10
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_Mitrinovic_8_4.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.034624624997377396,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/call_ret_loop_1_POMC_no_hints.smt2",
+    "family": "20240407-pPDA-Chiari-Pontiggia-Winkler",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/call_ret_loop_1_POMC_no_hints.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004783332813531,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/call_ret_loop_1_POMC_no_hints.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/call_ret_loop_1_POMC_no_hints.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.008153167087585,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0018305410631000996, \"variables\": 12, \"polynomials\": 24, \"clauses\": 24}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0018305410631000996,
+        "variables": 12,
+        "polynomials": 24,
+        "clauses": 24
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/LassoRanker/SV-COMP/KroeningSharyginaTsitovichWintersteiger-2010CAV-Fig1_true-termination.c_Iteration1_Lasso_6-phaseTemplate.smt2",
+    "family": "LassoRanker",
+    "declared_status": "unknown",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/SV-COMP/KroeningSharyginaTsitovichWintersteiger-2010CAV-Fig1_true-termination.c_Iteration1_Lasso_6-phaseTemplate.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/LassoRanker/SV-COMP/KroeningSharyginaTsitovichWintersteiger-2010CAV-Fig1_true-termination.c_Iteration1_Lasso_6-phaseTemplate.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 1.140637209173292,
+      "stdout": "",
+      "stderr": "unsupported: CNF exceeds 4096 clauses\n",
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/SV-COMP/KroeningSharyginaTsitovichWintersteiger-2010CAV-Fig1_true-termination.c_Iteration1_Lasso_6-phaseTemplate.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.007708208169788,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_SAS09doubleLoop-incorrect.bpl_Iteration3_0.smt2",
+    "family": "UltimateAutomizer",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_SAS09doubleLoop-incorrect.bpl_Iteration3_0.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.022168000228703022,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_SAS09doubleLoop-incorrect.bpl_Iteration3_0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_SAS09doubleLoop-incorrect.bpl_Iteration3_0.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004545792005956,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.002752333879470825, \"variables\": 80, \"polynomials\": 93, \"clauses\": 90}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.002752333879470825,
+        "variables": 80,
+        "polynomials": 93,
+        "clauses": 90
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hong/hong_4.smt2",
+    "family": "hong",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_4.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hong/hong_4.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004927542060614,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00023691589012742043, \"variables\": 4, \"polynomials\": 2, \"clauses\": 2}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00023691589012742043,
+        "variables": 4,
+        "polynomials": 2,
+        "clauses": 2
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_4.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.025830124970525503,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hycomp/ball_count_2d_slope.10.seq_lazy_global_7.smt2",
+    "family": "hycomp",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/ball_count_2d_slope.10.seq_lazy_global_7.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.011643790639936924,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/ball_count_2d_slope.10.seq_lazy_global_7.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hycomp/ball_count_2d_slope.10.seq_lazy_global_7.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 0.0599372498691082,
+      "stdout": "",
+      "stderr": "unsupported: non-Real declaration: Bool\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/kissing/kissing_4_9.smt2",
+    "family": "kissing",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_4_9.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/kissing/kissing_4_9.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006998540833592,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0018749581649899483, \"variables\": 36, \"polynomials\": 45, \"clauses\": 45}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0018749581649899483,
+        "variables": 36,
+        "polynomials": 45,
+        "clauses": 45
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_4_9.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005277417134494,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/2/VC1/L/Chua-2-VC1-L-chunk-0092.smt2",
+    "family": "meti-tarski",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/Chua/2/VC1/L/Chua-2-VC1-L-chunk-0092.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.008082958869636059,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/Chua/2/VC1/L/Chua-2-VC1-L-chunk-0092.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/meti-tarski/Chua/2/VC1/L/Chua-2-VC1-L-chunk-0092.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00650683278218,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0005895420908927917, \"variables\": 3, \"polynomials\": 11, \"clauses\": 10}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0005895420908927917,
+        "variables": 3,
+        "polynomials": 11,
+        "clauses": 10
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/matrix-1-all-21.smt2",
+    "family": "zankl",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/matrix-1-all-21.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/zankl/matrix-1-all-21.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004254084080458,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00361008383333683, \"variables\": 13, \"polynomials\": 30, \"clauses\": 58}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00361008383333683,
+        "variables": 13,
+        "polynomials": 30,
+        "clauses": 58
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/matrix-1-all-21.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.02534100040793419,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E13E17.smt2",
+    "family": "20161105-Sturm-MBO",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E13E17.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006654957775027,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E13E17.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E13E17.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004153416026384,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.16265974985435605, \"variables\": 7, \"polynomials\": 8, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.16265974985435605,
+        "variables": 7,
+        "polynomials": 8,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_05.smt2",
+    "family": "20161105-Sturm-MGC",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_05.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_05.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.003740374930203,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0006439583376049995, \"variables\": 9, \"polynomials\": 13, \"clauses\": 13}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0006439583376049995,
+        "variables": 9,
+        "polynomials": 13,
+        "clauses": 13
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_05.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.08512883400544524,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_copyInitSum3_ground.i_3_2_2.bpl_3.smt2",
+    "family": "20170501-Heizmann-UltimateInvariantSynthesis",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_copyInitSum3_ground.i_3_2_2.bpl_3.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.003867499995977,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_copyInitSum3_ground.i_3_2_2.bpl_3.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_copyInitSum3_ground.i_3_2_2.bpl_3.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.020493374671787,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.004274291917681694, \"variables\": 126, \"polynomials\": 182, \"clauses\": 186}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.004274291917681694,
+        "variables": 126,
+        "polynomials": 182,
+        "clauses": 186
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0055a.smt2",
+    "family": "20180501-Economics-Mulligan",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0055a.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0055a.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.083240082953125,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0006960001774132252, \"variables\": 33, \"polynomials\": 42, \"clauses\": 42}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0006960001774132252,
+        "variables": 33,
+        "polynomials": 42,
+        "clauses": 42
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0055a.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.042096707969903946,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/2019-ezsmt/reverseFolding/17-reverse_folding-0-0.smt2",
+    "family": "2019-ezsmt",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/17-reverse_folding-0-0.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.4022791660390794,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/17-reverse_folding-0-0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/17-reverse_folding-0-0.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 0.41711316676810384,
+      "stdout": "",
+      "stderr": "unsupported: only nullary Real/Bool definitions are supported\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20200911-Pine/1599121684561818000.smt2",
+    "family": "20200911-Pine",
+    "declared_status": "unknown",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599121684561818000.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20200911-Pine/1599121684561818000.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.012115332763642,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0005893330089747906, \"variables\": 4, \"polynomials\": 12, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0005893330089747906,
+        "variables": 4,
+        "polynomials": 12,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599121684561818000.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.012669833842664957,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_7b.smt2",
+    "family": "20211101-Geogebra",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_7b.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.011185665614902973,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_7b.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_7b.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004439124837518,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00047004176303744316, \"variables\": 5, \"polynomials\": 9, \"clauses\": 9}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00047004176303744316,
+        "variables": 5,
+        "polynomials": 9,
+        "clauses": 9
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_AmerMathMonthly_vol125no10_p922b.smt2",
+    "family": "20220314-Uncu",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_AmerMathMonthly_vol125no10_p922b.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_AmerMathMonthly_vol125no10_p922b.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.003885707817972,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00027137482538819313, \"variables\": 5, \"polynomials\": 8, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00027137482538819313,
+        "variables": 5,
+        "polynomials": 8,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_AmerMathMonthly_vol125no10_p922b.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.007383333053439856,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/call_ret_loop_2_POMC_hints.smt2",
+    "family": "20240407-pPDA-Chiari-Pontiggia-Winkler",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/call_ret_loop_2_POMC_hints.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.003936166875064,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/call_ret_loop_2_POMC_hints.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/call_ret_loop_2_POMC_hints.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006419875193387,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0027186661027371883, \"variables\": 12, \"polynomials\": 48, \"clauses\": 48}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0027186661027371883,
+        "variables": 12,
+        "polynomials": 48,
+        "clauses": 48
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/LassoRanker/Ultimate/Rotation02.bpl_Iteration1_Lasso_4-pieceTemplate.smt2",
+    "family": "LassoRanker",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/Ultimate/Rotation02.bpl_Iteration1_Lasso_4-pieceTemplate.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/LassoRanker/Ultimate/Rotation02.bpl_Iteration1_Lasso_4-pieceTemplate.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.074998500291258,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.01709599979221821, \"variables\": 396, \"polynomials\": 767, \"clauses\": 785}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.01709599979221821,
+        "variables": 396,
+        "polynomials": 767,
+        "clauses": 785
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/Ultimate/Rotation02.bpl_Iteration1_Lasso_4-pieceTemplate.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.5839705830439925,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_PostfixIncrementDecrement.c_Iteration3_0.smt2",
+    "family": "UltimateAutomizer",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_PostfixIncrementDecrement.c_Iteration3_0.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.015489500015974045,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_PostfixIncrementDecrement.c_Iteration3_0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_PostfixIncrementDecrement.c_Iteration3_0.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.003289541695267,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.004495375324040651, \"variables\": 111, \"polynomials\": 158, \"clauses\": 157}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.004495375324040651,
+        "variables": 111,
+        "polynomials": 158,
+        "clauses": 157
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hong/hong_15.smt2",
+    "family": "hong",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_15.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hong/hong_15.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004424165934324,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00034795794636011124, \"variables\": 15, \"polynomials\": 2, \"clauses\": 2}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00034795794636011124,
+        "variables": 15,
+        "polynomials": 2,
+        "clauses": 2
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_15.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005038667004555,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hycomp/ball_count_2d_hill_simple.10.redlog_global_12.smt2",
+    "family": "hycomp",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/ball_count_2d_hill_simple.10.redlog_global_12.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.01796733308583498,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/ball_count_2d_hill_simple.10.redlog_global_12.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hycomp/ball_count_2d_hill_simple.10.redlog_global_12.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 0.0632124999538064,
+      "stdout": "",
+      "stderr": "unsupported: non-Real declaration: Bool\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/kissing/kissing_3_9.smt2",
+    "family": "kissing",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_3_9.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/kissing/kissing_3_9.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006239207927138,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0015128329396247864, \"variables\": 27, \"polynomials\": 45, \"clauses\": 45}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0015128329396247864,
+        "variables": 27,
+        "polynomials": 45,
+        "clauses": 45
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_3_9.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004417333286256,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/Chua/1/VC2/L/Chua-1-VC2-L-chunk-0081.smt2",
+    "family": "meti-tarski",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/Chua/1/VC2/L/Chua-1-VC2-L-chunk-0081.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.009170415811240673,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/Chua/1/VC2/L/Chua-1-VC2-L-chunk-0081.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/meti-tarski/Chua/1/VC2/L/Chua-1-VC2-L-chunk-0081.smt2.txt"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 1.8323972919024527,
+      "stdout": "SAT\n",
+      "stderr": "{\"conversion_seconds\": 0.0006825001910328865, \"variables\": 3, \"polynomials\": 7, \"clauses\": 7}\n",
+      "conversion": {
+        "conversion_seconds": 0.0006825001910328865,
+        "variables": 3,
+        "polynomials": 7,
+        "clauses": 7
+      },
+      "matches_declared": true
+    },
+    "agreement": true
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/matrix-1-all-6.smt2",
+    "family": "zankl",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/matrix-1-all-6.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/zankl/matrix-1-all-6.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00320287514478,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0017073331400752068, \"variables\": 35, \"polynomials\": 86, \"clauses\": 141}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0017073331400752068,
+        "variables": 35,
+        "polynomials": 86,
+        "clauses": 141
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/matrix-1-all-6.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.011365292128175497,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E2E25.smt2",
+    "family": "20161105-Sturm-MBO",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E2E25.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.009671833831817,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E2E25.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E2E25.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005848375149071,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.11453154217451811, \"variables\": 7, \"polynomials\": 8, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.11453154217451811,
+        "variables": 7,
+        "polynomials": 8,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_06.smt2",
+    "family": "20161105-Sturm-MGC",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_06.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_06.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004235292319208,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0006105410866439342, \"variables\": 9, \"polynomials\": 13, \"clauses\": 13}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0006105410866439342,
+        "variables": 9,
+        "polynomials": 13,
+        "clauses": 13
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_06.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.11511970916762948,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_password_ground.i_4_2_2.bpl_5.smt2",
+    "family": "20170501-Heizmann-UltimateInvariantSynthesis",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_password_ground.i_4_2_2.bpl_5.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.003965457901359,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_password_ground.i_4_2_2.bpl_5.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_password_ground.i_4_2_2.bpl_5.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004782457835972,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00471000000834465, \"variables\": 105, \"polynomials\": 172, \"clauses\": 179}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00471000000834465,
+        "variables": 105,
+        "polynomials": 172,
+        "clauses": 179
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0064a.smt2",
+    "family": "20180501-Economics-Mulligan",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0064a.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0064a.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005094875115901,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00045966729521751404, \"variables\": 24, \"polynomials\": 19, \"clauses\": 19}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00045966729521751404,
+        "variables": 24,
+        "polynomials": 19,
+        "clauses": 19
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0064a.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.04146495787426829,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/2019-ezsmt/bouncingBall/inst_1_100000.smt2",
+    "family": "2019-ezsmt",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/bouncingBall/inst_1_100000.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005035041831434,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/bouncingBall/inst_1_100000.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/2019-ezsmt/bouncingBall/inst_1_100000.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 0.09929154068231583,
+      "stdout": "",
+      "stderr": "unsupported: only nullary Real/Bool definitions are supported\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20200911-Pine/1599122159776715000.smt2",
+    "family": "20200911-Pine",
+    "declared_status": "unknown",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599122159776715000.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20200911-Pine/1599122159776715000.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.012576458975673,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0006312918849289417, \"variables\": 4, \"polynomials\": 12, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0006312918849289417,
+        "variables": 4,
+        "polynomials": 12,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599122159776715000.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.03996795788407326,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_12a.smt2",
+    "family": "20211101-Geogebra",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_12a.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.008853916078805923,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_12a.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_12a.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.007075999863446,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0005898331291973591, \"variables\": 5, \"polynomials\": 9, \"clauses\": 9}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0005898331291973591,
+        "variables": 5,
+        "polynomials": 9,
+        "clauses": 9
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Disjunctive_Denominator_Simplifications/DDC_ProveIneq_ISSAC05_Bessack_5_m1.smt2",
+    "family": "20220314-Uncu",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Disjunctive_Denominator_Simplifications/DDC_ProveIneq_ISSAC05_Bessack_5_m1.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Disjunctive_Denominator_Simplifications/DDC_ProveIneq_ISSAC05_Bessack_5_m1.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005511290859431,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00043625012040138245, \"variables\": 4, \"polynomials\": 8, \"clauses\": 9}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00043625012040138245,
+        "variables": 4,
+        "polynomials": 8,
+        "clauses": 9
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Disjunctive_Denominator_Simplifications/DDC_ProveIneq_ISSAC05_Bessack_5_m1.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.03820008272305131,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/mod5_POMC_hints.smt2",
+    "family": "20240407-pPDA-Chiari-Pontiggia-Winkler",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/mod5_POMC_hints.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 1.2437944170087576,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/mod5_POMC_hints.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/mod5_POMC_hints.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.072027292102575,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.005806999746710062, \"variables\": 124, \"polynomials\": 375, \"clauses\": 375}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.005806999746710062,
+        "variables": 124,
+        "polynomials": 375,
+        "clauses": 375
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/LassoRanker/SV-COMP/min_rf_true-termination.c_Iteration1_Loop_3-pieceTemplate.smt2",
+    "family": "LassoRanker",
+    "declared_status": "unknown",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/SV-COMP/min_rf_true-termination.c_Iteration1_Loop_3-pieceTemplate.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/LassoRanker/SV-COMP/min_rf_true-termination.c_Iteration1_Loop_3-pieceTemplate.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 0.2862483751960099,
+      "stdout": "",
+      "stderr": "unsupported: CNF exceeds 4096 clauses\n",
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/SV-COMP/min_rf_true-termination.c_Iteration1_Loop_3-pieceTemplate.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00538562471047,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_NutzTransformation05.c_Iteration1_0.smt2",
+    "family": "UltimateAutomizer",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_NutzTransformation05.c_Iteration1_0.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004403291735798,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_NutzTransformation05.c_Iteration1_0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_NutzTransformation05.c_Iteration1_0.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004671666771173,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.002264750190079212, \"variables\": 72, \"polynomials\": 81, \"clauses\": 80}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.002264750190079212,
+        "variables": 72,
+        "polynomials": 81,
+        "clauses": 80
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hong/hong_6.smt2",
+    "family": "hong",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_6.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hong/hong_6.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004219833761454,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00035845814272761345, \"variables\": 6, \"polynomials\": 2, \"clauses\": 2}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00035845814272761345,
+        "variables": 6,
+        "polynomials": 2,
+        "clauses": 2
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_6.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.09297462506219745,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hycomp/ball_count_1d_plain.05.seq_lazy_global_3.smt2",
+    "family": "hycomp",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/ball_count_1d_plain.05.seq_lazy_global_3.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.010319000110030174,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/ball_count_1d_plain.05.seq_lazy_global_3.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hycomp/ball_count_1d_plain.05.seq_lazy_global_3.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 0.06276887515559793,
+      "stdout": "",
+      "stderr": "unsupported: non-Real declaration: Bool\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/kissing/kissing_3_11.smt2",
+    "family": "kissing",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_3_11.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/kissing/kissing_3_11.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.008825416211039,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0023042079992592335, \"variables\": 33, \"polynomials\": 66, \"clauses\": 66}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0023042079992592335,
+        "variables": 33,
+        "polynomials": 66,
+        "clauses": 66
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_3_11.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005863499827683,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0440.smt2",
+    "family": "meti-tarski",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0440.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00367229199037,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0440.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0440.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.232201083097607,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0006691250018775463, \"variables\": 3, \"polynomials\": 7, \"clauses\": 7}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0006691250018775463,
+        "variables": 3,
+        "polynomials": 7,
+        "clauses": 7
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/gen-19.smt2",
+    "family": "zankl",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/gen-19.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/zankl/gen-19.smt2.txt"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.10150920925661922,
+      "stdout": "SAT\n",
+      "stderr": "{\"conversion_seconds\": 0.00021200021728873253, \"variables\": 2, \"polynomials\": 3, \"clauses\": 3}\n",
+      "conversion": {
+        "conversion_seconds": 0.00021200021728873253,
+        "variables": 2,
+        "polynomials": 3,
+        "clauses": 3
+      },
+      "matches_declared": true
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/gen-19.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.03777449997141957,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": true
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E4E19.smt2",
+    "family": "20161105-Sturm-MBO",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E4E19.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.011136666871607,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E4E19.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E4E19.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006238209083676,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.1383104999549687, \"variables\": 7, \"polynomials\": 8, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.1383104999549687,
+        "variables": 7,
+        "polynomials": 8,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_08.smt2",
+    "family": "20161105-Sturm-MGC",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_08.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_08.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004001874942333,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0006706668063998222, \"variables\": 9, \"polynomials\": 13, \"clauses\": 13}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0006706668063998222,
+        "variables": 9,
+        "polynomials": 13,
+        "clauses": 13
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_08.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.12067895801737905,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/nested.i_4_5_3.bpl_3.smt2",
+    "family": "20170501-Heizmann-UltimateInvariantSynthesis",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/nested.i_4_5_3.bpl_3.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006439000368118,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/nested.i_4_5_3.bpl_3.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/nested.i_4_5_3.bpl_3.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005306833889335,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.005569083150476217, \"variables\": 134, \"polynomials\": 236, \"clauses\": 237}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.005569083150476217,
+        "variables": 134,
+        "polynomials": 236,
+        "clauses": 237
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0086a.smt2",
+    "family": "20180501-Economics-Mulligan",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0086a.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0086a.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.007062250282615,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0020018327049911022, \"variables\": 19, \"polynomials\": 37, \"clauses\": 38}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0020018327049911022,
+        "variables": 19,
+        "polynomials": 37,
+        "clauses": 38
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0086a.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.0358535829000175,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/2019-ezsmt/reverseFolding/32-reverse_folding-0-0.smt2",
+    "family": "2019-ezsmt",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/32-reverse_folding-0-0.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 1.1889134170487523,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/32-reverse_folding-0-0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/32-reverse_folding-0-0.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 1.0484118331223726,
+      "stdout": "",
+      "stderr": "unsupported: only nullary Real/Bool definitions are supported\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20200911-Pine/1599121979969036000.smt2",
+    "family": "20200911-Pine",
+    "declared_status": "unknown",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599121979969036000.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20200911-Pine/1599121979969036000.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.011125958058983,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0006353333592414856, \"variables\": 4, \"polynomials\": 12, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0006353333592414856,
+        "variables": 4,
+        "polynomials": 12,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599121979969036000.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.037796167191118,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20211101-Geogebra/IsoTriangle-Bottema6_1a.smt2",
+    "family": "20211101-Geogebra",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/IsoTriangle-Bottema6_1a.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.009567082859575748,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/IsoTriangle-Bottema6_1a.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20211101-Geogebra/IsoTriangle-Bottema6_1a.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.02287762472406,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0004453752189874649, \"variables\": 9, \"polynomials\": 13, \"clauses\": 13}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0004453752189874649,
+        "variables": 9,
+        "polynomials": 13,
+        "clauses": 13
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_JSC_SUMCracker_14c.smt2",
+    "family": "20220314-Uncu",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_JSC_SUMCracker_14c.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_JSC_SUMCracker_14c.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005721208173782,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.000759500078856945, \"variables\": 5, \"polynomials\": 11, \"clauses\": 11}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.000759500078856945,
+        "variables": 5,
+        "polynomials": 11,
+        "clauses": 11
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_JSC_SUMCracker_14c.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.07624629186466336,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/call_ret_loop_1_POMC_hints.smt2",
+    "family": "20240407-pPDA-Chiari-Pontiggia-Winkler",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/call_ret_loop_1_POMC_hints.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005383582785726,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/call_ret_loop_1_POMC_hints.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/call_ret_loop_1_POMC_hints.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.008038207888603,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.002302332781255245, \"variables\": 12, \"polynomials\": 48, \"clauses\": 48}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.002302332781255245,
+        "variables": 12,
+        "polynomials": 48,
+        "clauses": 48
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/LassoRanker/SV-COMP/gcd1_true-termination.c_Iteration3_Loop_4-pieceTemplate.smt2",
+    "family": "LassoRanker",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/SV-COMP/gcd1_true-termination.c_Iteration3_Loop_4-pieceTemplate.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/LassoRanker/SV-COMP/gcd1_true-termination.c_Iteration3_Loop_4-pieceTemplate.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.106771209277213,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.022222875151783228, \"variables\": 551, \"polynomials\": 956, \"clauses\": 995}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.022222875151783228,
+        "variables": 551,
+        "polynomials": 956,
+        "clauses": 995
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/SV-COMP/gcd1_true-termination.c_Iteration3_Loop_4-pieceTemplate.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004337166901678,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_BugSubstitution.bpl_Iteration3_0.smt2",
+    "family": "UltimateAutomizer",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_BugSubstitution.bpl_Iteration3_0.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.013348083011806011,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_BugSubstitution.bpl_Iteration3_0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_BugSubstitution.bpl_Iteration3_0.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004676666110754,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0018055839464068413, \"variables\": 47, \"polynomials\": 66, \"clauses\": 65}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0018055839464068413,
+        "variables": 47,
+        "polynomials": 66,
+        "clauses": 65
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hong/hong_3.smt2",
+    "family": "hong",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_3.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hong/hong_3.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005191124975681,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00030079158022999763, \"variables\": 3, \"polynomials\": 2, \"clauses\": 2}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00030079158022999763,
+        "variables": 3,
+        "polynomials": 2,
+        "clauses": 2
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_3.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.039637708105146885,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hycomp/ball_count_2d_plain.01.redlog_global_3.smt2",
+    "family": "hycomp",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/ball_count_2d_plain.01.redlog_global_3.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.009424957912415266,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/ball_count_2d_plain.01.redlog_global_3.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hycomp/ball_count_2d_plain.01.redlog_global_3.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 0.07826766604557633,
+      "stdout": "",
+      "stderr": "unsupported: non-Real declaration: Bool\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/kissing/kissing_4_3.smt2",
+    "family": "kissing",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_4_3.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/kissing/kissing_4_3.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.010254833847284,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0004208330065011978, \"variables\": 12, \"polynomials\": 6, \"clauses\": 6}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0004208330065011978,
+        "variables": 12,
+        "polynomials": 6,
+        "clauses": 6
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_4_3.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.2426801659166813,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0090.smt2",
+    "family": "meti-tarski",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0090.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.008191625121980906,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0090.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0090.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006194042041898,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00031799962744116783, \"variables\": 3, \"polynomials\": 7, \"clauses\": 7}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00031799962744116783,
+        "variables": 3,
+        "polynomials": 7,
+        "clauses": 7
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/matrix-4-all-33.smt2",
+    "family": "zankl",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/matrix-4-all-33.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/zankl/matrix-4-all-33.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005052875261754,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.004859583918005228, \"variables\": 94, \"polynomials\": 182, \"clauses\": 231}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.004859583918005228,
+        "variables": 94,
+        "polynomials": 182,
+        "clauses": 231
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/matrix-4-all-33.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00837295781821,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E3E28.smt2",
+    "family": "20161105-Sturm-MBO",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E3E28.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005458583123982,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E3E28.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E3E28.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004266459029168,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.11156254215165973, \"variables\": 7, \"polynomials\": 8, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.11156254215165973,
+        "variables": 7,
+        "polynomials": 8,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_04.smt2",
+    "family": "20161105-Sturm-MGC",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_04.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_04.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00657408311963,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0005909167230129242, \"variables\": 9, \"polynomials\": 13, \"clauses\": 13}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0005909167230129242,
+        "variables": 9,
+        "polynomials": 13,
+        "clauses": 13
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_04.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.07162379194051027,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_copy3_ground.i_3_2_2.bpl_5.smt2",
+    "family": "20170501-Heizmann-UltimateInvariantSynthesis",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_copy3_ground.i_3_2_2.bpl_5.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.003563042264432,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_copy3_ground.i_3_2_2.bpl_5.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_copy3_ground.i_3_2_2.bpl_5.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004810207989067,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.005270875059068203, \"variables\": 154, \"polynomials\": 215, \"clauses\": 221}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.005270875059068203,
+        "variables": 154,
+        "polynomials": 215,
+        "clauses": 221
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0029c.smt2",
+    "family": "20180501-Economics-Mulligan",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0029c.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0029c.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006071709096432,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0004827091470360756, \"variables\": 16, \"polynomials\": 19, \"clauses\": 18}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0004827091470360756,
+        "variables": 16,
+        "polynomials": 19,
+        "clauses": 18
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0029c.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.016595792025327682,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/2019-ezsmt/reverseFolding/03-reverse_folding-0-0.smt2",
+    "family": "2019-ezsmt",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/03-reverse_folding-0-0.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.008174125105143,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/03-reverse_folding-0-0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/2019-ezsmt/reverseFolding/03-reverse_folding-0-0.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 3.55547604104504,
+      "stdout": "",
+      "stderr": "unsupported: only nullary Real/Bool definitions are supported\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20200911-Pine/1599121886379408000.smt2",
+    "family": "20200911-Pine",
+    "declared_status": "unknown",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599121886379408000.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20200911-Pine/1599121886379408000.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.016751249786466,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0005866666324436665, \"variables\": 4, \"polynomials\": 12, \"clauses\": 8}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0005866666324436665,
+        "variables": 4,
+        "polynomials": 12,
+        "clauses": 8
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20200911-Pine/1599121886379408000.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.012838416267186403,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20211101-Geogebra/RightTriangle-Bottema1_19a.smt2",
+    "family": "20211101-Geogebra",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/RightTriangle-Bottema1_19a.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.008211708161979914,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20211101-Geogebra/RightTriangle-Bottema1_19a.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20211101-Geogebra/RightTriangle-Bottema1_19a.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.165880999993533,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.00043120793998241425, \"variables\": 6, \"polynomials\": 9, \"clauses\": 9}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.00043120793998241425,
+        "variables": 6,
+        "polynomials": 9,
+        "clauses": 9
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC05_Bessack_4_m2.smt2",
+    "family": "20220314-Uncu",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC05_Bessack_4_m2.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC05_Bessack_4_m2.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005329207982868,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0003510420210659504, \"variables\": 4, \"polynomials\": 7, \"clauses\": 7}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0003510420210659504,
+        "variables": 4,
+        "polynomials": 7,
+        "clauses": 7
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC05_Bessack_4_m2.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.03637591702863574,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/past/huge_runtime_tiny_probs_PRAY.smt2",
+    "family": "20240407-pPDA-Chiari-Pontiggia-Winkler",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/past/huge_runtime_tiny_probs_PRAY.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.009758292231708765,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/past/huge_runtime_tiny_probs_PRAY.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/past/huge_runtime_tiny_probs_PRAY.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.006693542003632,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.002209874801337719, \"variables\": 70, \"polynomials\": 140, \"clauses\": 140}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.002209874801337719,
+        "variables": 70,
+        "polynomials": 140,
+        "clauses": 140
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/LassoRanker/Ultimate/NoriSharma-2013FSE-Fig7.bpl_Iteration1_Loop_4-phaseTemplate.smt2",
+    "family": "LassoRanker",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/Ultimate/NoriSharma-2013FSE-Fig7.bpl_Iteration1_Loop_4-phaseTemplate.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/LassoRanker/Ultimate/NoriSharma-2013FSE-Fig7.bpl_Iteration1_Loop_4-phaseTemplate.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00818720832467,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.015069416724145412, \"variables\": 346, \"polynomials\": 657, \"clauses\": 698}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.015069416724145412,
+        "variables": 346,
+        "polynomials": 657,
+        "clauses": 698
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/LassoRanker/Ultimate/NoriSharma-2013FSE-Fig7.bpl_Iteration1_Loop_4-phaseTemplate.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.14115729182958603,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_GoannaDoubleFreeWithoutPointers.bpl_Iteration1_0.smt2",
+    "family": "UltimateAutomizer",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_GoannaDoubleFreeWithoutPointers.bpl_Iteration1_0.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 2.872036375105381,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_GoannaDoubleFreeWithoutPointers.bpl_Iteration1_0.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_GoannaDoubleFreeWithoutPointers.bpl_Iteration1_0.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.078210624866188,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.018813583068549633, \"variables\": 387, \"polynomials\": 631, \"clauses\": 596}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.018813583068549633,
+        "variables": 387,
+        "polynomials": 631,
+        "clauses": 596
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hong/hong_10.smt2",
+    "family": "hong",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_10.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hong/hong_10.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004309374839067,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0003069578669965267, \"variables\": 10, \"polynomials\": 2, \"clauses\": 2}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0003069578669965267,
+        "variables": 10,
+        "polynomials": 2,
+        "clauses": 2
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hong/hong_10.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 6.317334541585296,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/hycomp/ball_count_2d_hill_simple.02.seq_lazy_lemmas_global_11.smt2",
+    "family": "hycomp",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/ball_count_2d_hill_simple.02.seq_lazy_lemmas_global_11.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.01232004165649414,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/hycomp/ball_count_2d_hill_simple.02.seq_lazy_lemmas_global_11.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/hycomp/ball_count_2d_hill_simple.02.seq_lazy_lemmas_global_11.smt2.txt"
+      ],
+      "status": "unsupported",
+      "returncode": 3,
+      "wall_seconds": 0.06287454208359122,
+      "stdout": "",
+      "stderr": "unsupported: non-Real declaration: Bool\n",
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/kissing/kissing_4_24.smt2",
+    "family": "kissing",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_4_24.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/kissing/kissing_4_24.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.007698375266045,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.013884374871850014, \"variables\": 96, \"polynomials\": 300, \"clauses\": 300}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.013884374871850014,
+        "variables": 96,
+        "polynomials": 300,
+        "clauses": 300
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/kissing/kissing_4_24.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.005487291608006,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/meti-tarski/sin/problem/7/sin-problem-7-chunk-0255.smt2",
+    "family": "meti-tarski",
+    "declared_status": "sat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/sin/problem/7/sin-problem-7-chunk-0255.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.024726624600589275,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/meti-tarski/sin/problem/7/sin-problem-7-chunk-0255.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/meti-tarski/sin/problem/7/sin-problem-7-chunk-0255.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.0058334171772,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0007756249979138374, \"variables\": 3, \"polynomials\": 9, \"clauses\": 9}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0007756249979138374,
+        "variables": 3,
+        "polynomials": 9,
+        "clauses": 9
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/zankl/matrix-1-all-49.smt2",
+    "family": "zankl",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/matrix-1-all-49.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/zankl/matrix-1-all-49.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004544833675027,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.001487750094383955, \"variables\": 11, \"polynomials\": 57, \"clauses\": 125}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.001487750094383955,
+        "variables": 11,
+        "polynomials": 57,
+        "clauses": 125
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/zankl/matrix-1-all-49.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.010829708073288202,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E19.smt2",
+    "family": "20161105-Sturm-MBO",
+    "declared_status": "unsat",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E19.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004740957636386,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E19.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E19.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.00703112501651,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.002287666779011488, \"variables\": 6, \"polynomials\": 7, \"clauses\": 7}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.002287666779011488,
+        "variables": 6,
+        "polynomials": 7,
+        "clauses": 7
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_02.smt2",
+    "family": "20161105-Sturm-MGC",
+    "declared_status": "unsat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_02.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_02.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.03671370819211,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0005860836245119572, \"variables\": 9, \"polynomials\": 13, \"clauses\": 13}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0005860836245119572,
+        "variables": 9,
+        "polynomials": 13,
+        "clauses": 13
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_02.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.07587162544950843,
+      "stdout": "unsat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/ddlm2013.i_3_4_2.bpl_3.smt2",
+    "family": "20170501-Heizmann-UltimateInvariantSynthesis",
+    "declared_status": "unknown",
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/ddlm2013.i_3_4_2.bpl_3.smt2"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.003548166714609,
+      "stdout": "",
+      "stderr": "",
+      "timeout_seconds": 10.0,
+      "matches_declared": null
+    },
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/ddlm2013.i_3_4_2.bpl_3.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/ddlm2013.i_3_4_2.bpl_3.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.011119417380542,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0076040420681238174, \"variables\": 198, \"polynomials\": 321, \"clauses\": 324}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0076040420681238174,
+        "variables": 198,
+        "polynomials": 321,
+        "clauses": 324
+      },
+      "matches_declared": null
+    },
+    "agreement": null
+  },
+  {
+    "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0061e.smt2",
+    "family": "20180501-Economics-Mulligan",
+    "declared_status": "sat",
+    "clpoly": {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0061e.smt2",
+        "--binary",
+        "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad",
+        "--output",
+        "/private/tmp/clpoly-smtlib-20261106/converted/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0061e.smt2.txt"
+      ],
+      "status": "timeout",
+      "returncode": -9,
+      "wall_seconds": 10.004327583126724,
+      "stdout": "",
+      "stderr": "{\"conversion_seconds\": 0.0003676246851682663, \"variables\": 16, \"polynomials\": 14, \"clauses\": 14}\n",
+      "timeout_seconds": 10.0,
+      "conversion": {
+        "conversion_seconds": 0.0003676246851682663,
+        "variables": 16,
+        "polynomials": 14,
+        "clauses": 14
+      },
+      "matches_declared": null
+    },
+    "z3": {
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-20261106/inputs/non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0061e.smt2"
+      ],
+      "status": "sat",
+      "returncode": 0,
+      "wall_seconds": 0.0390137922950089,
+      "stdout": "sat\n",
+      "stderr": "",
+      "matches_declared": true
+    },
+    "agreement": null
+  }
+]

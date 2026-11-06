@@ -1,0 +1,533 @@
+{
+  "release": "2025.08.04",
+  "url": "https://zenodo.org/records/16740866",
+  "logic": "QF_NRA",
+  "seed": "20261106",
+  "rule": "Round robin sorted families; SHA256(seed + colon + original path) order within each family; no status or solver filtering.",
+  "archive": {
+    "url": "https://zenodo.org/records/16740866/files/QF_NRA.tar.zst?download=1",
+    "bytes": 210801606,
+    "md5": "85a04fcea6dd10fb4c505703cac46e2c",
+    "sha256": "e3a74ec7507010bde1474eeaecb3890204fead66236c56864c6137617899d23e"
+  },
+  "population": {
+    "20161105-Sturm-MBO": 405,
+    "20161105-Sturm-MGC": 9,
+    "20170501-Heizmann-UltimateInvariantSynthesis": 69,
+    "20180501-Economics-Mulligan": 135,
+    "2019-ezsmt": 63,
+    "20200911-Pine": 245,
+    "20211101-Geogebra": 112,
+    "20220314-Uncu": 225,
+    "20240407-pPDA-Chiari-Pontiggia-Winkler": 20,
+    "LassoRanker": 821,
+    "UltimateAutomizer": 61,
+    "hong": 20,
+    "hycomp": 2752,
+    "kissing": 45,
+    "meti-tarski": 7006,
+    "zankl": 166
+  },
+  "selected": [
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E1E24.smt2",
+      "bytes": 465339,
+      "sha256": "848ddb6f269b0fedaa1034636cbf5503ae208b27502e3c5c931fa619884f8ce6"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_10.smt2",
+      "bytes": 3034,
+      "sha256": "4de68418bf5f9a161346a531d877b8e3953ec2211c334409727d94991c26fbe9"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/const1.i_3_6_2.bpl_5.smt2",
+      "bytes": 12791,
+      "sha256": "9f69f56019846077b564d7dbce485bdb6468d0ba4c21f0883fbc6a3f20b7e50b"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0074a.smt2",
+      "bytes": 1433,
+      "sha256": "d7ffaa5995d6ff40e25adec8509a5e72a66506ffb3af19bae926344baea17f0e"
+    },
+    {
+      "path": "non-incremental/QF_NRA/2019-ezsmt/reverseFolding/45-reverse_folding-0-0.smt2",
+      "bytes": 73623202,
+      "sha256": "197f20ff805df98511edbf377cb09f6bf543cc4df884120598815e60ce8e873b"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20200911-Pine/1599122160651294000.smt2",
+      "bytes": 1897,
+      "sha256": "b444b909ecb0b2921645a2a1a82d0be8367493d543bec54a198863dd3aa1d70e"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20211101-Geogebra/RegHeptagon-Diagonal_Side.smt2",
+      "bytes": 2064,
+      "sha256": "2b89bc790429b4b73d52a6f3be40c9a6e692b41f0673339e0efe565746c7dffe"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC05_SignPattern_1p_4m_1w_5p_p.smt2",
+      "bytes": 5094,
+      "sha256": "7fe6d19d3b660346267153ae8640c464bdea4400b6631aa1ec894f38875792f4"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/schelling_POMC_no_hints.smt2",
+      "bytes": 57090,
+      "sha256": "6f6dc84fc55dcf23183deec22eb0d17a78ef94f5df3e6602c2f56d6668863b73"
+    },
+    {
+      "path": "non-incremental/QF_NRA/LassoRanker/CooperatingT2/mc91test.t2.c_Iteration5_Loop_4-pieceTemplate.smt2",
+      "bytes": 263080,
+      "sha256": "7d58c8d2333005fa31ab8ea2c29e65d59fd0fc36ec3a2642699230ddc802d7ac"
+    },
+    {
+      "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_BeyerHenzingerMajumdarRybalchenko-PLDI2007-Figure4.bpl_Iteration2_0.smt2",
+      "bytes": 10114,
+      "sha256": "e25fae22f880479ace0092f1107651b5f846b7992757aa09825454dccfa76968"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hong/hong_19.smt2",
+      "bytes": 1615,
+      "sha256": "f4e086e17076a43562ebcac9994fe7b4b79aafb8bb4511372a5fa56082460055"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hycomp/etcs_braking_2.01.seq_lazy_linear_enc_global_2.smt2",
+      "bytes": 43809,
+      "sha256": "61a6a37416cd5d2387dc592fcb977bf0d80c778e4979f64d0b88d793fea88bef"
+    },
+    {
+      "path": "non-incremental/QF_NRA/kissing/kissing_3_6.smt2",
+      "bytes": 3401,
+      "sha256": "5cdc33cc7aaf549952f3df42a2c8eeaaace510dd524cd9fd22592b79b4ffbc65"
+    },
+    {
+      "path": "non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0109.smt2",
+      "bytes": 1175,
+      "sha256": "e5f28618dce2e3b40d2e57dc78f17cb17073fa9b2c75afc294d6b00a1916d33d"
+    },
+    {
+      "path": "non-incremental/QF_NRA/zankl/matrix-3-all-8.smt2",
+      "bytes": 12334,
+      "sha256": "80c800a4c5ccfe3d810996bdbbdc3dc69176dfaa0437a090300537ba43b5a0e5"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E14E18.smt2",
+      "bytes": 530208,
+      "sha256": "12ea5753ec6bcd5b44b011b8689b3aa899c40038bc7f975c33bafcac74e14de7"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_09.smt2",
+      "bytes": 2922,
+      "sha256": "026a5a4d4dbe9b33f75867105ca7657e4620333bd58dafdd2f3441c310a13113"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/half_2.i_3_6_2.bpl_3.smt2",
+      "bytes": 9271,
+      "sha256": "eefff1f44c581c4fa4b7e557622302ffb92cfa4b20824f71e8bca01be5920b8e"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0006c.smt2",
+      "bytes": 1435,
+      "sha256": "f8ae1ab2c65b6866d63a389edbbd2591fb8584e199710804b63e412029eecaeb"
+    },
+    {
+      "path": "non-incremental/QF_NRA/2019-ezsmt/reverseFolding/37-reverse_folding-0-0.smt2",
+      "bytes": 40765456,
+      "sha256": "58b9af91cb44b1eba83daa04b2d725f3e17fee58fb87075551c094ad79f243cc"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20200911-Pine/1599121861113116000.smt2",
+      "bytes": 1931,
+      "sha256": "d57847b9b62afc323177df7498ae28883bea3e9d662abbb3079c04040388defd"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_9a.smt2",
+      "bytes": 1596,
+      "sha256": "9f699958b0f6846c61fb4aeacb924924c9d6e1b682c21d11c5e389b6a7e2bc90"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_Mitrinovic_8_4.smt2",
+      "bytes": 1433,
+      "sha256": "916c34d3cb786b9966476032fd2166667c928c706662c35dca6ba829ef6e63af"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/call_ret_loop_1_POMC_no_hints.smt2",
+      "bytes": 8718,
+      "sha256": "8e03b07229d6a951bdf7c1a23331457ec54302d19d165a25d1c7fdb27d4b473e"
+    },
+    {
+      "path": "non-incremental/QF_NRA/LassoRanker/SV-COMP/KroeningSharyginaTsitovichWintersteiger-2010CAV-Fig1_true-termination.c_Iteration1_Lasso_6-phaseTemplate.smt2",
+      "bytes": 4996969,
+      "sha256": "7da2672a84f8f943573dfe1f32db5f29fe25bd936738ab20ee6b93e1855f84b2"
+    },
+    {
+      "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_SAS09doubleLoop-incorrect.bpl_Iteration3_0.smt2",
+      "bytes": 11853,
+      "sha256": "85811227645c554bb6a565469a5922a0a7bcae5b8eaa00be0f94bf0a438e2156"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hong/hong_4.smt2",
+      "bytes": 829,
+      "sha256": "79c087000ee0ead263be0dff447e95f2d70309d5536fae6ea805c7d83aa145f4"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hycomp/ball_count_2d_slope.10.seq_lazy_global_7.smt2",
+      "bytes": 104416,
+      "sha256": "e7d148e9455b212e56877efb66d2a86d9589a01fbf9c06118a3fba6cadaed39a"
+    },
+    {
+      "path": "non-incremental/QF_NRA/kissing/kissing_4_9.smt2",
+      "bytes": 8510,
+      "sha256": "79bb85a597a91c61d2c071ac7eea2fa6e1e56a7a96513fd93c17204e764d488f"
+    },
+    {
+      "path": "non-incremental/QF_NRA/meti-tarski/Chua/2/VC1/L/Chua-2-VC1-L-chunk-0092.smt2",
+      "bytes": 1570,
+      "sha256": "2824e05650d541c3c14c969cb81107228d7beae943360e27037e983ee74bde00"
+    },
+    {
+      "path": "non-incremental/QF_NRA/zankl/matrix-1-all-21.smt2",
+      "bytes": 1981,
+      "sha256": "77fd8e4386b7f371253a83c088a4768083cea3d89cecfe77c48eed2e48547e20"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E13E17.smt2",
+      "bytes": 569143,
+      "sha256": "dc8202f9f77f6d04a968ca1793f42922829594158f6b928b430ae82f4beffdb3"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_05.smt2",
+      "bytes": 2537,
+      "sha256": "9ccef841614473cb06d52801475d533eb750b4f50547fada69e97429df9be64b"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_copyInitSum3_ground.i_3_2_2.bpl_3.smt2",
+      "bytes": 20384,
+      "sha256": "ccdf29e461b7ba48a03046c0e9e7b46d903cc34dc98510dec691cdcbc077aff7"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0055a.smt2",
+      "bytes": 3172,
+      "sha256": "3947739bc5d8b39cf5132271f6b1d9f38a787ce24e2df475b0ceb50e68e0e42a"
+    },
+    {
+      "path": "non-incremental/QF_NRA/2019-ezsmt/reverseFolding/17-reverse_folding-0-0.smt2",
+      "bytes": 5354197,
+      "sha256": "e7df27d7d7b377748ae8b0e6dae29d42e8dc2a8f13686882c2ca3551e47a4213"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20200911-Pine/1599121684561818000.smt2",
+      "bytes": 1902,
+      "sha256": "16c58ff868e62394a92d580cced60dac4d63ebe50388ee5852badb0e652a9b34"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_7b.smt2",
+      "bytes": 1586,
+      "sha256": "acd77548f29c1d6cfeff3b7cf8241235858c18afb17fed644c8165eed8136a09"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_AmerMathMonthly_vol125no10_p922b.smt2",
+      "bytes": 1078,
+      "sha256": "9a74fa9e2606efc8129ecec730be9d8c1c68508abc3ae0514a4c679bb317fd11"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/call_ret_loop_2_POMC_hints.smt2",
+      "bytes": 10383,
+      "sha256": "b9ac47bddaea1824ec5b64651b20feb854c4d856efacd3efde279e9fe15f52be"
+    },
+    {
+      "path": "non-incremental/QF_NRA/LassoRanker/Ultimate/Rotation02.bpl_Iteration1_Lasso_4-pieceTemplate.smt2",
+      "bytes": 62471,
+      "sha256": "cd0618e679b91160c5020685b0cb3f2acabf636c6515bc56416d81056d12b155"
+    },
+    {
+      "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_PostfixIncrementDecrement.c_Iteration3_0.smt2",
+      "bytes": 22449,
+      "sha256": "7e18c0c8b7b956d44b793aef512607c5a8ca6e99618f6d11d8d744c007647564"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hong/hong_15.smt2",
+      "bytes": 1399,
+      "sha256": "12ca0ccc32be60f31966c26f081bf5c88a4521b355b3b024f9e21289d9b8bff4"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hycomp/ball_count_2d_hill_simple.10.redlog_global_12.smt2",
+      "bytes": 113505,
+      "sha256": "6dbedc5f87e97ac39b76406e1ff527b2f845c7c590303da2a564d0ca1860fdea"
+    },
+    {
+      "path": "non-incremental/QF_NRA/kissing/kissing_3_9.smt2",
+      "bytes": 6638,
+      "sha256": "f80223e0bb00cc51b05de2fd566197c01496d28a40f655fd99a266910d9d96ca"
+    },
+    {
+      "path": "non-incremental/QF_NRA/meti-tarski/Chua/1/VC2/L/Chua-1-VC2-L-chunk-0081.smt2",
+      "bytes": 1689,
+      "sha256": "4ca787b0144f30e8f3707b64e5eac3ee80c553e7a30c5d1c955c290475811919"
+    },
+    {
+      "path": "non-incremental/QF_NRA/zankl/matrix-1-all-6.smt2",
+      "bytes": 4717,
+      "sha256": "1faa323a92baf937ba4377d0145bea0aaa628f2f47fdcb5b00e0874b6410e139"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E2E25.smt2",
+      "bytes": 458715,
+      "sha256": "916c027d74725b16889951f68075b1a0e3b41fdbc6ebb3d63454feeb58a498fe"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_06.smt2",
+      "bytes": 2636,
+      "sha256": "c16892f4fa69c2f3d8700f441346f40f513e7f1a1a25aeeb80138135cba5e4c9"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_password_ground.i_4_2_2.bpl_5.smt2",
+      "bytes": 25205,
+      "sha256": "07b98e26bd52a80e42da982560e727b942191a46ff30e60985ee0a8494b96a88"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0064a.smt2",
+      "bytes": 2270,
+      "sha256": "54a1027da6b1fbf6727363e3c2a710795b7b03f4394ce58af521a0c7cd7b46a6"
+    },
+    {
+      "path": "non-incremental/QF_NRA/2019-ezsmt/bouncingBall/inst_1_100000.smt2",
+      "bytes": 469204,
+      "sha256": "e8cfc4ca05fd56721869c58f4270fde63789704fd6b02749fc9b97a297b5fb46"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20200911-Pine/1599122159776715000.smt2",
+      "bytes": 1920,
+      "sha256": "107609ece641186a62f20e4d6f7ec99248ecf0f9e9f44622ebbed4f2f956c127"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20211101-Geogebra/IsoRightTriangle-Bottema1_12a.smt2",
+      "bytes": 2152,
+      "sha256": "7c94870c06ae12df6f9b6b54b5e0f5634e5c1ae7f33f9de4b5a84ee7e39d9f31"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Disjunctive_Denominator_Simplifications/DDC_ProveIneq_ISSAC05_Bessack_5_m1.smt2",
+      "bytes": 1588,
+      "sha256": "3f6ca72e9483f2d57503c86b67f9d67c1ab6d093e1b56c17bba61e87ba190f23"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/mod5_POMC_hints.smt2",
+      "bytes": 25751,
+      "sha256": "4654635612e13e15b8f1e6926d61a770b91457ec3dddf3ec40ca0bd323132a12"
+    },
+    {
+      "path": "non-incremental/QF_NRA/LassoRanker/SV-COMP/min_rf_true-termination.c_Iteration1_Loop_3-pieceTemplate.smt2",
+      "bytes": 983483,
+      "sha256": "799253224f2ece1c0de357e9f42e21ad37fa5528f4644a67af4778ac575bea5e"
+    },
+    {
+      "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_NutzTransformation05.c_Iteration1_0.smt2",
+      "bytes": 11427,
+      "sha256": "af0f44da6750585e237ad941bfab53bb32bafd30d47efa936601c908532e54a3"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hong/hong_6.smt2",
+      "bytes": 929,
+      "sha256": "3d3ed311e752bf0b06a38e20cda6a5baf4ca338a1d0b9da772f5dc7af2673b10"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hycomp/ball_count_1d_plain.05.seq_lazy_global_3.smt2",
+      "bytes": 25778,
+      "sha256": "de19f9c558ae36ca815defea008a77ec28f52a0bef66cd726da53aea9113ae8a"
+    },
+    {
+      "path": "non-incremental/QF_NRA/kissing/kissing_3_11.smt2",
+      "bytes": 9526,
+      "sha256": "4a40394c6cb288a643b8f25bb97790b39ead02239046462748504e7179d79041"
+    },
+    {
+      "path": "non-incremental/QF_NRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0440.smt2",
+      "bytes": 2098,
+      "sha256": "360a280b413e741e932ccdfb4b90ef9108c1677b82fe4de127ca27d1c3e75d39"
+    },
+    {
+      "path": "non-incremental/QF_NRA/zankl/gen-19.smt2",
+      "bytes": 304,
+      "sha256": "721f4709a2c9a0876c7b97a17dde27f9cf541792e8baa0a2279d3d8ae8f0a49d"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E4E19.smt2",
+      "bytes": 525209,
+      "sha256": "441d1d82cfda8e0734d6ebcfb8601fb70a4bd22748bc7f72fce2e8ab34bfdf1e"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_08.smt2",
+      "bytes": 2833,
+      "sha256": "af4a52a334cc58c157bbc8f14019da39a0172d4e1927d4f77caa0205e8fa294a"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/nested.i_4_5_3.bpl_3.smt2",
+      "bytes": 28363,
+      "sha256": "92946ad02d0ab9435582ba1fb030b640c00291ea9ed7e85ac5ff0b20d286a376"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0086a.smt2",
+      "bytes": 6986,
+      "sha256": "c08549e75d1afe56e4ef51adfedfddd357d38bad9b00aebfdb0420d53b923f7d"
+    },
+    {
+      "path": "non-incremental/QF_NRA/2019-ezsmt/reverseFolding/32-reverse_folding-0-0.smt2",
+      "bytes": 15009238,
+      "sha256": "c194527a1e869927568b22373383445607c5dae8b769f7397e09c34a0d3f8dbb"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20200911-Pine/1599121979969036000.smt2",
+      "bytes": 1848,
+      "sha256": "2ca12f63532fc0351950e8ffb500c733a91a81c26450fce5280a74c7629331b9"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20211101-Geogebra/IsoTriangle-Bottema6_1a.smt2",
+      "bytes": 1740,
+      "sha256": "b338d6546ac1e40b1b6eb269480fd61f598ccfb1d633a1810836b811089c27bd"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_JSC_SUMCracker_14c.smt2",
+      "bytes": 2518,
+      "sha256": "84240e3e730f50df76ac25233108c46a8220b935f4b7c8c8e0751f2313eb6487"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_hints/call_ret_loop_1_POMC_hints.smt2",
+      "bytes": 10294,
+      "sha256": "56c18c3e548bf8db108bb7f8c81517b9571f8f1e8e0a2a1b0f26ca2b0393563a"
+    },
+    {
+      "path": "non-incremental/QF_NRA/LassoRanker/SV-COMP/gcd1_true-termination.c_Iteration3_Loop_4-pieceTemplate.smt2",
+      "bytes": 83956,
+      "sha256": "c9e1063e0dd669bf438eb235cafc6f656dc32d5eaa3f545f413d398e3f133cf0"
+    },
+    {
+      "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_BugSubstitution.bpl_Iteration3_0.smt2",
+      "bytes": 7963,
+      "sha256": "cd93c622a6dbebe40a27cb3e1226afa7427c9c8627d78c9fd6a82f1ca7894078"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hong/hong_3.smt2",
+      "bytes": 779,
+      "sha256": "a4899300c9713da6d0844efced5009658eadbf321b41d77150adfec07307868c"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hycomp/ball_count_2d_plain.01.redlog_global_3.smt2",
+      "bytes": 38226,
+      "sha256": "bfd8cf64702e106149bba1e1c10b1f61a62d8587f83d7e8a9fc4bc562bdf9434"
+    },
+    {
+      "path": "non-incremental/QF_NRA/kissing/kissing_4_3.smt2",
+      "bytes": 1616,
+      "sha256": "ce9a5039bda7322b0ac1831552429c586422a79af88d2f7746919c4b486428d0"
+    },
+    {
+      "path": "non-incremental/QF_NRA/meti-tarski/atan/vega/3/atan-vega-3-chunk-0090.smt2",
+      "bytes": 952,
+      "sha256": "24a2705dc7d61e91ac456c7fc2e1ffc954ec08b755f6f324138573c8bf0674da"
+    },
+    {
+      "path": "non-incremental/QF_NRA/zankl/matrix-4-all-33.smt2",
+      "bytes": 14362,
+      "sha256": "e1ce95565e4b284b8c20f2114f0bef375362c0f280fa8a54ec717b93ed511f2a"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E3E28.smt2",
+      "bytes": 430742,
+      "sha256": "ba6430c5c3458d5c2e35b9c5a617320d1ae40942404439fb0e01fe6484f17958"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_04.smt2",
+      "bytes": 2440,
+      "sha256": "4504423d3923aa72061a12b614edff6b12038965ef0020c0491b29692938d0cb"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/standard_copy3_ground.i_3_2_2.bpl_5.smt2",
+      "bytes": 25622,
+      "sha256": "7c1aeb11c5a3a866e440280645ff3946b48a7cabbc67f6a625789b9c8ea32df0"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0029c.smt2",
+      "bytes": 2058,
+      "sha256": "918dee376afdd20935fcfde2c626714bab7890aed6040bbfabd4d268397879eb"
+    },
+    {
+      "path": "non-incremental/QF_NRA/2019-ezsmt/reverseFolding/03-reverse_folding-0-0.smt2",
+      "bytes": 51697746,
+      "sha256": "8b6a8ece40e228318a1190a3b9f25738b8e80868c33aded73e5e6a9aa3f59845"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20200911-Pine/1599121886379408000.smt2",
+      "bytes": 1978,
+      "sha256": "33bf2adea953e002c9f82c50dab3ca2ed6810722dee692154824ef4228d1c07a"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20211101-Geogebra/RightTriangle-Bottema1_19a.smt2",
+      "bytes": 1456,
+      "sha256": "24eb12ea6c032d5a8b7c9067f38c167e78065d9e79c9f5847c627bbc9b8647cd"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20220314-Uncu/Rational_Function_Proof_Calls_With_Basic_Denominator_Simplifications/BDC_ProveIneq_ISSAC05_Bessack_4_m2.smt2",
+      "bytes": 1477,
+      "sha256": "15fa21265c579967dbba518230e4cd94d08e64b9d0ebbf0d45eed5c0bfb0a5b3"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/past/huge_runtime_tiny_probs_PRAY.smt2",
+      "bytes": 10043,
+      "sha256": "8784a4b13248fa97cada435fe3f1150496aa70f7205c441a9e82b7c896257123"
+    },
+    {
+      "path": "non-incremental/QF_NRA/LassoRanker/Ultimate/NoriSharma-2013FSE-Fig7.bpl_Iteration1_Loop_4-phaseTemplate.smt2",
+      "bytes": 56661,
+      "sha256": "7c4d0075e2fdc7670bfeddaebddec34592dafcbc9b81e011ca9efc812aab08b9"
+    },
+    {
+      "path": "non-incremental/QF_NRA/UltimateAutomizer/InVarSynth_GoannaDoubleFreeWithoutPointers.bpl_Iteration1_0.smt2",
+      "bytes": 79588,
+      "sha256": "2d4ca5ff23b677501df648c98257991e293894efd5a920f465e05a86bc265088"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hong/hong_10.smt2",
+      "bytes": 1129,
+      "sha256": "ecaaeeddebe2b12b94c477dcd6794615d6a8073b2046fac59b08cd51517ff89f"
+    },
+    {
+      "path": "non-incremental/QF_NRA/hycomp/ball_count_2d_hill_simple.02.seq_lazy_lemmas_global_11.smt2",
+      "bytes": 114442,
+      "sha256": "30f2b4a776165ff2f9501e1f69da099a4ecab90be5a68d5c1fe8822225d0ce66"
+    },
+    {
+      "path": "non-incremental/QF_NRA/kissing/kissing_4_24.smt2",
+      "bytes": 55580,
+      "sha256": "ad8c777b7e473dd7c6afc0f25cce4877c2a61202a686fea75a5e64258bc6255b"
+    },
+    {
+      "path": "non-incremental/QF_NRA/meti-tarski/sin/problem/7/sin-problem-7-chunk-0255.smt2",
+      "bytes": 2042,
+      "sha256": "ac65cd331036c0c743fc97dc3d2202ca257890978d151c8fa16d0f38b5866e0a"
+    },
+    {
+      "path": "non-incremental/QF_NRA/zankl/matrix-1-all-49.smt2",
+      "bytes": 3179,
+      "sha256": "cd7b6c0fa065820a2ddbc36256a181d4f6b6fe1eb6b91954f74e6a719b25c06a"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E19.smt2",
+      "bytes": 7920,
+      "sha256": "585a84662617e40e55b32da59fb21ae28e72d96695f6ec63402329db6dcdb33b"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20161105-Sturm-MGC/mgc_02.smt2",
+      "bytes": 2208,
+      "sha256": "7be9855a24b51907702c28c353bf57730efef71b7db5afe13ae16390022110b9"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20170501-Heizmann-UltimateInvariantSynthesis/ddlm2013.i_3_4_2.bpl_3.smt2",
+      "bytes": 36268,
+      "sha256": "59ceff4e159a90df750c41e2b172300a51f23874a13a2127345cbf24d6717846"
+    },
+    {
+      "path": "non-incremental/QF_NRA/20180501-Economics-Mulligan/MulliganEconomicsModel0061e.smt2",
+      "bytes": 1775,
+      "sha256": "f781856fa2e5b517d0b35ec45db853ec65361ec4c5a18f5b077ff886ac4f4622"
+    }
+  ]
+}

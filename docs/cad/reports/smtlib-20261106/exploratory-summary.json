@@ -1,0 +1,172 @@
+{
+  "cases": 100,
+  "solvers": {
+    "z3": {
+      "timeout": 33,
+      "sat": 42,
+      "unsat": 25
+    },
+    "clpoly": {
+      "timeout": 84,
+      "unsupported": 14,
+      "sat": 2
+    }
+  },
+  "both_decided": 2,
+  "disagreements": [],
+  "declared_mismatches": {
+    "z3": [],
+    "clpoly": []
+  },
+  "families": {
+    "20161105-Sturm-MBO": {
+      "z3": {
+        "timeout": 7
+      },
+      "clpoly": {
+        "timeout": 7
+      }
+    },
+    "20161105-Sturm-MGC": {
+      "z3": {
+        "sat": 2,
+        "unsat": 5
+      },
+      "clpoly": {
+        "timeout": 7
+      }
+    },
+    "20170501-Heizmann-UltimateInvariantSynthesis": {
+      "z3": {
+        "timeout": 7
+      },
+      "clpoly": {
+        "timeout": 7
+      }
+    },
+    "20180501-Economics-Mulligan": {
+      "z3": {
+        "sat": 5,
+        "unsat": 2
+      },
+      "clpoly": {
+        "timeout": 7
+      }
+    },
+    "2019-ezsmt": {
+      "z3": {
+        "sat": 4,
+        "timeout": 2
+      },
+      "clpoly": {
+        "unsupported": 6
+      }
+    },
+    "20200911-Pine": {
+      "z3": {
+        "sat": 6
+      },
+      "clpoly": {
+        "timeout": 6
+      }
+    },
+    "20211101-Geogebra": {
+      "z3": {
+        "sat": 6
+      },
+      "clpoly": {
+        "timeout": 6
+      }
+    },
+    "20220314-Uncu": {
+      "z3": {
+        "unsat": 5,
+        "sat": 1
+      },
+      "clpoly": {
+        "timeout": 6
+      }
+    },
+    "20240407-pPDA-Chiari-Pontiggia-Winkler": {
+      "z3": {
+        "timeout": 4,
+        "sat": 2
+      },
+      "clpoly": {
+        "timeout": 6
+      }
+    },
+    "LassoRanker": {
+      "z3": {
+        "sat": 2,
+        "timeout": 3,
+        "unsat": 1
+      },
+      "clpoly": {
+        "timeout": 4,
+        "unsupported": 2
+      }
+    },
+    "UltimateAutomizer": {
+      "z3": {
+        "sat": 4,
+        "unsat": 1,
+        "timeout": 1
+      },
+      "clpoly": {
+        "timeout": 6
+      }
+    },
+    "hong": {
+      "z3": {
+        "timeout": 2,
+        "unsat": 4
+      },
+      "clpoly": {
+        "timeout": 6
+      }
+    },
+    "hycomp": {
+      "z3": {
+        "unsat": 6
+      },
+      "clpoly": {
+        "unsupported": 6
+      }
+    },
+    "kissing": {
+      "z3": {
+        "sat": 2,
+        "timeout": 4
+      },
+      "clpoly": {
+        "timeout": 6
+      }
+    },
+    "meti-tarski": {
+      "z3": {
+        "sat": 5,
+        "timeout": 1
+      },
+      "clpoly": {
+        "timeout": 5,
+        "sat": 1
+      }
+    },
+    "zankl": {
+      "z3": {
+        "timeout": 2,
+        "sat": 3,
+        "unsat": 1
+      },
+      "clpoly": {
+        "timeout": 5,
+        "sat": 1
+      }
+    }
+  },
+  "common_solved_seconds": {
+    "z3": 0.046944915782660246,
+    "clpoly": 1.933906501159072
+  }
+}

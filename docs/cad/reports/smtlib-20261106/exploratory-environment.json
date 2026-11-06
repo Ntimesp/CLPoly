@@ -1,0 +1,14 @@
+{
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.8 (main, Sep 30 2026, 17:55:09) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "timeout_seconds": 10.0,
+  "z3": "Z3 version 5.1.0 - 64 bit",
+  "production_commit": "441db703bd6a347c2ffb656ca820138e0c58e470",
+  "sha256": {
+    "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad": "d4c51d1c01c0e4343f2ac7578ed2dfb314ac3011417d6a7d964e868a2a905222",
+    "/opt/homebrew/Cellar/z3/5.1.0/bin/z3": "8b61a8bc0b7a4e14dfb119910502ef808b055df636b25c8b67b96ae630fbc29c",
+    "/Users/nxp/Projects/CLPoly/tools/smtlib/adapter.py": "b08a0c5a5579565414b700c68df86d0cdf82453e7a30d7549e6f466a0e47ed9d",
+    "/Users/nxp/Projects/CLPoly/tools/smtlib/benchmark.py": "47d970f14f016ec9f40d873a37cb2538f0bcd9c77bd144019aca5f4ceb68d37e"
+  },
+  "timing": "Separate serial processes; order alternates per case. CLPoly time includes Python SMT conversion, process startup, TXT parse and full CAD. Z3 reads original SMT-LIB. No original/reverse retry or linear preprocessing."
+}

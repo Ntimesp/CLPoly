@@ -1,0 +1,15 @@
+test_all_relations_and_negation (__main__.AdapterTests.test_all_relations_and_negation) ... ok
+test_booleans (__main__.AdapterTests.test_booleans) ... ok
+test_cnf_distribution_limit (__main__.AdapterTests.test_cnf_distribution_limit) ... ok
+test_definitions_annotations_and_quoted_names (__main__.AdapterTests.test_definitions_annotations_and_quoted_names) ... ok
+test_exact_constants_and_multiple_assertions (__main__.AdapterTests.test_exact_constants_and_multiple_assertions) ... ok
+test_let_is_simultaneous_and_lexical (__main__.AdapterTests.test_let_is_simultaneous_and_lexical) ... ok
+test_metadata_never_changes_formula (__main__.AdapterTests.test_metadata_never_changes_formula) ... ok
+test_standalone_parser_writes_renamed_txt_and_mapping (__main__.AdapterTests.test_standalone_parser_writes_renamed_txt_and_mapping) ... ok
+test_timeout_and_unsupported_results (__main__.AdapterTests.test_timeout_and_unsupported_results) ... ok
+test_unsupported_is_explicit (__main__.AdapterTests.test_unsupported_is_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.282s
+
+OK

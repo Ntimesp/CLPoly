@@ -1,0 +1,59 @@
+{
+  "status": {
+    "state": "running",
+    "pid": 89970,
+    "updated_at": "2026-11-06T08:31:16Z",
+    "active": {
+      "path": "non-incremental/QF_NRA/20240407-pPDA-Chiari-Pontiggia-Winkler/certificate_no_hints/call_ret_loop_2_POMC_no_hints.smt2",
+      "phase": "verify",
+      "attempt": "5cad04165de64d2f8143f02148e1f232",
+      "result_file": "/private/tmp/clpoly-smtlib-full-20261106/attempts/5cad04165de64d2f8143f02148e1f232.json",
+      "case_index": 73
+    }
+  },
+  "summary": {
+    "updated_at": "2026-11-06T08:31:16Z",
+    "total_cases": 12154,
+    "completed_calls": {
+      "convert": {
+        "converted": 64,
+        "unsupported": 9
+      },
+      "verify": {
+        "equivalent": 55,
+        "verification_timeout": 8,
+        "not_run": 9
+      },
+      "z3": {
+        "unsat": 24,
+        "timeout": 12,
+        "sat": 36
+      },
+      "clpoly": {
+        "unsat": 11,
+        "timeout": 27,
+        "not_run": 17,
+        "sat": 17
+      }
+    },
+    "common_decided": 28,
+    "answer_conflicts": [],
+    "declared_status_conflicts": [],
+    "cad_faster_unsat": [
+      {
+        "path": "non-incremental/QF_NRA/20161105-Sturm-MBO/mbo_E11.smt2",
+        "clpoly_seconds": 0.016947374679148197,
+        "z3_seconds": 0.024937125388532877
+      },
+      {
+        "path": "non-incremental/QF_NRA/hong/hong_1.smt2",
+        "clpoly_seconds": 0.017917000222951174,
+        "z3_seconds": 0.029672458302229643
+      }
+    ],
+    "complete_cases": 72,
+    "events": 553,
+    "solver_errors": [],
+    "conversion_mismatches": []
+  }
+}

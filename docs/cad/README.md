@@ -38,3 +38,5 @@ sh docs/cad/theory/build.sh
 ```
 
 命令行入口：[构建、题集格式与答案输出](command-line.md)，设计见[命令行规格](design/command-line.md)。
+
+官方 SMT-LIB 检查：[先转换再求解、正确性与终止诊断、后台全量实验](reports/smtlib-correctness-20261106.md)。

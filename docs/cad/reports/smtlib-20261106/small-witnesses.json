@@ -1,0 +1,52 @@
+[
+  {
+    "path": "non-incremental/QF_NRA/20211101-Geogebra/Square-Diagonal_Side.smt2",
+    "sample_status": "sat",
+    "sample_seconds": 0.047243333887308836,
+    "verification": {
+      "status": "valid",
+      "certificate_nonempty": "sat",
+      "certificate_and_not_original": "unsat"
+    }
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC10_ex1a.smt2",
+    "sample_status": "sat",
+    "sample_seconds": 0.020843416918069124,
+    "verification": {
+      "status": "valid",
+      "certificate_nonempty": "sat",
+      "certificate_and_not_original": "unsat"
+    }
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC10_ex2a.smt2",
+    "sample_status": "sat",
+    "sample_seconds": 0.020676208194345236,
+    "verification": {
+      "status": "valid",
+      "certificate_nonempty": "sat",
+      "certificate_and_not_original": "unsat"
+    }
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_ISSAC10_ex4a.smt2",
+    "sample_status": "sat",
+    "sample_seconds": 0.020003500394523144,
+    "verification": {
+      "status": "valid",
+      "certificate_nonempty": "sat",
+      "certificate_and_not_original": "unsat"
+    }
+  },
+  {
+    "path": "non-incremental/QF_NRA/20220314-Uncu/Polynomial_Proof_Calls/ProveIneq_JSC_SUMCracker_16a.smt2",
+    "sample_status": "sat",
+    "sample_seconds": 0.017586042173206806,
+    "verification": {
+      "status": "valid",
+      "certificate_nonempty": "sat",
+      "certificate_and_not_original": "unsat"
+    }
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "path": "non-incremental/QF_NRA/hong/hong_1.smt2",
+  "source_sha256": "bff1427019f885235b84148eae20514c612c29e60b627aad0b68e1fb165af429",
+  "txt_sha256": "53e237d566f5b78f15ef9eecc2a662b7280e3a8b3d688fe982ffc55086e124ac",
+  "variables": 1,
+  "repeats": 5,
+  "pause_requested_at": "2026-11-06T08:26:40Z",
+  "calls": [
+    {
+      "iteration": 1,
+      "solver": "clpoly",
+      "command": [
+        "/private/tmp/clpoly-smtlib-full-20261106/frozen/bin/clpoly-cad",
+        "/private/tmp/clpoly-smtlib-full-20261106/converted/non-incremental/QF_NRA/hong/hong_1.smt2.txt"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.02045266702771187,
+      "stdout": "UNSAT\n",
+      "stderr": ""
+    },
+    {
+      "iteration": 1,
+      "solver": "z3",
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-full-20261106/inputs/non-incremental/QF_NRA/hong/hong_1.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.007901666220277548,
+      "stdout": "unsat\n",
+      "stderr": ""
+    },
+    {
+      "iteration": 2,
+      "solver": "z3",
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-full-20261106/inputs/non-incremental/QF_NRA/hong/hong_1.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.00696220900863409,
+      "stdout": "unsat\n",
+      "stderr": ""
+    },
+    {
+      "iteration": 2,
+      "solver": "clpoly",
+      "command": [
+        "/private/tmp/clpoly-smtlib-full-20261106/frozen/bin/clpoly-cad",
+        "/private/tmp/clpoly-smtlib-full-20261106/converted/non-incremental/QF_NRA/hong/hong_1.smt2.txt"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.017746292054653168,
+      "stdout": "UNSAT\n",
+      "stderr": ""
+    },
+    {
+      "iteration": 3,
+      "solver": "clpoly",
+      "command": [
+        "/private/tmp/clpoly-smtlib-full-20261106/frozen/bin/clpoly-cad",
+        "/private/tmp/clpoly-smtlib-full-20261106/converted/non-incremental/QF_NRA/hong/hong_1.smt2.txt"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.018501958344131708,
+      "stdout": "UNSAT\n",
+      "stderr": ""
+    },
+    {
+      "iteration": 3,
+      "solver": "z3",
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-full-20261106/inputs/non-incremental/QF_NRA/hong/hong_1.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.006862542126327753,
+      "stdout": "unsat\n",
+      "stderr": ""
+    },
+    {
+      "iteration": 4,
+      "solver": "z3",
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-full-20261106/inputs/non-incremental/QF_NRA/hong/hong_1.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.006761875003576279,
+      "stdout": "unsat\n",
+      "stderr": ""
+    },
+    {
+      "iteration": 4,
+      "solver": "clpoly",
+      "command": [
+        "/private/tmp/clpoly-smtlib-full-20261106/frozen/bin/clpoly-cad",
+        "/private/tmp/clpoly-smtlib-full-20261106/converted/non-incremental/QF_NRA/hong/hong_1.smt2.txt"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.018524416722357273,
+      "stdout": "UNSAT\n",
+      "stderr": ""
+    },
+    {
+      "iteration": 5,
+      "solver": "clpoly",
+      "command": [
+        "/private/tmp/clpoly-smtlib-full-20261106/frozen/bin/clpoly-cad",
+        "/private/tmp/clpoly-smtlib-full-20261106/converted/non-incremental/QF_NRA/hong/hong_1.smt2.txt"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.01677158335223794,
+      "stdout": "UNSAT\n",
+      "stderr": ""
+    },
+    {
+      "iteration": 5,
+      "solver": "z3",
+      "command": [
+        "/opt/homebrew/Cellar/z3/5.1.0/bin/z3",
+        "-smt2",
+        "/private/tmp/clpoly-smtlib-full-20261106/inputs/non-incremental/QF_NRA/hong/hong_1.smt2"
+      ],
+      "status": "unsat",
+      "returncode": 0,
+      "wall_seconds": 0.007386125158518553,
+      "stdout": "unsat\n",
+      "stderr": ""
+    }
+  ],
+  "pause_confirmed_at": "2026-11-06T08:26:49Z",
+  "all_unsat": true,
+  "statistics": {
+    "clpoly": {
+      "median_seconds": 0.018501958344131708,
+      "min_seconds": 0.01677158335223794,
+      "max_seconds": 0.02045266702771187
+    },
+    "z3": {
+      "median_seconds": 0.00696220900863409,
+      "min_seconds": 0.006761875003576279,
+      "max_seconds": 0.007901666220277548
+    }
+  },
+  "cad_lower_median": false,
+  "finished_at": "2026-11-06T08:26:49Z"
+}

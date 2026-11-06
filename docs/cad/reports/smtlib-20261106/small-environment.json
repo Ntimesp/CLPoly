@@ -1,0 +1,11 @@
+{
+  "production_commit": "441db703bd6a347c2ffb656ca820138e0c58e470",
+  "timeout_seconds": 10.0,
+  "sha256": {
+    "/Users/nxp/Projects/CLPoly/_build/release/bin/clpoly-cad": "d4c51d1c01c0e4343f2ac7578ed2dfb314ac3011417d6a7d964e868a2a905222",
+    "/opt/homebrew/Cellar/z3/5.1.0/bin/z3": "8b61a8bc0b7a4e14dfb119910502ef808b055df636b25c8b67b96ae630fbc29c",
+    "/Users/nxp/Projects/CLPoly/tools/smtlib/run_correctness.py": "848a0d565ecdb60e20158c6af7e15b1c93f8014f4f12fb12bb8abe7033970aa4"
+  },
+  "z3": "Z3 version 5.1.0 - 64 bit",
+  "timing": "Parser conversion and XOR verification finish before timing. Independent serial native solvers, alternating per case. CAD reads renamed TXT; Z3 reads original SMT2; each call has a 10s wall limit."
+}

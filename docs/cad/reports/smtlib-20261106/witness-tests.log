@@ -1,0 +1,9 @@
+test_bad_variable_mapping_is_rejected (__main__.WitnessTests.test_bad_variable_mapping_is_rejected) ... ok
+test_empty_certificate_is_not_accepted_vacuously (__main__.WitnessTests.test_empty_certificate_is_not_accepted_vacuously) ... ok
+test_valid_product_chain_certificate (__main__.WitnessTests.test_valid_product_chain_certificate) ... ok
+test_wrong_selected_point_is_detected (__main__.WitnessTests.test_wrong_selected_point_is_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.025s
+
+OK

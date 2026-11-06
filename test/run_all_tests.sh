@@ -22,6 +22,7 @@ TESTS=(
     test_graph
     test_number
     test_clpoly_api
+    test_rational_interval
     test_rational_sample
     test_polynomial_interval
     test_random
@@ -46,6 +47,7 @@ TESTS=(
     test_regular_chain
     test_real_algebraic
     test_lazard_qq
+    test_full_cad
 )
 
 TOTAL_PASS=0

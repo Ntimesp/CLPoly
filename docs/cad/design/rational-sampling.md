@@ -144,3 +144,20 @@ _build/debug/bin/test_clpoly_api
 ```
 
 本模块不负责根隔离、精化或代数数表示；后续算法使用它时应先提供认证的 QQ 开间隙。
+
+## CAD 接口协议与理论对应
+
+`full_cad.hh::__lift_stack` 调用采样器，`full_cad_result` 保持纯存储职责。
+
+| Sector | 传入采样器的严格 QQ 开区间 |
+|---|---|
+| 无根 | 两侧无界，得到 0 |
+| 第一个根左侧 | `(-∞, first_root.box().back().left())` |
+| 相邻根之间 | `(previous.box().back().right(), next.box().back().left())` |
+| 最后一个根右侧 | `(last_root.box().back().right(), +∞)` |
+
+内部 Sector 仍先通过 XZ06 精化使根盒严格分离。采样器既不精化根，也不接收无理数。真实边界为 α<β，已认证端点满足 `α<a<b<β`，新样本 q 满足 `α<a<q<b<β`；混合有理/代数边界沿用同一证书适配。
+
+最简性仅针对传入的 QQ 内间隙，不保证在整个真实代数根间隙中全局最简。Section 仍使用原实点。新 Sector 样本属于同一胞腔，后续纤维根和隔离盒可以变化；投影、完整栈、来源身份、维数和符号不变性证明不变。
+
+PDF 的无编号辅助过程 SAMPLE-RATIONAL/POSITIVE 给出以上伪代码和证明，算法 12 LIFT-STACK 统一调用，算法 13 FULL-CAD 不改变控制流。原 13 个编号算法保持编号。

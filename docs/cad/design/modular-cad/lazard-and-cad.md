@@ -74,3 +74,97 @@ _build/debug/bin/test_clpoly_api
 ```
 
 本轮以已提交精确算术、分解和实点查询的契约为依赖，不修改底层算法。
+
+## CAD
+
+公开入口为 `full_cad(input,vars)`，其中 vars 是投影顺序。样本使用 `real_algebraic_point`，通过 `chain/box/point_zero/point_sign` 查询。结果由 `full_cad_result` 存储；提升由自由函数 `__lift_stack` 执行。
+
+### `cad_stack` 与 `full_cad_result`：纯数据接口
+
+`cad_sample` 是 `real_algebraic_point` 的别名，`lazard_evaluation_result` 是 `lazard_qq_result` 的别名。`cad_stack.roots` 按新增坐标递增排列，`evaluations[j]` 对应本层第 j 个投影来源，`sources[i]` 列出第 i 个合并根的全部来源下标。
+
+| `full_cad_result` 接口 | 用途及调用契约 |
+|---|---|
+| `full_cad_result(order,vars,projection)` | 调用者提供非空比较器所有权及已绑定到它的投影；vars、projection 按投影序输入，原有 `cad_tree` 反转为提升序 |
+| `num_levels()`、`level_size(k)`、`leaf_count()` | 层数、每层胞腔数、叶数；零变量空间有一个叶 |
+| `node(level,index)`、`structure()` | 只读借用原有树节点或整树，节点边界保留 `cad_root` 来源身份 |
+| `sample(level,index)`、`leaf_sample(leaf)` | 只读借用完整实点证书；零变量叶返回空点；对点做可变查询时先复制 |
+| `stack(level,parent=SIZE_MAX)` | 只读借用指定父样本根栈；第零层使用唯一虚拟父节点 |
+| `root(level,parent,reference)` | 将有限来源身份解析为合并根表中的实际实点；按该来源计数，无穷边界和无效身份报错 |
+| `dimension(level,index)`、`signs(leaf)` | 胞腔维数及按原输入顺序保存的符号行 |
+| `level_polys(level)`、`level_var(level)`、`order()` | 借用本层投影多项式、新增变量和比较器 |
+| `set_signs(signs)` | 转移调用者已计算好的完整符号表，不求值 |
+| `add_sector(...)`、`add_section(...)` | 同步追加结构节点、样本、维数；调用者保证样本正确且同父子节点连续，树沿用原有断言契约 |
+| `add_stack(level,stack)` | 按父节点顺序追加已完成根栈；第零层只追加一个栈 |
+
+私有 `_order` 共享拥有投影比较器，`_tree` 复用原有树；`_samples`、`_dimensions` 与节点下标一致，`_stacks` 按父节点组织，`_leaf_signs` 按叶组织。复制容器时共享不可变投影比较器，内部实点及其定义链按值复制，但只借用容器持有的同一个比较器。单独复制的样本不能超过该比较器的生命周期；复制整个结果容器会保留比较器的共享所有权。
+
+### `__lift_stack` 与 `full_cad`：实际控制流
+
+`__lift_stack(result,level,parent,alpha,evaluations)` 的调用者保证：父节点按存储顺序处理，alpha 是父胞腔的完整样本，evaluations 与本层投影来源逐项对应并相对于同一个 alpha 解释。
+
+```text
+__lift_stack(result,level,parent,alpha,evaluations):
+  product := 采用 result.order() 的 QQ 常数 1
+  对每个 evaluation，转换其 QQ 代表到同一比较器并乘入 product
+  st.evaluations := evaluations
+  st.roots := roots_over(product,alpha,result.level_var(level),result.order())
+  root_counts := 每个来源已处理不同根数，初值全 0
+  对 st.roots 中每个 root:
+    sources := 所有满足 point_zero(evaluations[j].polynomial,root) 的来源 j
+    若 sources 为空，抛 logic_error
+    source := sources.front()
+    boundaries 追加 cad_root(source,root_counts[source])
+    对 sources 中每个 j，root_counts[j] 加 1
+    st.sources 追加 sources
+  对 i=0..|st.roots|:
+    无根时 q:=0；否则按相邻根盒给出的严格 QQ 开间隙调用 sample_rational
+    如有相邻根盒接触，先 shrink 两侧根直到严格分离
+    result.add_sector(...,q,append_rational(alpha,本层变量,q,result.order()),父维数+1)
+    若右边仍有一个根，result.add_section(...,该根的来源身份,该根样本,父维数)
+  result.add_stack(level,st)
+
+full_cad(input,vars):
+  检查变量表唯一、覆盖全部输入变量，指数非负
+  建立按 vars 排列的投影比较器
+  分别保存清正分母的 ZZ 输入与保持原值的 QQ 输入
+  projection := __project_full(polys,vars,projection_method::LAZARD,basis_computation_method::FACTOR)
+  将投影多项式绑定到结果持有的比较器
+  result := full_cad_result(order,vars,projection)
+  lifting := reverse(vars)
+  对每个 level，按节点存储顺序遍历全部父胞腔:
+    a := 父胞腔样本，第零层使用空点
+    对本层每个投影多项式 f，计算 lazard_evaluate(f,提升变量前缀,a)
+    __lift_stack(result,level,parent,a,全部求值结果)
+  对每个叶样本，使用 point_sign 计算原 QQ 输入的完整符号行
+  result.set_signs(signs)
+  返回 result
+```
+
+`full_cad` 接受一般序 ZZ/QQ 多项式，零和常数合法；重复变量、未声明变量及负指数抛 `invalid_argument`。原输入值与清分母后的方程分别保存，避免因子归一化丢失叶符号。投影定理负责胞腔整体上的 delineability 和符号不变，样本上的精确求值不能单独替代这一全局数学前提。
+
+投影保持既有 Lazard + FACTOR 路线；树仍使用 `cad_tree`。每个父样本：
+
+1. 对本层投影多项式调用 QQ Lazard。
+2. 将结果 QQ 代表相乘，通过 `roots_over` 隔离所有不同实根；常数因子可保留，零结果属于错误。
+3. 根上的 Section 使用 `roots_over` 返回的实点；Sector 在根盒严格分离后，通过独立 `sample_rational` 在 QQ 内间隙选择最简有理数，再由 `append_rational` 添加线性方程。无界间隙取绝对值最小的可用整数；见[采样规格](../rational-sampling.md)。
+4. 记录来源多项式及 valuation；对每个来源分别给不同根编号。边界使用 `cad_root(来源索引,该来源根序号)`，共享根对所有来源计数，并选首个来源作为规范身份。
+5. 叶节点原输入符号用普通 POINT-SIGN，不能使用 Lazard 值代替。
+
+空变量表的 R^0 返回一个空样本叶；空输入在每层形成单个 Sector；任意有理/代数坐标交替均表示为完整三角列。
+
+## 验证与性能边界
+
+几何测试覆盖 sqrt2、坐标轴、圆、三维消零、代数/有理坐标交替、共享根、QQ 输入和四维坐标分解。通过 QQ 多项式点查询检查样本，通过完整前缀实点比较检查父子关系。实测结果见验证报告。
+
+`test_lazard_qq` 的 19 项与 `test_full_cad` 的 3067 项 Debug 检查通过。完整 CAD 在 `-O2 -DNDEBUG -fno-elide-constructors` 及 AddressSanitizer 下也通过同一组 3067 项检查，覆盖复制后的比较器所有权、混合样本及根来源编号。地址检查使用 Clang 与现有 GNU C++ ABI，另加 `-fdelayed-template-parsing` 兼容原有 `realroot.hh` 的 `uroot` 前向声明顺序；没有为诊断修改可信头文件。插桩覆盖新增头文件和测试，底层既有静态库未插桩，不等价于全库内存验证。
+
+XY16 正规化和平方自由分解保持原契约；随后仅重编码并提升所选前缀，不枚举无关前缀的最后坐标。末坐标根去重时持久化精化区间，再以只读比较器排序。代表乘积仍按 MPP Algorithm 2.12 构造，其次数和项数膨胀属于正式实验需要测量的成本。
+
+## 完整 CAD 的一般入口与字典序内核
+
+`full_cad` 是有检查的一般序入口：检查变量表唯一、变量覆盖与非负指数，并分别转换为同一比较器下的 ZZ 投影输入和原值 QQ 输入，再调用 `__full_cad`。内部调用方保证二者逐项对应、ZZ 输入为原 QQ 输入的正倍数、比较器与变量表一致；内核仅用 assert 诊断。
+
+`__lift_stack` 是内部栈提升算法，不是稳定的公开输入入口。驱动在统一共享比较器下准备 QQ Lazard 代表，调用 `__lazard_evaluate_qq`，避免每父每因子重复校验和建立变量序。每个来源转换一次后用于根来源判零，乘积使用 `__roots_over`，原输入叶符号使用 `__point_sign`。这些内核只接收已满足契约的 QQ 字典序多项式。
+
+`full_cad_result` 只保存结构和数值证书。公开构造器在构建底层树之前检查层数、变量优先级、投影变量范围及多项式与所持比较器的绑定；非法输入抛 invalid_argument。低层追加接口由构建算法保证语义，用断言检查样本维数、根来源表形状及符号行数，不执行求根或采样。

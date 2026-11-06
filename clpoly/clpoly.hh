@@ -6,6 +6,7 @@
  */
 #ifndef CLPOLY_HH
 #define CLPOLY_HH
+#include <clpoly/rational_interval.hh>
 #include <clpoly/rational_sample.hh>
 #include <clpoly/polynomial.hh>
 #include <clpoly/polynomial_interval.hh>
@@ -21,6 +22,7 @@
 #include <clpoly/real_algebraic.hh>
 #include <clpoly/lazard_qq.hh>
 #include <clpoly/cad.hh>
+#include <clpoly/full_cad.hh>
 #include <clpoly/groebner.hh>
 // #include <clpoly/interval.hh>
 

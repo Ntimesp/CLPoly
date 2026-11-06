@@ -21,5 +21,8 @@ int main()
     CLPOLY_TEST("public header: QQ Lazard evaluation");
     auto value = lazard_evaluate_qq(polynomial_ZZ(x*x-2), {x,y}, points.front().prefix(1));
     CLPOLY_ASSERT(value.valuation == std::vector<size_t>{1});
+    CLPOLY_TEST("public header: complete CAD");
+    auto cad = full_cad(std::vector<polynomial_ZZ>{x*x+y*y-1}, {y,x});
+    CLPOLY_ASSERT_EQ(cad.leaf_count(), size_t(13));
     return clpoly_test::test_summary();
 }

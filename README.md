@@ -1,5 +1,7 @@
 # CLPoly
 
+文档入口：[文档分类](docs/README.md) · [完整 CAD 设计](docs/cad/README.md) · [既有项目文档](docs/existing-docs.md) · [参考资料](docs/references/README.md)
+
 CLPoly 是一个 C++ 多项式计算库，提供多变量多项式的算术运算、GCD、因式分解、结式、特征列、实根隔离等功能。
 
 CLPoly is a C++ library for polynomial computation, supporting multivariate polynomial arithmetic, GCD, factorization, resultants, characteristic sets, and real root isolation.
@@ -55,7 +57,7 @@ make
 # 编译并运行单个测试
 make test/test_factorize && _build/debug/bin/test_factorize
 
-# 运行全部测试（23 个测试文件，~1950 assertions）
+# 运行全部测试（含完整 CAD、三角列与整数边界测试）
 bash test/run_all_tests.sh
 
 # 性能基准（release 构建，fork 子进程隔离，同时测量时间和内存）
@@ -326,6 +328,35 @@ auto value = lazard_evaluate_qq(polynomial_ZZ((x*x-2)*(y+1)),
 
 结果数据类型与求值算法分别位于 `lazard_qq_result.hh`、`lazard_qq.hh`，
 均可通过库总头使用。接口、字典序内核和证明见[QQ Lazard 设计](docs/cad/design/modular-cad/lazard-and-cad.md)。
+
+### 完整 CAD 与实代数数
+
+`full_cad` 使用 Lazard 投影与求值，包含所有维数的 Section/Sector。
+变量参数沿用投影顺序，返回样本按逆序（提升顺序）排列。
+
+```cpp
+variable x("x"), y("y");
+std::vector<polynomial_ZZ> input = {x*x + y*y - 1};
+auto cad = full_cad(input, {y, x});  // 提升顺序 x、y
+// 圆：一层 5 个节点，二维叶层 13 个 cell
+for (size_t i = 0; i < cad.leaf_count(); ++i) {
+    const auto& point = cad.sample(1, i); // 三角列与 QQ 隔离盒
+    const auto& box = point.box();
+    int sign = cad.signs(i)[0];     // 原始输入在整个 cell 上的符号
+    size_t dim = cad.dimension(1, i);
+}
+```
+
+也支持 QQ 系数输入。独立 `rational_interval.hh` 提供精确有理区间；
+`regular_chain.hh` 复用 `charset.hh` 的三角列算法；`real_algebraic.hh`
+按 XZ06 隔离和精化三角列实点，提供指定分支上的精确零/符号判定。
+Lazard 求值只保存 QQ 系数多项式，不构造无理系数多项式。
+`cad.stack(level,parent)` 保存实际根证书、来源和 Lazard valuation。
+`open_cad` 的既有接口保持不变。
+
+设计入口见 [独立模块](docs/cad/design/modular-cad/README.md)，
+测试及限制见 验证报告。
+编号算法与证明见 [理论 PDF](docs/cad/theory/lazard-evaluation.pdf)。尚未完成机器形式化证明。
 
 ## 许可证
 

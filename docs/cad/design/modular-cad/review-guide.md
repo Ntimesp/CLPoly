@@ -55,7 +55,7 @@ QQ 的分子/分母表示保持不变。投影和树结构复用可信基线实�
 | 4：实代数点 | 正则平方自由三角列 + 严格 QQ 隔离盒；完整隔离、精化、判零/符号、同点判定、重编码、指定纤维全部实根 | [实代数点设计](real-algebraic.md)、理论 PDF 算法 1–6、9–11 | `real_algebraic.hh` | `test_real_algebraic.cc` |
 | 5：QQ Lazard | 按活动单项式合并系数后判零；连续求导、阶乘除法、冻结前缀变量；保留原 QQ 代表 | [Lazard 与 CAD 设计](lazard-and-cad.md)、理论 PDF 算法 7–8 | `lazard_qq_result.hh`（值类型）、`lazard_qq.hh`（算法） | `test_lazard_qq.cc` |
 | 6：完整 CAD | 每父栈全部根；m 个 Section 与 m+1 个 Sector；样本、来源、维数、原输入符号；任意维数的 Section/Sector 交替 | [Lazard 与 CAD 设计](lazard-and-cad.md)、[公共 API](../full-cad/api.md) | `full_cad_result.hh`（存储）与 `full_cad.hh`（算法），复用可信投影和树 | `test_full_cad.cc` |
-| 7：集成与证明接口 | 跨层契约、伪代码对应、退化输入、比较器生命周期、最终定理的依赖是否闭合 | [模块架构](architecture.md)、[形式化接口](formalization.md)、验证报告 | 公共头文件及测试注册 | 整库回归 |
+| 7：集成与证明接口 | 跨层契约、伪代码对应、退化输入、比较器生命周期、最终定理的依赖是否闭合 | [模块架构](architecture.md)、[形式化接口](formalization.md)、[验证报告](../../reports/modular-cad.md) | 公共头文件及测试注册 | 整库回归 |
 
 表中头文件位于 `clpoly/`，测试位于 `test/`。
 
@@ -69,7 +69,7 @@ QQ 的分子/分母表示保持不变。投影和树结构复用可信基线实�
 - 算法到具体函数的映射分别见[实点设计](real-algebraic.md)、[Lazard 设计](lazard-and-cad.md)及[完整 CAD 设计](../full-cad/detailed-design.md)。
 - [形式化接口](formalization.md)：QQRep、IntervalRep、ChainRep、PointRep、Representative、TreeRep，正确性、终止性和 C++ 精化义务。
 - [CAD 文档入口](../full-cad/README.md)、[架构](../full-cad/architecture.md)、[详细设计](../full-cad/detailed-design.md)、[形式规格](../full-cad/formal-specification.md)、[API](../full-cad/api.md)。各文档分别负责结构、步骤、证明义务和调用契约。
-- 验证报告：测试范围、结果、复现命令和限制。
+- [验证报告](../../reports/modular-cad.md)：测试范围、结果、复现命令和限制。
 
 指定论文：
 
@@ -83,4 +83,4 @@ QQ 的分子/分母表示保持不变。投影和树结构复用可信基线实�
 
 基线算法按可信契约使用。新增层须证明自身满足依赖算法前提，并正确解释其结果。理论 PDF 给出实点、QQ Lazard、完整提升的伪代码和数学证明，明确导入 MPP 定理，使用 valuation 归纳证明柱形性和整胞腔符号不变性。
 
-验证报告记录执行过的构建与测试；[形式化接口](formalization.md)列出机器证明义务。规范的完整性不表示用户审核或机器形式化验证已经完成。
+[验证报告](../../reports/modular-cad.md)记录执行过的构建与测试；[形式化接口](formalization.md)列出机器证明义务。规范的完整性不表示用户审核或机器形式化验证已经完成。

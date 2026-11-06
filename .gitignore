@@ -74,3 +74,10 @@ docs/research/papers/cad_benchmarks/*.txt
 !docs/research/papers/cad_benchmarks/cad_test_cases.txt
 # MacOS temporary files
 .DS_Store
+
+# Python experiment caches
+__pycache__/
+
+# Optional external CAD checkouts
+/docs/references/cad_benchmarks/GeometricCADv2/
+/docs/references/cad_benchmarks/LiMbS/

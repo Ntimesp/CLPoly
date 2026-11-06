@@ -1,0 +1,2 @@
+# Preserve historical CSV bytes for artifact-sha256.json (CSV uses CRLF).
+*.csv -text whitespace=cr-at-eol

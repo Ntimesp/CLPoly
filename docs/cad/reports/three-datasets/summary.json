@@ -1,0 +1,34 @@
+{
+  "FormalMath500": {
+    "raw": {
+      "unsat": 30,
+      "sat": 16,
+      "timeout": 14
+    },
+    "reduced": {
+      "unsat": 38,
+      "sat": 18,
+      "timeout": 4
+    }
+  },
+  "AIME-2024": {
+    "raw": {
+      "timeout": 6
+    },
+    "reduced": {
+      "timeout": 4,
+      "unsat": 1,
+      "sat": 1
+    }
+  },
+  "AIME-2025": {
+    "raw": {
+      "timeout": 6
+    },
+    "reduced": {
+      "unsat": 2,
+      "sat": 2,
+      "timeout": 2
+    }
+  }
+}

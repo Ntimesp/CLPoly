@@ -155,7 +155,7 @@ full_cad(input,vars):
 
 ## 验证与性能边界
 
-几何测试覆盖 sqrt2、坐标轴、圆、三维消零、代数/有理坐标交替、共享根、QQ 输入和四维坐标分解。通过 QQ 多项式点查询检查样本，通过完整前缀实点比较检查父子关系。实测结果见验证报告。
+几何测试覆盖 sqrt2、坐标轴、圆、三维消零、代数/有理坐标交替、共享根、QQ 输入和四维坐标分解。通过 QQ 多项式点查询检查样本，通过完整前缀实点比较检查父子关系。实测结果见[验证报告](../../reports/modular-cad.md)。
 
 `test_lazard_qq` 的 19 项与 `test_full_cad` 的 3067 项 Debug 检查通过。完整 CAD 在 `-O2 -DNDEBUG -fno-elide-constructors` 及 AddressSanitizer 下也通过同一组 3067 项检查，覆盖复制后的比较器所有权、混合样本及根来源编号。地址检查使用 Clang 与现有 GNU C++ ABI，另加 `-fdelayed-template-parsing` 兼容原有 `realroot.hh` 的 `uroot` 前向声明顺序；没有为诊断修改可信头文件。插桩覆盖新增头文件和测试，底层既有静态库未插桩，不等价于全库内存验证。
 

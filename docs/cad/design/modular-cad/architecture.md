@@ -50,4 +50,4 @@
 
 三角列分解依据 XY16；实点隔离和精化依据 XZ06；XY02 为补充；完整 CAD 的投影与 delineability 使用 MPP 的明确契约。编号伪代码与证明见[理论 PDF](../../theory/lazard-evaluation.pdf)，区间算术见[区间规格](../interval-arithmetic/design.md)。
 
-实现审查按“前提 → 算法步骤 → 循环不变量 → 终止性 → 测试证据”进行。控制流显式展开；注释解释数学意义、所有权和算法编号。测试证据集中于验证报告，机器精化义务集中于[形式化接口](formalization.md)。
+实现审查按“前提 → 算法步骤 → 循环不变量 → 终止性 → 测试证据”进行。控制流显式展开；注释解释数学意义、所有权和算法编号。测试证据集中于[验证报告](../../reports/modular-cad.md)，机器精化义务集中于[形式化接口](formalization.md)。

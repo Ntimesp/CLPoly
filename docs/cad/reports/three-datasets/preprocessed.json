@@ -1,0 +1,9895 @@
+[
+  {
+    "id": "FormalMath500-001",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "leak_ratio"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "leak_ratio",
+        "replacement": [
+          {
+            "exp": [
+              0
+            ],
+            "num": 2,
+            "den": 3
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 2,
+          "den": 3
+        }
+      ]
+    ],
+    "preprocess_seconds": 7.116585038602352e-05
+  },
+  {
+    "id": "FormalMath500-002",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0
+            ],
+            "num": 6,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 6,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 4.3082982301712036e-05
+  },
+  {
+    "id": "FormalMath500-003",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0
+            ],
+            "num": 3,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 3,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 4.333397373557091e-05
+  },
+  {
+    "id": "FormalMath500-004",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "a",
+      "b"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 63,
+            "den": 5
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "a",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 3139,
+            "den": 10
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 3139,
+          "den": 10
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 63,
+          "den": 5
+        }
+      ]
+    ],
+    "preprocess_seconds": 9.466707706451416e-05
+  },
+  {
+    "id": "FormalMath500-005",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "exchange_rate"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "exchange_rate",
+        "replacement": [
+          {
+            "exp": [
+              0
+            ],
+            "num": 1,
+            "den": 800
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 1,
+          "den": 800
+        }
+      ]
+    ],
+    "preprocess_seconds": 7.729115895926952e-05
+  },
+  {
+    "id": "FormalMath500-006",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "speed",
+      "distance_hallway"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "speed",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 2,
+            "den": 5
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "distance_hallway",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 100
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 2,
+          "den": 5
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 1,
+          "den": 100
+        }
+      ]
+    ],
+    "preprocess_seconds": 8.5500068962574e-05
+  },
+  {
+    "id": "FormalMath500-007",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "smallest_angle",
+      "largest_angle",
+      "sum_of_angles"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "sum_of_angles",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 360,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "largest_angle",
+        "replacement": [
+          {
+            "exp": [
+              1,
+              0,
+              0
+            ],
+            "num": 2,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "smallest_angle",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 60,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 60,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 120,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 360,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.0002232920378446579
+  },
+  {
+    "id": "FormalMath500-008",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "z",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 2,
+            "den": 9
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "y",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 4,
+            "den": 9
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 7,
+            "den": 9
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 7,
+          "den": 9
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 4,
+          "den": 9
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 2,
+          "den": 9
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00016066688112914562
+  },
+  {
+    "id": "FormalMath500-009",
+    "variables": [
+      "s",
+      "original_area",
+      "new_area"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -9,
+          "den": 10
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -100,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 90,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "s",
+      "original_area",
+      "new_area"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 3,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.895800232887268e-05
+  },
+  {
+    "id": "FormalMath500-010",
+    "variables": [
+      "s",
+      "original_area",
+      "new_area"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -9,
+          "den": 10
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "s",
+      "original_area",
+      "new_area"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 3,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.2667151167988777e-05
+  },
+  {
+    "id": "FormalMath500-011",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "sale_price",
+      "original_price"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "sale_price",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 72,
+            "den": 5
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "original_price",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 36,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 72,
+          "den": 5
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 36,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 9.712507016956806e-05
+  },
+  {
+    "id": "FormalMath500-012",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0
+            ],
+            "num": 17,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 17,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 4.52918466180563e-05
+  },
+  {
+    "id": "FormalMath500-013",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "x",
+      "first",
+      "second",
+      "result"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 1,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "second",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 81,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "num": 4,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "first",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "num": 19,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "result",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": -80,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "num": 15,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 19,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 81,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -80,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 15,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00034087500534951687
+  },
+  {
+    "id": "FormalMath500-014",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "y",
+      "dot_product",
+      "norm_squared",
+      "projection_scale"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 3,
+        "pivot": "projection_scale",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 5,
+            "den": 6
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "norm_squared",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 6,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "dot_product",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 5,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "y",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": -4,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": -4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 5,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 6,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 5,
+          "den": 6
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00022641615942120552
+  },
+  {
+    "id": "FormalMath500-015",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "x",
+      "factor",
+      "first_product",
+      "second_product",
+      "value"
+    ],
+    "original_dimension": 5,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 4,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "factor",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 10,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 3,
+        "pivot": "second_product",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 160,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "first_product",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 170,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 4,
+        "pivot": "value",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 11,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 10,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 170,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 160,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 11,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.0005162078887224197
+  },
+  {
+    "id": "FormalMath500-016",
+    "variables": [
+      "treek"
+    ],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "treek",
+      "squig",
+      "goolee"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 1,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "goolee",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              1,
+              0
+            ],
+            "num": -3,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0
+            ],
+            "num": 10,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "squig",
+        "replacement": [
+          {
+            "exp": [
+              1,
+              0,
+              0
+            ],
+            "num": 3,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00011250004172325134
+  },
+  {
+    "id": "FormalMath500-017",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "x",
+      "square_root"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "square_root",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 2,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 3,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 2,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 9.716697968542576e-05
+  },
+  {
+    "id": "FormalMath500-018",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [],
+    "z3_status": "sat",
+    "preprocess_status": "sat",
+    "original_variables": [
+      "x",
+      "square_root"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "square_root",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 2,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 3,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 2,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 7.479195483028889e-05
+  },
+  {
+    "id": "FormalMath500-019",
+    "variables": [
+      "x",
+      "left_square",
+      "right_square"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -9,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 6,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -64,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 16,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -11,
+          "den": 2
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x",
+      "left_square",
+      "right_square",
+      "radicand"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 3,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "radicand",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          },
+          {
+            "exp": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00010337494313716888
+  },
+  {
+    "id": "FormalMath500-020",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [],
+    "z3_status": "sat",
+    "preprocess_status": "sat",
+    "original_variables": [
+      "x",
+      "left_square",
+      "right_square",
+      "radicand"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 4,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 11,
+            "den": 2
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "right_square",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 25,
+            "den": 4
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "left_square",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 25,
+            "den": 4
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "radicand",
+        "replacement": []
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 11,
+          "den": 2
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 25,
+          "den": 4
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 25,
+          "den": 4
+        }
+      ],
+      []
+    ],
+    "preprocess_seconds": 0.0002525830641388893
+  },
+  {
+    "id": "FormalMath500-021",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            3
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 1,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 9.083887562155724e-06
+  },
+  {
+    "id": "FormalMath500-022",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "a",
+      "b"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 2,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "a",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": -3,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": -3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 2,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00011899997480213642
+  },
+  {
+    "id": "FormalMath500-023",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [],
+    "z3_status": "sat",
+    "preprocess_status": "sat",
+    "original_variables": [
+      "a",
+      "b"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 2,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "a",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": -3,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": -3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 2,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00011395802721381187
+  },
+  {
+    "id": "FormalMath500-024",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "b",
+      "c"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 13,
+            "den": 10
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "c",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 191,
+            "den": 100
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 13,
+          "den": 10
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 191,
+          "den": 100
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00010037492029368877
+  },
+  {
+    "id": "FormalMath500-025",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [],
+    "z3_status": "sat",
+    "preprocess_status": "sat",
+    "original_variables": [
+      "b",
+      "c"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 13,
+            "den": 10
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "c",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 191,
+            "den": 100
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 13,
+          "den": 10
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 191,
+          "den": 100
+        }
+      ]
+    ],
+    "preprocess_seconds": 6.829085759818554e-05
+  },
+  {
+    "id": "FormalMath500-026",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "a1",
+      "d"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "d",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 200,
+            "den": 3
+          },
+          {
+            "exp": [
+              1,
+              0
+            ],
+            "num": -1,
+            "den": 3
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "a1",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": -25,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": -25,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 75,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00011666608043015003
+  },
+  {
+    "id": "FormalMath500-027",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "B",
+      "h"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "h",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 13,
+            "den": 2
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "B",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 30,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 30,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 13,
+          "den": 2
+        }
+      ]
+    ],
+    "preprocess_seconds": 8.237501606345177e-05
+  },
+  {
+    "id": "FormalMath500-028",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "x",
+      "reciprocal"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "reciprocal",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 6
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 11,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 11,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 1,
+          "den": 6
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.000114459078758955
+  },
+  {
+    "id": "FormalMath500-029",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [],
+    "z3_status": "sat",
+    "preprocess_status": "sat",
+    "original_variables": [
+      "x",
+      "reciprocal"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "reciprocal",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 6
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 11,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 11,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 1,
+          "den": 6
+        }
+      ]
+    ],
+    "preprocess_seconds": 7.683411240577698e-05
+  },
+  {
+    "id": "FormalMath500-030",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "a",
+      "b",
+      "c"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "c",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": -3,
+            "den": 1
+          },
+          {
+            "exp": [
+              0,
+              1,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 8,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "a",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 3,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 5,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": -8,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00021862494759261608
+  },
+  {
+    "id": "FormalMath500-031",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "a",
+      "b"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "a",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 4,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "b",
+        "replacement": []
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 4,
+          "den": 1
+        }
+      ],
+      []
+    ],
+    "preprocess_seconds": 7.120799273252487e-05
+  },
+  {
+    "id": "FormalMath500-032",
+    "variables": [
+      "u",
+      "first_product",
+      "second_product"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 18,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -14,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "u",
+      "first_product",
+      "second_product",
+      "result"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 3,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "result",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          },
+          {
+            "exp": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00010449998080730438
+  },
+  {
+    "id": "FormalMath500-033",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0
+            ],
+            "num": 1600,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 1600,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 4.787486977875233e-05
+  },
+  {
+    "id": "FormalMath500-034",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -25,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -20,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": -4,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 1,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 6.375135853886604e-06
+  },
+  {
+    "id": "FormalMath500-035",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -25,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -20,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": -4,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 1,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 7.791910320520401e-06
+  },
+  {
+    "id": "FormalMath500-036",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "a",
+      "b",
+      "m"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 12,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "a",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 4,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 3,
+        "pivot": "m",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": -3,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 12,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": -3,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.0001623749267309904
+  },
+  {
+    "id": "FormalMath500-037",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [],
+    "z3_status": "sat",
+    "preprocess_status": "sat",
+    "original_variables": [
+      "a",
+      "b",
+      "m"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 12,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "a",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 4,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 3,
+        "pivot": "m",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": -3,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 12,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": -3,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.0002844170667231083
+  },
+  {
+    "id": "FormalMath500-038",
+    "variables": [
+      "x1",
+      "x2"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -128,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -128,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 128,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x1",
+      "x2"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 2,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 2.208305522799492e-05
+  },
+  {
+    "id": "FormalMath500-039",
+    "variables": [
+      "x1",
+      "x2"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -128,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -128,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x1",
+      "x2"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 2,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.4042016118764877e-05
+  },
+  {
+    "id": "FormalMath500-040",
+    "variables": [
+      "r"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -28,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 15,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "r"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 1,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.570815220475197e-05
+  },
+  {
+    "id": "FormalMath500-041",
+    "variables": [
+      "r"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -28,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 15,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "r"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 1,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.0791933164000511e-05
+  },
+  {
+    "id": "FormalMath500-042",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 20,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 9,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 1,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.1625001206994057e-05
+  },
+  {
+    "id": "FormalMath500-043",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 20,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 9,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 1,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.0082963854074478e-05
+  },
+  {
+    "id": "FormalMath500-044",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "a",
+      "b",
+      "c"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 3,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "a",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 5,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "c",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 33,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 5,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 33,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00015783286653459072
+  },
+  {
+    "id": "FormalMath500-045",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [],
+    "z3_status": "sat",
+    "preprocess_status": "sat",
+    "original_variables": [
+      "a",
+      "b",
+      "c"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 3,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "a",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 5,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "c",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 33,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 5,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 33,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00012841704301536083
+  },
+  {
+    "id": "FormalMath500-046",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "x",
+      "reciprocal"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "reciprocal",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 2
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 2,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 1,
+          "den": 2
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00014645885676145554
+  },
+  {
+    "id": "FormalMath500-047",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [],
+    "z3_status": "sat",
+    "preprocess_status": "sat",
+    "original_variables": [
+      "x",
+      "reciprocal"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "reciprocal",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 2
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "x",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 2,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 1,
+          "den": 2
+        }
+      ]
+    ],
+    "preprocess_seconds": 7.162499241530895e-05
+  },
+  {
+    "id": "FormalMath500-048",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [
+      []
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "unsat",
+    "original_variables": [
+      "speed",
+      "time",
+      "distance"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "time",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 11,
+            "den": 4
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "speed",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 50,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "distance",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 275,
+            "den": 2
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 50,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 11,
+          "den": 4
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 275,
+          "den": 2
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00013529183343052864
+  },
+  {
+    "id": "FormalMath500-049",
+    "variables": [],
+    "polynomials": [],
+    "clauses": [],
+    "z3_status": "sat",
+    "preprocess_status": "sat",
+    "original_variables": [
+      "speed",
+      "time",
+      "distance"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 0,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "time",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 11,
+            "den": 4
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "speed",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 50,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "distance",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 275,
+            "den": 2
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [],
+          "num": 50,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 11,
+          "den": 4
+        }
+      ],
+      [
+        {
+          "exp": [],
+          "num": 275,
+          "den": 2
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00012770877219736576
+  },
+  {
+    "id": "FormalMath500-050",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 11,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 1,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.2750038877129555e-05
+  },
+  {
+    "id": "FormalMath500-051",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 11,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x"
+    ],
+    "original_dimension": 1,
+    "remaining_dimension": 1,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.00000761449337e-05
+  },
+  {
+    "id": "FormalMath500-052",
+    "variables": [
+      "x",
+      "numerator",
+      "value"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -10,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -9,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x",
+      "numerator",
+      "denominator",
+      "value"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 3,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "denominator",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.0014454158954322338
+  },
+  {
+    "id": "FormalMath500-053",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x",
+      "numerator",
+      "denominator",
+      "value"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 1,
+    "steps": [
+      {
+        "equation_index": 5,
+        "pivot": "value",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 9,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 4,
+        "pivot": "denominator",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 9
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "numerator",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 9,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "num": 9,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 9,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 9,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 9,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00021504191681742668
+  },
+  {
+    "id": "FormalMath500-054",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            2,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 3,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 2.6708003133535385e-05
+  },
+  {
+    "id": "FormalMath500-055",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            2,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 3,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.987488940358162e-05
+  },
+  {
+    "id": "FormalMath500-056",
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 48,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 24,
+          "den": 5
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "original_dimension": 5,
+    "remaining_dimension": 4,
+    "steps": [
+      {
+        "equation_index": 0,
+        "pivot": "e",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 8,
+            "den": 1
+          },
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          },
+          {
+            "exp": [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          },
+          {
+            "exp": [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 8,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00023187510669231415
+  },
+  {
+    "id": "FormalMath500-057",
+    "variables": [
+      "a",
+      "b",
+      "c"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 432,
+          "den": 25
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -48,
+          "den": 5
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -48,
+          "den": 5
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -48,
+          "den": 5
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "original_dimension": 5,
+    "remaining_dimension": 3,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "e",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 16,
+            "den": 5
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "d",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 24,
+            "den": 5
+          },
+          {
+            "exp": [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          },
+          {
+            "exp": [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 24,
+          "den": 5
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 16,
+          "den": 5
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00023637502454221249
+  },
+  {
+    "id": "FormalMath500-058",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -24,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -48,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -72,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -22,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          ">"
+        ],
+        [
+          6,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 3,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 2.0458130165934563e-05
+  },
+  {
+    "id": "FormalMath500-059",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -24,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -48,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -72,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 3,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.7583835870027542e-05
+  },
+  {
+    "id": "FormalMath500-060",
+    "variables": [
+      "a",
+      "b",
+      "result"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -10,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -10,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "a",
+      "b",
+      "factor1",
+      "factor2",
+      "result"
+    ],
+    "original_dimension": 5,
+    "remaining_dimension": 3,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "factor2",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 2,
+            "den": 1
+          },
+          {
+            "exp": [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 0,
+        "pivot": "factor1",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 5,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 1,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00018462492153048515
+  },
+  {
+    "id": "AIME-2024-001",
+    "variables": [
+      "s",
+      "t",
+      "h"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 144,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -540,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 240,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -252,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 144,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1080,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -204,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          ">"
+        ],
+        [
+          6,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "s",
+      "t",
+      "h"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 3,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.9499799236655235e-05
+  },
+  {
+    "id": "AIME-2024-002",
+    "variables": [
+      "s",
+      "t",
+      "h"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 144,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -540,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 240,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -252,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 144,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1080,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "s",
+      "t",
+      "h"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 3,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 1.8458114936947823e-05
+  },
+  {
+    "id": "AIME-2024-003",
+    "variables": [
+      "x",
+      "y",
+      "z",
+      "r_sq"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -27,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -23,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -657,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 64,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          ">"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x",
+      "y",
+      "z",
+      "r_sq"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 4,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 3.145798109471798e-05
+  },
+  {
+    "id": "AIME-2024-004",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -27,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -23,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 657,
+          "den": 16
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "x",
+      "y",
+      "z",
+      "r_sq"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 3,
+    "steps": [
+      {
+        "equation_index": 6,
+        "pivot": "r_sq",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 657,
+            "den": 64
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 657,
+          "den": 64
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00011970801278948784
+  },
+  {
+    "id": "AIME-2024-005",
+    "variables": [
+      "a",
+      "b"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -540,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -108,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 81,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "a",
+      "b",
+      "value"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 2,
+    "steps": [
+      {
+        "equation_index": 1,
+        "pivot": "value",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              1,
+              0
+            ],
+            "num": -108,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0
+            ],
+            "num": 81,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -108,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 81,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00010716612450778484
+  },
+  {
+    "id": "AIME-2024-006",
+    "variables": [
+      "a"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 9,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -15,
+          "den": 2
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 25,
+          "den": 16
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "a",
+      "b",
+      "value"
+    ],
+    "original_dimension": 3,
+    "remaining_dimension": 1,
+    "steps": [
+      {
+        "equation_index": 2,
+        "pivot": "value",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": 540,
+            "den": 1
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "b",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0
+            ],
+            "num": -5,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0
+            ],
+            "num": 3,
+            "den": 4
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 3,
+          "den": 4
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 540,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00015062512829899788
+  },
+  {
+    "id": "AIME-2025-001",
+    "variables": [
+      "r"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 24,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -24,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 144,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -96,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 72,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -48,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          ">"
+        ],
+        [
+          4,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "r",
+      "s"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 1,
+    "steps": [
+      {
+        "equation_index": 3,
+        "pivot": "s",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 24,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 24,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00012437510304152966
+  },
+  {
+    "id": "AIME-2025-002",
+    "variables": [
+      "r"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 24,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -24,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 144,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -96,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 4,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "r",
+      "s"
+    ],
+    "original_dimension": 2,
+    "remaining_dimension": 1,
+    "steps": [
+      {
+        "equation_index": 3,
+        "pivot": "s",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0
+            ],
+            "num": 24,
+            "den": 1
+          },
+          {
+            "exp": [
+              1,
+              0
+            ],
+            "num": -1,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 24,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.00010345806367695332
+  },
+  {
+    "id": "AIME-2025-003",
+    "variables": [
+      "k1",
+      "k2"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 2829,
+          "den": 100
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -292,
+          "den": 25
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": 16,
+          "den": 25
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 2829,
+          "den": 100
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -292,
+          "den": 25
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 16,
+          "den": 25
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -73,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "k1",
+      "k2",
+      "p1",
+      "q1",
+      "p2",
+      "q2"
+    ],
+    "original_dimension": 6,
+    "remaining_dimension": 2,
+    "steps": [
+      {
+        "equation_index": 5,
+        "pivot": "q2",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 155,
+            "den": 4
+          },
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "num": -3,
+            "den": 4
+          }
+        ]
+      },
+      {
+        "equation_index": 4,
+        "pivot": "p2",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 479,
+            "den": 25
+          },
+          {
+            "exp": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 16,
+            "den": 25
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "q1",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 155,
+            "den": 4
+          },
+          {
+            "exp": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "num": -3,
+            "den": 4
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "p1",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 479,
+            "den": 25
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 16,
+            "den": 25
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 479,
+          "den": 25
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 16,
+          "den": 25
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 1219,
+          "den": 50
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -12,
+          "den": 25
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 479,
+          "den": 25
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 16,
+          "den": 25
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 1219,
+          "den": 50
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -12,
+          "den": 25
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.0007332919631153345
+  },
+  {
+    "id": "AIME-2025-004",
+    "variables": [
+      "k1",
+      "k2"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 2829,
+          "den": 100
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -292,
+          "den": 25
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": 16,
+          "den": 25
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 2829,
+          "den": 100
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -292,
+          "den": 25
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 16,
+          "den": 25
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "k1",
+      "k2",
+      "p1",
+      "q1",
+      "p2",
+      "q2"
+    ],
+    "original_dimension": 6,
+    "remaining_dimension": 2,
+    "steps": [
+      {
+        "equation_index": 5,
+        "pivot": "q2",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 155,
+            "den": 4
+          },
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "num": -3,
+            "den": 4
+          }
+        ]
+      },
+      {
+        "equation_index": 4,
+        "pivot": "p2",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 479,
+            "den": 25
+          },
+          {
+            "exp": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 16,
+            "den": 25
+          }
+        ]
+      },
+      {
+        "equation_index": 2,
+        "pivot": "q1",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 155,
+            "den": 4
+          },
+          {
+            "exp": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "num": -3,
+            "den": 4
+          }
+        ]
+      },
+      {
+        "equation_index": 1,
+        "pivot": "p1",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 479,
+            "den": 25
+          },
+          {
+            "exp": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 16,
+            "den": 25
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 479,
+          "den": 25
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 16,
+          "den": 25
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 1219,
+          "den": 50
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -12,
+          "den": 25
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 479,
+          "den": 25
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 16,
+          "den": 25
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 1219,
+          "den": 50
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -12,
+          "den": 25
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.000646666856482625
+  },
+  {
+    "id": "AIME-2025-005",
+    "variables": [
+      "u",
+      "x",
+      "y",
+      "v"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -57,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "<"
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          "="
+        ]
+      ],
+      [
+        [
+          7,
+          ">"
+        ]
+      ],
+      [
+        [
+          8,
+          ">"
+        ],
+        [
+          8,
+          "<"
+        ]
+      ]
+    ],
+    "z3_status": "unsat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "u",
+      "x",
+      "y",
+      "v"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 4,
+    "steps": [],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 2.050003968179226e-05
+  },
+  {
+    "id": "AIME-2025-006",
+    "variables": [
+      "u",
+      "x",
+      "y"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -48,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -12,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2
+          ],
+          "num": 4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "<"
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          "="
+        ]
+      ],
+      [
+        [
+          7,
+          ">"
+        ]
+      ]
+    ],
+    "z3_status": "sat",
+    "preprocess_status": "residual",
+    "original_variables": [
+      "u",
+      "x",
+      "y",
+      "v"
+    ],
+    "original_dimension": 4,
+    "remaining_dimension": 3,
+    "steps": [
+      {
+        "equation_index": 8,
+        "pivot": "v",
+        "replacement": [
+          {
+            "exp": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "num": 3,
+            "den": 1
+          },
+          {
+            "exp": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "num": -2,
+            "den": 1
+          }
+        ]
+      }
+    ],
+    "reconstruction": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ]
+    ],
+    "preprocess_seconds": 0.0001389170065522194
+  }
+]

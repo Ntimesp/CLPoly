@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "FormalMath500-001",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=3 feasible=0 cad_seconds=0.00071 total_seconds=0.000711\n",
+    "stderr": "",
+    "wall_seconds": 0.5472814999520779,
+    "fields": {
+      "status": "unsat",
+      "leaves": "3",
+      "feasible": "0",
+      "cad_seconds": "0.00071",
+      "total_seconds": "0.000711"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-002",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=3 feasible=0 cad_seconds=0.000197 total_seconds=0.000197\n",
+    "stderr": "",
+    "wall_seconds": 0.03171545802615583,
+    "fields": {
+      "status": "unsat",
+      "leaves": "3",
+      "feasible": "0",
+      "cad_seconds": "0.000197",
+      "total_seconds": "0.000197"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-003",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=3 feasible=0 cad_seconds=0.000153 total_seconds=0.000153\n",
+    "stderr": "",
+    "wall_seconds": 0.02414079220034182,
+    "fields": {
+      "status": "unsat",
+      "leaves": "3",
+      "feasible": "0",
+      "cad_seconds": "0.000153",
+      "total_seconds": "0.000153"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-004",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=23 feasible=0 cad_seconds=0.017677 total_seconds=0.017677\n",
+    "stderr": "",
+    "wall_seconds": 0.03919454105198383,
+    "fields": {
+      "status": "unsat",
+      "leaves": "23",
+      "feasible": "0",
+      "cad_seconds": "0.017677",
+      "total_seconds": "0.017677"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-005",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=3 feasible=0 cad_seconds=0.000155 total_seconds=0.000155\n",
+    "stderr": "",
+    "wall_seconds": 0.02150400006212294,
+    "fields": {
+      "status": "unsat",
+      "leaves": "3",
+      "feasible": "0",
+      "cad_seconds": "0.000155",
+      "total_seconds": "0.000155"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-006",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=23 feasible=0 cad_seconds=0.006335 total_seconds=0.006335\n",
+    "stderr": "",
+    "wall_seconds": 0.02740904106758535,
+    "fields": {
+      "status": "unsat",
+      "leaves": "23",
+      "feasible": "0",
+      "cad_seconds": "0.006335",
+      "total_seconds": "0.006335"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-007",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=261 feasible=0 cad_seconds=4.93699 total_seconds=4.937\n",
+    "stderr": "",
+    "wall_seconds": 4.9591689999215305,
+    "fields": {
+      "status": "unsat",
+      "leaves": "261",
+      "feasible": "0",
+      "cad_seconds": "4.93699",
+      "total_seconds": "4.937"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-008",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=277 feasible=0 cad_seconds=0.217789 total_seconds=0.217791\n",
+    "stderr": "",
+    "wall_seconds": 0.24075366603210568,
+    "fields": {
+      "status": "unsat",
+      "leaves": "277",
+      "feasible": "0",
+      "cad_seconds": "0.217789",
+      "total_seconds": "0.217791"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-009",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=75 feasible=0 cad_seconds=0.214457 total_seconds=0.214458\n",
+    "stderr": "",
+    "wall_seconds": 0.23897491698153317,
+    "fields": {
+      "status": "unsat",
+      "leaves": "75",
+      "feasible": "0",
+      "cad_seconds": "0.214457",
+      "total_seconds": "0.214458"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-010",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=75 feasible=1 cad_seconds=0.209555 total_seconds=0.2106\n",
+    "stderr": "",
+    "wall_seconds": 0.23511108406819403,
+    "fields": {
+      "status": "sat",
+      "leaves": "75",
+      "feasible": "1",
+      "cad_seconds": "0.209555",
+      "total_seconds": "0.2106"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-011",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=23 feasible=0 cad_seconds=0.004227 total_seconds=0.004227\n",
+    "stderr": "",
+    "wall_seconds": 0.029607417061924934,
+    "fields": {
+      "status": "unsat",
+      "leaves": "23",
+      "feasible": "0",
+      "cad_seconds": "0.004227",
+      "total_seconds": "0.004227"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-012",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=3 feasible=0 cad_seconds=0.000176 total_seconds=0.000177\n",
+    "stderr": "",
+    "wall_seconds": 0.02379591716453433,
+    "fields": {
+      "status": "unsat",
+      "leaves": "3",
+      "feasible": "0",
+      "cad_seconds": "0.000176",
+      "total_seconds": "0.000177"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-013",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.008166332961991,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-013",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.004737332928926,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-014",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=1695 feasible=0 cad_seconds=4.10216 total_seconds=4.10217\n",
+    "stderr": "",
+    "wall_seconds": 4.13126187492162,
+    "fields": {
+      "status": "unsat",
+      "leaves": "1695",
+      "feasible": "0",
+      "cad_seconds": "4.10216",
+      "total_seconds": "4.10217"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-015",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.029974500183016,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-015",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.023899749852717,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-016",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.00763237499632,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-016",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=79 feasible=0 cad_seconds=0.081921 total_seconds=0.081922\n",
+    "stderr": "",
+    "wall_seconds": 0.10570841701701283,
+    "fields": {
+      "status": "unsat",
+      "leaves": "79",
+      "feasible": "0",
+      "cad_seconds": "0.081921",
+      "total_seconds": "0.081922"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-017",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=31 feasible=0 cad_seconds=0.008833 total_seconds=0.008834\n",
+    "stderr": "",
+    "wall_seconds": 0.030927374958992004,
+    "fields": {
+      "status": "unsat",
+      "leaves": "31",
+      "feasible": "0",
+      "cad_seconds": "0.008833",
+      "total_seconds": "0.008834"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-018",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=15 feasible=1 cad_seconds=0.001825 total_seconds=0.00187\n",
+    "stderr": "",
+    "wall_seconds": 0.022951791994273663,
+    "fields": {
+      "status": "sat",
+      "leaves": "15",
+      "feasible": "1",
+      "cad_seconds": "0.001825",
+      "total_seconds": "0.00187"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-019",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.01962299994193,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-019",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=919 feasible=0 cad_seconds=1.13436 total_seconds=1.13437\n",
+    "stderr": "",
+    "wall_seconds": 1.171458707889542,
+    "fields": {
+      "status": "unsat",
+      "leaves": "919",
+      "feasible": "0",
+      "cad_seconds": "1.13436",
+      "total_seconds": "1.13437"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-020",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.019675459014252,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-020",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=919 feasible=1 cad_seconds=1.15919 total_seconds=1.15987\n",
+    "stderr": "",
+    "wall_seconds": 1.1839839997701347,
+    "fields": {
+      "status": "sat",
+      "leaves": "919",
+      "feasible": "1",
+      "cad_seconds": "1.15919",
+      "total_seconds": "1.15987"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-021",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=7 feasible=0 cad_seconds=0.000941 total_seconds=0.000941\n",
+    "stderr": "",
+    "wall_seconds": 0.02528949989937246,
+    "fields": {
+      "status": "unsat",
+      "leaves": "7",
+      "feasible": "0",
+      "cad_seconds": "0.000941",
+      "total_seconds": "0.000941"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-022",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.009228167124093,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-022",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.00851900014095,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-023",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=55 feasible=1 cad_seconds=0.06899 total_seconds=0.069082\n",
+    "stderr": "",
+    "wall_seconds": 0.09373966604471207,
+    "fields": {
+      "status": "sat",
+      "leaves": "55",
+      "feasible": "1",
+      "cad_seconds": "0.06899",
+      "total_seconds": "0.069082"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-024",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.00585479196161,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-024",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=51 feasible=0 cad_seconds=0.024709 total_seconds=0.02471\n",
+    "stderr": "",
+    "wall_seconds": 0.04948116606101394,
+    "fields": {
+      "status": "unsat",
+      "leaves": "51",
+      "feasible": "0",
+      "cad_seconds": "0.024709",
+      "total_seconds": "0.02471"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-025",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=27 feasible=1 cad_seconds=0.012871 total_seconds=0.013164\n",
+    "stderr": "",
+    "wall_seconds": 0.035551249980926514,
+    "fields": {
+      "status": "sat",
+      "leaves": "27",
+      "feasible": "1",
+      "cad_seconds": "0.012871",
+      "total_seconds": "0.013164"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-026",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=59 feasible=0 cad_seconds=0.38663 total_seconds=0.386633\n",
+    "stderr": "",
+    "wall_seconds": 0.41246783290989697,
+    "fields": {
+      "status": "unsat",
+      "leaves": "59",
+      "feasible": "0",
+      "cad_seconds": "0.38663",
+      "total_seconds": "0.386633"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-027",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=21 feasible=0 cad_seconds=0.011345 total_seconds=0.011345\n",
+    "stderr": "",
+    "wall_seconds": 0.034236083971336484,
+    "fields": {
+      "status": "unsat",
+      "leaves": "21",
+      "feasible": "0",
+      "cad_seconds": "0.011345",
+      "total_seconds": "0.011345"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-028",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=45 feasible=0 cad_seconds=0.111864 total_seconds=0.111865\n",
+    "stderr": "",
+    "wall_seconds": 0.13451833301223814,
+    "fields": {
+      "status": "unsat",
+      "leaves": "45",
+      "feasible": "0",
+      "cad_seconds": "0.111864",
+      "total_seconds": "0.111865"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-029",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=33 feasible=1 cad_seconds=0.011229 total_seconds=0.011298\n",
+    "stderr": "",
+    "wall_seconds": 0.03408133308403194,
+    "fields": {
+      "status": "sat",
+      "leaves": "33",
+      "feasible": "1",
+      "cad_seconds": "0.011229",
+      "total_seconds": "0.011298"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-030",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.008773541077971,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-030",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.008239165879786,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-031",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=23 feasible=0 cad_seconds=0.004178 total_seconds=0.004178\n",
+    "stderr": "",
+    "wall_seconds": 0.03027633298188448,
+    "fields": {
+      "status": "unsat",
+      "leaves": "23",
+      "feasible": "0",
+      "cad_seconds": "0.004178",
+      "total_seconds": "0.004178"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-032",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.013592875096947,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-032",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.006603708025068,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-033",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=3 feasible=0 cad_seconds=0.000191 total_seconds=0.000191\n",
+    "stderr": "",
+    "wall_seconds": 0.0227246661670506,
+    "fields": {
+      "status": "unsat",
+      "leaves": "3",
+      "feasible": "0",
+      "cad_seconds": "0.000191",
+      "total_seconds": "0.000191"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-034",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=3 feasible=0 cad_seconds=0.000214 total_seconds=0.000214\n",
+    "stderr": "",
+    "wall_seconds": 0.020943833980709314,
+    "fields": {
+      "status": "unsat",
+      "leaves": "3",
+      "feasible": "0",
+      "cad_seconds": "0.000214",
+      "total_seconds": "0.000214"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-035",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=3 feasible=1 cad_seconds=0.000186 total_seconds=0.000192\n",
+    "stderr": "",
+    "wall_seconds": 0.021005833987146616,
+    "fields": {
+      "status": "sat",
+      "leaves": "3",
+      "feasible": "1",
+      "cad_seconds": "0.000186",
+      "total_seconds": "0.000192"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-036",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.011864500120282,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-036",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.004906707908958,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-037",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=191 feasible=1 cad_seconds=0.152222 total_seconds=0.152385\n",
+    "stderr": "",
+    "wall_seconds": 0.17777529219165444,
+    "fields": {
+      "status": "sat",
+      "leaves": "191",
+      "feasible": "1",
+      "cad_seconds": "0.152222",
+      "total_seconds": "0.152385"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-038",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=53 feasible=0 cad_seconds=0.597721 total_seconds=0.597722\n",
+    "stderr": "",
+    "wall_seconds": 0.6197459590621293,
+    "fields": {
+      "status": "unsat",
+      "leaves": "53",
+      "feasible": "0",
+      "cad_seconds": "0.597721",
+      "total_seconds": "0.597722"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-039",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=45 feasible=2 cad_seconds=0.069944 total_seconds=0.069966\n",
+    "stderr": "",
+    "wall_seconds": 0.09310329193249345,
+    "fields": {
+      "status": "sat",
+      "leaves": "45",
+      "feasible": "2",
+      "cad_seconds": "0.069944",
+      "total_seconds": "0.069966"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-040",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=5 feasible=0 cad_seconds=0.000517 total_seconds=0.000517\n",
+    "stderr": "",
+    "wall_seconds": 0.022810708032920957,
+    "fields": {
+      "status": "unsat",
+      "leaves": "5",
+      "feasible": "0",
+      "cad_seconds": "0.000517",
+      "total_seconds": "0.000517"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-041",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=5 feasible=1 cad_seconds=0.000464 total_seconds=0.000472\n",
+    "stderr": "",
+    "wall_seconds": 0.0228066670242697,
+    "fields": {
+      "status": "sat",
+      "leaves": "5",
+      "feasible": "1",
+      "cad_seconds": "0.000464",
+      "total_seconds": "0.000472"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-042",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=7 feasible=0 cad_seconds=0.000837 total_seconds=0.000837\n",
+    "stderr": "",
+    "wall_seconds": 0.022364832926541567,
+    "fields": {
+      "status": "unsat",
+      "leaves": "7",
+      "feasible": "0",
+      "cad_seconds": "0.000837",
+      "total_seconds": "0.000837"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-043",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=7 feasible=1 cad_seconds=0.000841 total_seconds=0.000876\n",
+    "stderr": "",
+    "wall_seconds": 0.02166787488386035,
+    "fields": {
+      "status": "sat",
+      "leaves": "7",
+      "feasible": "1",
+      "cad_seconds": "0.000841",
+      "total_seconds": "0.000876"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-044",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.008462999947369,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-044",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.0048320828937,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-045",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.008063707966357,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-045",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=87 feasible=1 cad_seconds=0.038182 total_seconds=0.038266\n",
+    "stderr": "",
+    "wall_seconds": 0.06327824993059039,
+    "fields": {
+      "status": "sat",
+      "leaves": "87",
+      "feasible": "1",
+      "cad_seconds": "0.038182",
+      "total_seconds": "0.038266"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-046",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=31 feasible=0 cad_seconds=0.01261 total_seconds=0.012611\n",
+    "stderr": "",
+    "wall_seconds": 0.03578470787033439,
+    "fields": {
+      "status": "unsat",
+      "leaves": "31",
+      "feasible": "0",
+      "cad_seconds": "0.01261",
+      "total_seconds": "0.012611"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-047",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=23 feasible=1 cad_seconds=0.00354 total_seconds=0.003574\n",
+    "stderr": "",
+    "wall_seconds": 0.027598208049312234,
+    "fields": {
+      "status": "sat",
+      "leaves": "23",
+      "feasible": "1",
+      "cad_seconds": "0.00354",
+      "total_seconds": "0.003574"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-048",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=139 feasible=0 cad_seconds=0.082837 total_seconds=0.082838\n",
+    "stderr": "",
+    "wall_seconds": 0.1059214579872787,
+    "fields": {
+      "status": "unsat",
+      "leaves": "139",
+      "feasible": "0",
+      "cad_seconds": "0.082837",
+      "total_seconds": "0.082838"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-049",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=139 feasible=1 cad_seconds=0.082472 total_seconds=0.082547\n",
+    "stderr": "",
+    "wall_seconds": 0.10594862513244152,
+    "fields": {
+      "status": "sat",
+      "leaves": "139",
+      "feasible": "1",
+      "cad_seconds": "0.082472",
+      "total_seconds": "0.082547"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-050",
+    "mode": "raw",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=9 feasible=0 cad_seconds=0.003038 total_seconds=0.003039\n",
+    "stderr": "",
+    "wall_seconds": 0.027681874809786677,
+    "fields": {
+      "status": "unsat",
+      "leaves": "9",
+      "feasible": "0",
+      "cad_seconds": "0.003038",
+      "total_seconds": "0.003039"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-051",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=9 feasible=1 cad_seconds=0.00318 total_seconds=0.003204\n",
+    "stderr": "",
+    "wall_seconds": 0.02544341702014208,
+    "fields": {
+      "status": "sat",
+      "leaves": "9",
+      "feasible": "1",
+      "cad_seconds": "0.00318",
+      "total_seconds": "0.003204"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-052",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.013190499972552,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-052",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.005940166069195,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-053",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.011765000177547,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-053",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.005077957874164,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-054",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.0051340830978,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-054",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.005060292081907,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-055",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.005339249968529,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-055",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.005118334200233,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-056",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.004901667125523,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-056",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.027166083920747,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-057",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.005020499927923,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-057",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.0370924170129,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-058",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.006521417060867,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-058",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.00980579201132,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-059",
+    "mode": "raw",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=255 feasible=1 cad_seconds=0.37045 total_seconds=0.370748\n",
+    "stderr": "",
+    "wall_seconds": 0.39355999999679625,
+    "fields": {
+      "status": "sat",
+      "leaves": "255",
+      "feasible": "1",
+      "cad_seconds": "0.37045",
+      "total_seconds": "0.370748"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-060",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.00825041695498,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-060",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=867 feasible=0 cad_seconds=2.26742 total_seconds=2.26743\n",
+    "stderr": "",
+    "wall_seconds": 2.291798833059147,
+    "fields": {
+      "status": "unsat",
+      "leaves": "867",
+      "feasible": "0",
+      "cad_seconds": "2.26742",
+      "total_seconds": "2.26743"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-001",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.012654833961278,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-001",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.01211641705595,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-002",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.01523191598244,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-002",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.008260583970696,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-003",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.00618854095228,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-003",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.020624584052712,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-004",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.008058540988714,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-004",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.015667625004426,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-005",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.008105707820505,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-005",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.006376083940268,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-006",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.010805082973093,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-006",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.006194458110258,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-001",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.004567542113364,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-001",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.005087375175208,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-002",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.003593040863052,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-002",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.00354183302261,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-003",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.015300125116482,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-003",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.022194917080924,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-004",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.008780082920566,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-004",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.01948866690509,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-005",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.017266415990889,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-005",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.006467374972999,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-006",
+    "mode": "raw",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.018205999862403,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-006",
+    "mode": "raw",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.007872292073444,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-001",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 7.116585038602352e-05
+  },
+  {
+    "id": "FormalMath500-002",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 4.3082982301712036e-05
+  },
+  {
+    "id": "FormalMath500-003",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 4.333397373557091e-05
+  },
+  {
+    "id": "FormalMath500-004",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 9.466707706451416e-05
+  },
+  {
+    "id": "FormalMath500-005",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 7.729115895926952e-05
+  },
+  {
+    "id": "FormalMath500-006",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 8.5500068962574e-05
+  },
+  {
+    "id": "FormalMath500-007",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.0002232920378446579
+  },
+  {
+    "id": "FormalMath500-008",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00016066688112914562
+  },
+  {
+    "id": "FormalMath500-009",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=75 feasible=0 cad_seconds=0.210842 total_seconds=0.210843\n",
+    "stderr": "",
+    "wall_seconds": 0.23418562510050833,
+    "fields": {
+      "status": "unsat",
+      "leaves": "75",
+      "feasible": "0",
+      "cad_seconds": "0.210842",
+      "total_seconds": "0.210843"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-010",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=75 feasible=1 cad_seconds=0.196888 total_seconds=0.197899\n",
+    "stderr": "",
+    "wall_seconds": 0.2196806250140071,
+    "fields": {
+      "status": "sat",
+      "leaves": "75",
+      "feasible": "1",
+      "cad_seconds": "0.196888",
+      "total_seconds": "0.197899"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-011",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 9.712507016956806e-05
+  },
+  {
+    "id": "FormalMath500-012",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 4.52918466180563e-05
+  },
+  {
+    "id": "FormalMath500-013",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00034087500534951687
+  },
+  {
+    "id": "FormalMath500-014",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00022641615942120552
+  },
+  {
+    "id": "FormalMath500-015",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.0005162078887224197
+  },
+  {
+    "id": "FormalMath500-016",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00011250004172325134
+  },
+  {
+    "id": "FormalMath500-017",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 9.716697968542576e-05
+  },
+  {
+    "id": "FormalMath500-018",
+    "mode": "reduced",
+    "order": "none",
+    "status": "sat",
+    "kind": "preprocess_only",
+    "wall_seconds": 7.479195483028889e-05
+  },
+  {
+    "id": "FormalMath500-019",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.005395875079557,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-019",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=201 feasible=0 cad_seconds=0.321162 total_seconds=0.321165\n",
+    "stderr": "",
+    "wall_seconds": 0.3431311249732971,
+    "fields": {
+      "status": "unsat",
+      "leaves": "201",
+      "feasible": "0",
+      "cad_seconds": "0.321162",
+      "total_seconds": "0.321165"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-020",
+    "mode": "reduced",
+    "order": "none",
+    "status": "sat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.0002525830641388893
+  },
+  {
+    "id": "FormalMath500-021",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=7 feasible=0 cad_seconds=0.000736 total_seconds=0.000737\n",
+    "stderr": "",
+    "wall_seconds": 0.02543491590768099,
+    "fields": {
+      "status": "unsat",
+      "leaves": "7",
+      "feasible": "0",
+      "cad_seconds": "0.000736",
+      "total_seconds": "0.000737"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-022",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00011899997480213642
+  },
+  {
+    "id": "FormalMath500-023",
+    "mode": "reduced",
+    "order": "none",
+    "status": "sat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00011395802721381187
+  },
+  {
+    "id": "FormalMath500-024",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00010037492029368877
+  },
+  {
+    "id": "FormalMath500-025",
+    "mode": "reduced",
+    "order": "none",
+    "status": "sat",
+    "kind": "preprocess_only",
+    "wall_seconds": 6.829085759818554e-05
+  },
+  {
+    "id": "FormalMath500-026",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00011666608043015003
+  },
+  {
+    "id": "FormalMath500-027",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 8.237501606345177e-05
+  },
+  {
+    "id": "FormalMath500-028",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.000114459078758955
+  },
+  {
+    "id": "FormalMath500-029",
+    "mode": "reduced",
+    "order": "none",
+    "status": "sat",
+    "kind": "preprocess_only",
+    "wall_seconds": 7.683411240577698e-05
+  },
+  {
+    "id": "FormalMath500-030",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00021862494759261608
+  },
+  {
+    "id": "FormalMath500-031",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 7.120799273252487e-05
+  },
+  {
+    "id": "FormalMath500-032",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=295 feasible=0 cad_seconds=1.22225 total_seconds=1.22225\n",
+    "stderr": "",
+    "wall_seconds": 1.2471397921908647,
+    "fields": {
+      "status": "unsat",
+      "leaves": "295",
+      "feasible": "0",
+      "cad_seconds": "1.22225",
+      "total_seconds": "1.22225"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-033",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 4.787486977875233e-05
+  },
+  {
+    "id": "FormalMath500-034",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=3 feasible=0 cad_seconds=0.000214 total_seconds=0.000214\n",
+    "stderr": "",
+    "wall_seconds": 0.022314833011478186,
+    "fields": {
+      "status": "unsat",
+      "leaves": "3",
+      "feasible": "0",
+      "cad_seconds": "0.000214",
+      "total_seconds": "0.000214"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-035",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=3 feasible=1 cad_seconds=0.000169 total_seconds=0.000175\n",
+    "stderr": "",
+    "wall_seconds": 0.02099358383566141,
+    "fields": {
+      "status": "sat",
+      "leaves": "3",
+      "feasible": "1",
+      "cad_seconds": "0.000169",
+      "total_seconds": "0.000175"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-036",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.0001623749267309904
+  },
+  {
+    "id": "FormalMath500-037",
+    "mode": "reduced",
+    "order": "none",
+    "status": "sat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.0002844170667231083
+  },
+  {
+    "id": "FormalMath500-038",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=53 feasible=0 cad_seconds=0.610957 total_seconds=0.610959\n",
+    "stderr": "",
+    "wall_seconds": 0.6335175829008222,
+    "fields": {
+      "status": "unsat",
+      "leaves": "53",
+      "feasible": "0",
+      "cad_seconds": "0.610957",
+      "total_seconds": "0.610959"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-039",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=45 feasible=2 cad_seconds=0.069073 total_seconds=0.069095\n",
+    "stderr": "",
+    "wall_seconds": 0.09173629200085998,
+    "fields": {
+      "status": "sat",
+      "leaves": "45",
+      "feasible": "2",
+      "cad_seconds": "0.069073",
+      "total_seconds": "0.069095"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-040",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=5 feasible=0 cad_seconds=0.000712 total_seconds=0.000712\n",
+    "stderr": "",
+    "wall_seconds": 0.023079083068296313,
+    "fields": {
+      "status": "unsat",
+      "leaves": "5",
+      "feasible": "0",
+      "cad_seconds": "0.000712",
+      "total_seconds": "0.000712"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-041",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=5 feasible=1 cad_seconds=0.00058 total_seconds=0.000588\n",
+    "stderr": "",
+    "wall_seconds": 0.025128917070105672,
+    "fields": {
+      "status": "sat",
+      "leaves": "5",
+      "feasible": "1",
+      "cad_seconds": "0.00058",
+      "total_seconds": "0.000588"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-042",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=7 feasible=0 cad_seconds=0.000861 total_seconds=0.000861\n",
+    "stderr": "",
+    "wall_seconds": 0.02267287508584559,
+    "fields": {
+      "status": "unsat",
+      "leaves": "7",
+      "feasible": "0",
+      "cad_seconds": "0.000861",
+      "total_seconds": "0.000861"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-043",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=7 feasible=1 cad_seconds=0.000941 total_seconds=0.000975\n",
+    "stderr": "",
+    "wall_seconds": 0.02433770801872015,
+    "fields": {
+      "status": "sat",
+      "leaves": "7",
+      "feasible": "1",
+      "cad_seconds": "0.000941",
+      "total_seconds": "0.000975"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-044",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00015783286653459072
+  },
+  {
+    "id": "FormalMath500-045",
+    "mode": "reduced",
+    "order": "none",
+    "status": "sat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00012841704301536083
+  },
+  {
+    "id": "FormalMath500-046",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00014645885676145554
+  },
+  {
+    "id": "FormalMath500-047",
+    "mode": "reduced",
+    "order": "none",
+    "status": "sat",
+    "kind": "preprocess_only",
+    "wall_seconds": 7.162499241530895e-05
+  },
+  {
+    "id": "FormalMath500-048",
+    "mode": "reduced",
+    "order": "none",
+    "status": "unsat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00013529183343052864
+  },
+  {
+    "id": "FormalMath500-049",
+    "mode": "reduced",
+    "order": "none",
+    "status": "sat",
+    "kind": "preprocess_only",
+    "wall_seconds": 0.00012770877219736576
+  },
+  {
+    "id": "FormalMath500-050",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=9 feasible=0 cad_seconds=0.003347 total_seconds=0.003347\n",
+    "stderr": "",
+    "wall_seconds": 0.025119416881352663,
+    "fields": {
+      "status": "unsat",
+      "leaves": "9",
+      "feasible": "0",
+      "cad_seconds": "0.003347",
+      "total_seconds": "0.003347"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-051",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=9 feasible=1 cad_seconds=0.003488 total_seconds=0.003512\n",
+    "stderr": "",
+    "wall_seconds": 0.026870209025219083,
+    "fields": {
+      "status": "sat",
+      "leaves": "9",
+      "feasible": "1",
+      "cad_seconds": "0.003488",
+      "total_seconds": "0.003512"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-052",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.01174125005491,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-052",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=315 feasible=0 cad_seconds=0.475178 total_seconds=0.475181\n",
+    "stderr": "",
+    "wall_seconds": 0.5014000420924276,
+    "fields": {
+      "status": "unsat",
+      "leaves": "315",
+      "feasible": "0",
+      "cad_seconds": "0.475178",
+      "total_seconds": "0.475181"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-053",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=7 feasible=1 cad_seconds=0.00061 total_seconds=0.000629\n",
+    "stderr": "",
+    "wall_seconds": 0.022878749994561076,
+    "fields": {
+      "status": "sat",
+      "leaves": "7",
+      "feasible": "1",
+      "cad_seconds": "0.00061",
+      "total_seconds": "0.000629"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-054",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.00384237500839,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-054",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.004526457982138,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-055",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.004433833062649,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-055",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.003956083906814,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-056",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.016441959189251,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-056",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.023369750007987,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-057",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=7 feasible=1 cad_seconds=3.04192 total_seconds=3.04453\n",
+    "stderr": "",
+    "wall_seconds": 3.071364833973348,
+    "fields": {
+      "status": "sat",
+      "leaves": "7",
+      "feasible": "1",
+      "cad_seconds": "3.04192",
+      "total_seconds": "3.04453"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-058",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.005248625064269,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-058",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.007791833020747,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-059",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=255 feasible=1 cad_seconds=0.370246 total_seconds=0.370533\n",
+    "stderr": "",
+    "wall_seconds": 0.3931792080402374,
+    "fields": {
+      "status": "sat",
+      "leaves": "255",
+      "feasible": "1",
+      "cad_seconds": "0.370246",
+      "total_seconds": "0.370533"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "FormalMath500-060",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=61 feasible=0 cad_seconds=0.009052 total_seconds=0.009053\n",
+    "stderr": "",
+    "wall_seconds": 0.03285645809955895,
+    "fields": {
+      "status": "unsat",
+      "leaves": "61",
+      "feasible": "0",
+      "cad_seconds": "0.009052",
+      "total_seconds": "0.009053"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-001",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.013201750116423,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-001",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.009280500002205,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-002",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.012584999902174,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-002",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.00752158393152,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-003",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.005495750112459,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-003",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.012407833943143,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-004",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.025731666013598,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-004",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.022391791921109,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-005",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=41 feasible=0 cad_seconds=0.062548 total_seconds=0.062549\n",
+    "stderr": "",
+    "wall_seconds": 0.08761241589672863,
+    "fields": {
+      "status": "unsat",
+      "leaves": "41",
+      "feasible": "0",
+      "cad_seconds": "0.062548",
+      "total_seconds": "0.062549"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2024-006",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=3 feasible=1 cad_seconds=0.000287 total_seconds=0.000298\n",
+    "stderr": "",
+    "wall_seconds": 0.022240875056013465,
+    "fields": {
+      "status": "sat",
+      "leaves": "3",
+      "feasible": "1",
+      "cad_seconds": "0.000287",
+      "total_seconds": "0.000298"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-001",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=11 feasible=0 cad_seconds=0.009262 total_seconds=0.009263\n",
+    "stderr": "",
+    "wall_seconds": 0.031338749919086695,
+    "fields": {
+      "status": "unsat",
+      "leaves": "11",
+      "feasible": "0",
+      "cad_seconds": "0.009262",
+      "total_seconds": "0.009263"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-002",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=11 feasible=2 cad_seconds=0.009364 total_seconds=0.009396\n",
+    "stderr": "",
+    "wall_seconds": 0.0320572080090642,
+    "fields": {
+      "status": "sat",
+      "leaves": "11",
+      "feasible": "2",
+      "cad_seconds": "0.009364",
+      "total_seconds": "0.009396"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-003",
+    "mode": "reduced",
+    "order": "default",
+    "status": "unsat",
+    "returncode": 0,
+    "stdout": "status=unsat leaves=89 feasible=0 cad_seconds=0.992194 total_seconds=0.992195\n",
+    "stderr": "",
+    "wall_seconds": 1.014749291120097,
+    "fields": {
+      "status": "unsat",
+      "leaves": "89",
+      "feasible": "0",
+      "cad_seconds": "0.992194",
+      "total_seconds": "0.992195"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-004",
+    "mode": "reduced",
+    "order": "default",
+    "status": "sat",
+    "returncode": 0,
+    "stdout": "status=sat leaves=45 feasible=2 cad_seconds=0.054884 total_seconds=0.05492\n",
+    "stderr": "",
+    "wall_seconds": 0.07688762503676116,
+    "fields": {
+      "status": "sat",
+      "leaves": "45",
+      "feasible": "2",
+      "cad_seconds": "0.054884",
+      "total_seconds": "0.05492"
+    },
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-005",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.012554166140035,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-005",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.009898708900437,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-006",
+    "mode": "reduced",
+    "order": "default",
+    "status": "timeout",
+    "wall_seconds": 10.013980415882543,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  },
+  {
+    "id": "AIME-2025-006",
+    "mode": "reduced",
+    "order": "reverse",
+    "status": "timeout",
+    "wall_seconds": 10.011899707838893,
+    "timeout_seconds": 10.0,
+    "kind": "cad"
+  }
+]

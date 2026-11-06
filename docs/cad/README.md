@@ -8,9 +8,9 @@
 
 当前尚有平方自由分解的已知不终止输入 `[x²,y³,z²+xy]`，本批整体正确性审核未完成。WRSD 点查询替换的论证与这一递归进展缺口分别记录在[RSD／非约化前缀说明](fixes/rsd-nonradical-prefix.md)中。
 
-文献对应、函数映射、证明要点及性能数据直接写入各模块文档；构建与测试验证记录实测结果和复现命令。新增版本尚未全部经过人工审核。
+文献对应、函数映射、证明要点及性能数据直接写入各模块文档；[构建与测试验证](reports/modular-cad.md)记录实测结果和复现命令。新增版本尚未全部经过人工审核。
 
-三数据集实验报告记录新版题集全部 72 个查询的求解结果、47 道原题的转换核对，以及剩余超时输入的瓶颈、诊断证据和复现快照。
+[三数据集实验报告](reports/three-datasets.md)记录新版题集全部 72 个查询的求解结果、47 道原题的转换核对，以及剩余超时输入的瓶颈、诊断证据和复现快照。
 
 ## 阅读顺序
 
@@ -23,7 +23,7 @@
 | 5 | [理论 PDF](theory/lazard-evaluation.pdf)、[理论摘要](theory/lazard-evaluation-theory.md) | 13 个编号算法、有理采样辅助过程、正确性和终止性证明 |
 | 6 | [公共 API](design/full-cad/api.md) | 调用方式、数据语义、前提和异常 |
 | 7 | [逐层阅读指南](design/modular-cad/review-guide.md) | 基线范围、逐层代码和测试映射 |
-| 8 | [形式化证明接口](design/modular-cad/formalization.md)、验证报告 | 表示关系、证明义务、测试结果与复现入口 |
+| 8 | [形式化证明接口](design/modular-cad/formalization.md)、[验证报告](reports/modular-cad.md) | 表示关系、证明义务、测试结果与复现入口 |
 
 基础修改的规格：[RCtoSqrfree 首层处理](fixes/rctosqrfree-first-level.md)、[ZZ 最小整数边界](fixes/zz-int64-min-cad-sanitizer.md)、[RSD 使用边界与 WRSD 替代范围](fixes/rsd-nonradical-prefix.md)。RSD 独立说明属于本批三角列接口的审核内容。
 

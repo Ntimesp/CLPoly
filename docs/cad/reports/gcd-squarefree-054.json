@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-23",
+  "case": "FormalMath500-054",
+  "projection_order": "declared",
+  "scope": "Change only squarefree GCD overload; duplicate checks and refinement remain unchanged. Full CAD is still incomplete at 30 seconds.",
+  "compiler": "g++-13 (Homebrew GCC 13.4.0) 13.4.0",
+  "flags": "-std=c++17 -O2 -DNDEBUG; existing Debug static library",
+  "header_before_sha256": "714afd87199182294201014f7d1507a63c50f0ed11d9397d9d68e1937415d620",
+  "header_after_sha256": "d044ac813e3ebdb0759e9b73c354439c17a46222321675ec92f88a9ccc0ad22a",
+  "header_diff": "--- before/real_algebraic.hh\n+++ after/real_algebraic.hh\n@@ -123,8 +123,7 @@\n     {\n         return true;\n     }\n-    upolynomial_ZZ s, t;\n-    auto g = polynomial_GCD(z, derivative(z), s, t);\n+    auto g = polynomial_GCD(z, derivative(z));\n     return !g.empty() && g.front().first.deg() == 0;\n }\n inline bool strict_sign(int s)\n",
+  "baseline_driver_sha256": "b8b2f0b9ac3a42107528177af5450abd1ed3cfb284b8ecc111d5430ced2b59ad",
+  "new_driver_sha256": "fa55b5481c034a7c33b347c238584da77668446e5569e9623cba7eb018f19cf3",
+  "library_sha256": "5e2ff6232c0cba1054072a00f45c15a4b707764e657c855f54c8ddc84d204be4",
+  "input": "3 5 5\nx y z\n1\n1 1 1 0 0\n1\n1 1 0 1 0\n1\n1 1 0 0 1\n4\n-1 1 0 0 0\n1 1 1 1 2\n1 1 1 2 1\n1 1 2 1 1\n5\n-2 1 0 0 0\n1 1 0 1 1\n1 1 0 2 0\n1 1 1 0 1\n1 1 1 1 0\n1 0 >\n1 1 >\n1 2 >\n1 3 =\n1 4 <\n",
+  "probe_source_archive": "three-datasets/profile-evidence.tar.gz:054-termination/probe.cc",
+  "probe_source_sha256": "ec9441472ea25d7568dfb51f58e5bf059ba5b4222f743845793ae61691c1d3b4",
+  "first_fibre_root_intervals_identical_to_archived_original": true,
+  "root_count": 9,
+  "results": [
+    {
+      "name": "baseline-full-cad",
+      "command": [
+        "/private/tmp/clpoly-three-datasets-20261022/driver",
+        "/private/tmp/clpoly-three-datasets-20261022/inputs/FormalMath500-054-reduced.cad"
+      ],
+      "limit_seconds": 30,
+      "status": "timeout",
+      "stdout": "",
+      "stderr": "",
+      "wall_seconds": 30.005487125134096
+    },
+    {
+      "name": "ordinary-gcd-full-cad",
+      "command": [
+        "/private/tmp/clpoly-gcd-054-20261023/driver",
+        "/private/tmp/clpoly-three-datasets-20261022/inputs/FormalMath500-054-reduced.cad"
+      ],
+      "limit_seconds": 30,
+      "status": "timeout",
+      "stdout": "",
+      "stderr": "",
+      "wall_seconds": 30.007418459048495
+    },
+    {
+      "name": "ordinary-gcd-first-fibre",
+      "command": [
+        "/private/tmp/clpoly-gcd-054-20261023/fibre"
+      ],
+      "limit_seconds": 30,
+      "returncode": 0,
+      "status": "completed",
+      "stdout": "",
+      "stderr": "EXACT degree=9 gcd_degree=0\nDONE roots=9 shift=4259\nROOT [-5831497811697371100486611694791203/10384593717069655257060992658440192,-182234306615542846890206615462225/324518553658426726783156020576256]\nROOT [-2876365942132544041552545938166945/10384593717069655257060992658440192,-2876365942132544041552545938166937/10384593717069655257060992658440192]\nROOT [-1/1298074214633706907132624082305024,1/1298074214633706907132624082305024]\nROOT [215497718102071761512811673091179/1298074214633706907132624082305024,1723981744816574092102493384729443/10384593717069655257060992658440192]\nROOT [23116871101949323301625594984292929/10384593717069655257060992658440192,5779217775487330825406398746073233/2596148429267413814265248164610048]\nROOT [7788445287802241442795744493830143/2596148429267413814265248164610048,7788445287802241442795744493830145/2596148429267413814265248164610048]\nROOT [36985278962906336871669589670111589/10384593717069655257060992658440192,18492639481453168435834794835055983/5192296858534827628530496329220096]\nROOT [4683338681956504268579733447701943/1298074214633706907132624082305024,4683338681956504268579733447702753/1298074214633706907132624082305024]\nROOT [37491678332364728231755854799631193/10384593717069655257060992658440192,18745839166182364115877927399818651/5192296858534827628530496329220096]\n",
+      "wall_seconds": 7.197596458019689
+    },
+    {
+      "name": "test-real-algebraic",
+      "command": [
+        "_build/debug/bin/test_real_algebraic"
+      ],
+      "limit_seconds": 30,
+      "returncode": 0,
+      "status": "completed",
+      "stdout": "[ TEST ] UNI adapter: zero root, strict brackets and checked domain\n[ TEST ] XZ06 isolation, zero and negative roots\n[ TEST ] nested triangular point and NSHR\n[ TEST ] conjugate membership cannot use norm roots\n[ TEST ] point-zero on reducible chain\n[ TEST ] ROOTS-QQ degree branch, repeated roots and mixed coordinates\n[ TEST ] degree drop and empty fibre on selected component\n[ TEST ] deterministic generated rational and nested fibres\n[ TEST ] reencode on another defining chain\n[ TEST ] reencode retains the point when the new chain has other roots\n[ TEST ] recursive reencoding selects the same two-dimensional point\n[ TEST ] squarefree branches select only the requested prefix\n[ TEST ] external construction still checks the full certificate\n[ TEST ] third level and close irrational roots\n\n========================================\n  Total: 171  Passed: 171  Failed: 0\n========================================\n",
+      "stderr": "",
+      "wall_seconds": 0.5812879579607397
+    },
+    {
+      "name": "test-full-cad",
+      "command": [
+        "_build/debug/bin/test_full_cad"
+      ],
+      "limit_seconds": 30,
+      "returncode": 0,
+      "status": "completed",
+      "stdout": "[ TEST ] Lazard rational nullification and order\n[ TEST ] one-dimensional complete CAD\n[ TEST ] root references keep their source polynomial identity\n[ TEST ] shared roots advance the ordinals of every source\n[ TEST ] coordinate axes\n[ TEST ] circle lower-dimensional cells\n[ TEST ] empty, constants and zero-dimensional ambient space\n[ TEST ] copy retains comparator ownership\n[ TEST ] three-variable nullification vertical line\n[ TEST ] irrational section, rational sector, algebraic section\n[ TEST ] shared roots, rational coefficients and input validation\n[ TEST ] independent sign oracle for repeated rational grid factors\n[ TEST ] four-dimensional coordinate decomposition\n[ TEST ] certified stack structure and sample membership\n\n========================================\n  Total: 3063  Passed: 3063  Failed: 0\n========================================\n",
+      "stderr": "",
+      "wall_seconds": 0.9938573341351002
+    }
+  ]
+}

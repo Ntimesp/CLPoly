@@ -1,0 +1,372 @@
+[
+  {
+    "id": "FormalMath500-010",
+    "witness": {
+      "s": "1",
+      "original_area": "1",
+      "new_area": "9/10"
+    },
+    "signs": [
+      1,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-018",
+    "witness": {
+      "x": "3",
+      "square_root": "2"
+    },
+    "signs": [
+      1,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-020",
+    "witness": {
+      "x": "11/2",
+      "left_square": "25/4",
+      "right_square": "25/4",
+      "radicand": "0"
+    },
+    "signs": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-023",
+    "witness": {
+      "a": "-3",
+      "b": "2"
+    },
+    "signs": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-025",
+    "witness": {
+      "b": "13/10",
+      "c": "191/100"
+    },
+    "signs": [
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-029",
+    "witness": {
+      "x": "11",
+      "reciprocal": "1/6"
+    },
+    "signs": [
+      1,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-035",
+    "witness": {
+      "x": "-5/2"
+    },
+    "signs": [
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-037",
+    "witness": {
+      "a": "4",
+      "b": "12",
+      "m": "-3"
+    },
+    "signs": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-039",
+    "witness": {
+      "x1": "-8",
+      "x2": "16"
+    },
+    "signs": [
+      -1,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-041",
+    "witness": {
+      "r": "4"
+    },
+    "signs": [
+      1,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-043",
+    "witness": {
+      "x": "-4"
+    },
+    "signs": [
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-045",
+    "witness": {
+      "a": "5",
+      "b": "3",
+      "c": "33"
+    },
+    "signs": [
+      0,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-047",
+    "witness": {
+      "x": "2",
+      "reciprocal": "1/2"
+    },
+    "signs": [
+      1,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-049",
+    "witness": {
+      "speed": "50",
+      "time": "11/4",
+      "distance": "275/2"
+    },
+    "signs": [
+      0,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-051",
+    "witness": {
+      "x": "5"
+    },
+    "signs": [
+      1,
+      1,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-053",
+    "witness": {
+      "x": "1",
+      "numerator": "18",
+      "denominator": "2",
+      "value": "9"
+    },
+    "signs": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-055",
+    "witness": {
+      "x": "1",
+      "y": "-1 + sqrt(2)",
+      "z": "1"
+    },
+    "signs": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-057",
+    "witness": {
+      "a": "6/5",
+      "b": "6/5",
+      "c": "6/5",
+      "d": "6/5",
+      "e": "16/5"
+    },
+    "signs": [
+      0,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "FormalMath500-059",
+    "witness": {
+      "x": "4",
+      "y": "6",
+      "z": "12"
+    },
+    "signs": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "AIME-2024-002",
+    "witness": [
+      "5/2",
+      "24",
+      "204"
+    ],
+    "signs": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "AIME-2024-004",
+    "witness": [
+      "23/4",
+      "2",
+      "2",
+      "657/64"
+    ],
+    "signs": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "AIME-2024-006",
+    "witness": [
+      "12/5",
+      "-16/5",
+      "540"
+    ],
+    "signs": [
+      0,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "AIME-2025-002",
+    "witness": [
+      "6*sqrt(3) + 12",
+      "12 - 6*sqrt(3)"
+    ],
+    "signs": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "valid": true
+  },
+  {
+    "id": "AIME-2025-004",
+    "witness": [
+      "23/8",
+      "123/8",
+      "21",
+      "23",
+      "29",
+      "17"
+    ],
+    "signs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "valid": true
+  },
+  {
+    "id": "AIME-2025-006",
+    "witness": [
+      "sqrt(3)",
+      "-sqrt(3)/2 + sqrt(19)/2",
+      "3/2 - sqrt(57)/2",
+      "sqrt(57)"
+    ],
+    "signs": [
+      0,
+      1,
+      1,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "valid": true
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "id": "FormalMath500-001",
+    "status": "sat",
+    "seconds": 0.004013916943222284,
+    "model": "[x0 = 2/3]"
+  },
+  {
+    "id": "FormalMath500-002",
+    "status": "sat",
+    "seconds": 0.0008113330695778131,
+    "model": "[x0 = 6]"
+  },
+  {
+    "id": "FormalMath500-003",
+    "status": "sat",
+    "seconds": 0.0008120408747345209,
+    "model": "[x0 = 3]"
+  },
+  {
+    "id": "FormalMath500-004",
+    "status": "sat",
+    "seconds": 0.0009048748761415482,
+    "model": "[x1 = 63/5, x0 = 3139/10]"
+  },
+  {
+    "id": "FormalMath500-005",
+    "status": "sat",
+    "seconds": 0.0017629158683121204,
+    "model": "[x0 = 1/800]"
+  },
+  {
+    "id": "FormalMath500-006",
+    "status": "sat",
+    "seconds": 0.0011721670161932707,
+    "model": "[x1 = 1/100, x0 = 2/5]"
+  },
+  {
+    "id": "FormalMath500-007",
+    "status": "sat",
+    "seconds": 0.0009476670529693365,
+    "model": "[x0 = 60, x2 = 360, x1 = 120]"
+  },
+  {
+    "id": "FormalMath500-008",
+    "status": "sat",
+    "seconds": 0.0008630410302430391,
+    "model": "[x2 = 2/9, x1 = 4/9, x0 = 7/9]"
+  },
+  {
+    "id": "FormalMath500-009",
+    "status": "sat",
+    "seconds": 0.0014481248799711466,
+    "model": "[x0 = 1, x2 = 9/10, x1 = 1]"
+  },
+  {
+    "id": "FormalMath500-011",
+    "status": "sat",
+    "seconds": 0.0008879168890416622,
+    "model": "[x1 = 36, x0 = 72/5]"
+  },
+  {
+    "id": "FormalMath500-012",
+    "status": "sat",
+    "seconds": 0.0007769169751554728,
+    "model": "[x0 = 17]"
+  },
+  {
+    "id": "FormalMath500-013",
+    "status": "sat",
+    "seconds": 0.000841375207528472,
+    "model": "[x2 = 0, x1 = -1535/4, x3 = -1535/4, x0 = -81/4]"
+  },
+  {
+    "id": "FormalMath500-014",
+    "status": "sat",
+    "seconds": 0.002058041049167514,
+    "model": "[x1 = 5, x2 = 6, x3 = 5/6, x0 = -4]"
+  },
+  {
+    "id": "FormalMath500-015",
+    "status": "sat",
+    "seconds": 0.0007927501574158669,
+    "model": "[x2 = 170, x1 = 10, x4 = 11, x3 = 160, x0 = 4]"
+  },
+  {
+    "id": "FormalMath500-016",
+    "status": "sat",
+    "seconds": 0.0009300839155912399,
+    "model": "[x0 = 1, x1 = 3, x2 = 1]"
+  },
+  {
+    "id": "FormalMath500-017",
+    "status": "sat",
+    "seconds": 0.0007882087957113981,
+    "model": "[x1 = 2, x0 = 3]"
+  },
+  {
+    "id": "FormalMath500-019",
+    "status": "sat",
+    "seconds": 0.0019827920477837324,
+    "model": "[x0 = 7, x2 = 1, x1 = 16, x3 = 15]"
+  },
+  {
+    "id": "FormalMath500-021",
+    "status": "sat",
+    "seconds": 0.000912416959181428,
+    "model": "[x0 = -0.6180339887?]"
+  },
+  {
+    "id": "FormalMath500-022",
+    "status": "sat",
+    "seconds": 0.0007634579669684172,
+    "model": "[x1 = 2, x0 = -3]"
+  },
+  {
+    "id": "FormalMath500-024",
+    "status": "sat",
+    "seconds": 0.0007390000391751528,
+    "model": "[x1 = 191/100, x0 = 13/10]"
+  },
+  {
+    "id": "FormalMath500-026",
+    "status": "sat",
+    "seconds": 0.0007933329325169325,
+    "model": "[x0 = -25, x1 = 75]"
+  },
+  {
+    "id": "FormalMath500-027",
+    "status": "sat",
+    "seconds": 0.0007715420797467232,
+    "model": "[x1 = 13/2, x0 = 30]"
+  },
+  {
+    "id": "FormalMath500-028",
+    "status": "sat",
+    "seconds": 0.0007711669895797968,
+    "model": "[x1 = 1/6, x0 = 11]"
+  },
+  {
+    "id": "FormalMath500-030",
+    "status": "sat",
+    "seconds": 0.0007468750700354576,
+    "model": "[x2 = -8, x1 = 5, x0 = 3]"
+  },
+  {
+    "id": "FormalMath500-031",
+    "status": "sat",
+    "seconds": 0.0007189998868852854,
+    "model": "[x1 = 0, x0 = 4]"
+  },
+  {
+    "id": "FormalMath500-032",
+    "status": "sat",
+    "seconds": 0.0008534591179341078,
+    "model": "[x0 = 0, x2 = -18, x1 = -4, x3 = 14]"
+  },
+  {
+    "id": "FormalMath500-033",
+    "status": "sat",
+    "seconds": 0.0007428750395774841,
+    "model": "[x0 = 1600]"
+  },
+  {
+    "id": "FormalMath500-034",
+    "status": "sat",
+    "seconds": 3.737513907253742e-05,
+    "model": "[]"
+  },
+  {
+    "id": "FormalMath500-036",
+    "status": "sat",
+    "seconds": 0.0008478749077767134,
+    "model": "[x2 = -3, x1 = 12, x0 = 4]"
+  },
+  {
+    "id": "FormalMath500-038",
+    "status": "sat",
+    "seconds": 0.0010723338928073645,
+    "model": "[x0 = 16, x1 = -8]"
+  },
+  {
+    "id": "FormalMath500-040",
+    "status": "sat",
+    "seconds": 0.0009679580107331276,
+    "model": "[x0 = 4]"
+  },
+  {
+    "id": "FormalMath500-042",
+    "status": "sat",
+    "seconds": 0.000856917118653655,
+    "model": "[x0 = -4]"
+  },
+  {
+    "id": "FormalMath500-044",
+    "status": "sat",
+    "seconds": 0.0006940830498933792,
+    "model": "[x2 = 33, x1 = 3, x0 = 5]"
+  },
+  {
+    "id": "FormalMath500-046",
+    "status": "sat",
+    "seconds": 0.0007057921029627323,
+    "model": "[x1 = 1/2, x0 = 2]"
+  },
+  {
+    "id": "FormalMath500-048",
+    "status": "sat",
+    "seconds": 0.0008058750536292791,
+    "model": "[x2 = 275/2, x1 = 11/4, x0 = 50]"
+  },
+  {
+    "id": "FormalMath500-050",
+    "status": "sat",
+    "seconds": 0.0009513329714536667,
+    "model": "[x0 = 5]"
+  },
+  {
+    "id": "FormalMath500-052",
+    "status": "sat",
+    "seconds": 0.001222291961312294,
+    "model": "[x2 = 2,\n x1 = 18,\n x3 = 9,\n x0 = 1,\n /0 = [(18, 2) -> 9, else -> 0]]"
+  },
+  {
+    "id": "FormalMath500-054",
+    "status": "sat",
+    "seconds": 0.000917959026992321,
+    "model": "[x0 = 1, x1 = 1, x2 = 0.4142135623?]"
+  },
+  {
+    "id": "FormalMath500-056",
+    "status": "sat",
+    "seconds": 0.0011967499740421772,
+    "model": "[x0 = 2, x3 = 2, x2 = 0, x1 = 2, x4 = 2]"
+  },
+  {
+    "id": "FormalMath500-058",
+    "status": "sat",
+    "seconds": 0.0010154580231755972,
+    "model": "[x2 = 12,\n x1 = 6,\n x0 = 4,\n /0 = [(24, 6) -> 4, (72, 12) -> 6, else -> 0]]"
+  },
+  {
+    "id": "FormalMath500-060",
+    "status": "sat",
+    "seconds": 0.000728874932974577,
+    "model": "[x0 = 0, x2 = 5, x1 = 0, x4 = 10, x3 = 2]"
+  },
+  {
+    "id": "AIME-2024-001",
+    "status": "sat",
+    "seconds": 0.0009430828504264355,
+    "model": "[x0 = 5/2, x1 = 24, x2 = 204]"
+  },
+  {
+    "id": "AIME-2024-003",
+    "status": "sat",
+    "seconds": 0.0016538328491151333,
+    "model": "[x0 = 3,\n x2 = 1.5741781139?,\n x1 = 4.8702663304?,\n x3 = 2851/324,\n /0 = [(23, 4.7225343419?) -> 4.8702663304?, else -> 0]]"
+  },
+  {
+    "id": "AIME-2024-005",
+    "status": "sat",
+    "seconds": 0.0008777081966400146,
+    "model": "[x0 = -4, x1 = 0, x2 = -324]"
+  },
+  {
+    "id": "AIME-2025-001",
+    "status": "sat",
+    "seconds": 0.0009447920601814985,
+    "model": "[x0 = 22.3923048454?, x1 = 1.6076951545?]"
+  },
+  {
+    "id": "AIME-2025-003",
+    "status": "sat",
+    "seconds": 0.0012614999432116747,
+    "model": "[x0 = 23/8, x1 = 123/8, x2 = 21, x4 = 29, x5 = 17, x3 = 23]"
+  },
+  {
+    "id": "AIME-2025-005",
+    "status": "sat",
+    "seconds": 0.001964041031897068,
+    "model": "[x0 = 1.7320508075?,\n x3 = 7.5498344352?,\n x1 = 1.3134240679?,\n x2 = -2.2749172176?]"
+  }
+]

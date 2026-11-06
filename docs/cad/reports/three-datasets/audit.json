@@ -1,0 +1,1555 @@
+[
+  {
+    "id": "FormalMath500-001",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0005610829684883356
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0044299999717622995
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 2.6875175535678864e-05
+    },
+    "variable_aliases": {
+      "leak_ratio": "leak_ratio"
+    }
+  },
+  {
+    "id": "FormalMath500-002",
+    "reference": {
+      "status": "unsat",
+      "seconds": 3.691599704325199e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 3.233295865356922e-05
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.258418291807175e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-003",
+    "reference": {
+      "status": "unsat",
+      "seconds": 4.187505692243576e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 3.4499913454055786e-05
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.158301115036011e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-004",
+    "reference": {
+      "status": "unsat",
+      "seconds": 4.437495954334736e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0019959581550210714
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 2.674991264939308e-05
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b"
+    }
+  },
+  {
+    "id": "FormalMath500-005",
+    "reference": {
+      "status": "unsat",
+      "seconds": 3.8041966035962105e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 4.6999892219901085e-05
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 4.429183900356293e-05
+    },
+    "variable_aliases": {
+      "exchange_rate": "exchange_rate"
+    }
+  },
+  {
+    "id": "FormalMath500-006",
+    "reference": {
+      "status": "unsat",
+      "seconds": 4.1207997128367424e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010257919784635305
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.300001844763756e-05
+    },
+    "variable_aliases": {
+      "speed": "speed",
+      "distance_hallway": "distance_hallway"
+    }
+  },
+  {
+    "id": "FormalMath500-007",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0012172500137239695
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010620409157127142
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.6665936931967735e-05
+    },
+    "variable_aliases": {
+      "smallest_angle": "smallest_angle",
+      "largest_angle": "largest_angle",
+      "sum_of_angles": "sum_of_angles"
+    }
+  },
+  {
+    "id": "FormalMath500-008",
+    "reference": {
+      "status": "unsat",
+      "seconds": 4.120892845094204e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010408752132207155
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 2.729194238781929e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "y": "y",
+      "z": "z"
+    }
+  },
+  {
+    "id": "FormalMath500-009",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0009931251406669617
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010456661693751812
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.9250124245882034e-05
+    },
+    "variable_aliases": {
+      "s": "s",
+      "original_area": "original_area",
+      "new_area": "new_area"
+    }
+  },
+  {
+    "id": "FormalMath500-010",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0012077081482857466,
+      "model": "[x0 = 1, x2 = 9/10, x1 = 1]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010816249996423721
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 4.395912401378155e-05
+    },
+    "variable_aliases": {
+      "s": "s",
+      "original_area": "original_area",
+      "new_area": "new_area"
+    }
+  },
+  {
+    "id": "FormalMath500-011",
+    "reference": {
+      "status": "unsat",
+      "seconds": 4.737498238682747e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009817089885473251
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.6708079278469086e-05
+    },
+    "variable_aliases": {
+      "sale_price": "sale_price",
+      "original_price": "original_price"
+    }
+  },
+  {
+    "id": "FormalMath500-012",
+    "reference": {
+      "status": "unsat",
+      "seconds": 3.2125040888786316e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 4.254188388586044e-05
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.1542032957077026e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-013",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0008848339784890413
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0012217499315738678
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.8999831303954124e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "first": "first",
+      "second": "second",
+      "result": "result"
+    }
+  },
+  {
+    "id": "FormalMath500-014",
+    "reference": {
+      "status": "unsat",
+      "seconds": 5.466700531542301e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010460829362273216
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.462517634034157e-05
+    },
+    "variable_aliases": {
+      "y": "y",
+      "dot_product": "dot_product",
+      "norm_squared": "norm_squared",
+      "projection_scale": "projection_scale"
+    }
+  },
+  {
+    "id": "FormalMath500-015",
+    "reference": {
+      "status": "unsat",
+      "seconds": 8.029211312532425e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0011714580468833447
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.6458950489759445e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "factor": "factor",
+      "first_product": "first_product",
+      "second_product": "second_product",
+      "value": "value"
+    }
+  },
+  {
+    "id": "FormalMath500-016",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0007767090573906898
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009442910086363554
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.124983049929142e-05
+    },
+    "variable_aliases": {
+      "treek": "treek",
+      "squig": "squig",
+      "goolee": "goolee"
+    }
+  },
+  {
+    "id": "FormalMath500-017",
+    "reference": {
+      "status": "unsat",
+      "seconds": 4.5666005462408066e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009463329333811998
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.079208545386791e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "square_root": "square_root"
+    }
+  },
+  {
+    "id": "FormalMath500-018",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0007307080086320639,
+      "model": "[x1 = 2, x0 = 3]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0008892498444765806
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.5041943192481995e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "square_root": "square_root"
+    },
+    "direct_sat_witness": {
+      "x": "3",
+      "square_root": "2"
+    }
+  },
+  {
+    "id": "FormalMath500-019",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0009035000111907721
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010162079706788063
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 4.579196684062481e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "left_square": "left_square",
+      "right_square": "right_square",
+      "radicand": "radicand"
+    }
+  },
+  {
+    "id": "FormalMath500-020",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0009847499895840883,
+      "model": "[x2 = 25/4, x1 = 25/4, x3 = 0, x0 = 11/2]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0011602910235524178
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.0166935175657272e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "left_square": "left_square",
+      "right_square": "right_square",
+      "radicand": "radicand"
+    },
+    "direct_sat_witness": {
+      "x": "11/2",
+      "left_square": "25/4",
+      "right_square": "25/4",
+      "radicand": "0"
+    }
+  },
+  {
+    "id": "FormalMath500-021",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0011859580408781767
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010154999326914549
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.516604192554951e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-022",
+    "reference": {
+      "status": "unsat",
+      "seconds": 4.39169816672802e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009371249470859766
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.058393485844135e-05
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b"
+    }
+  },
+  {
+    "id": "FormalMath500-023",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0008851250167936087,
+      "model": "[x1 = 2, x0 = -3]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010360418818891048
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.379187546670437e-05
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b"
+    },
+    "direct_sat_witness": {
+      "a": "-3",
+      "b": "2"
+    }
+  },
+  {
+    "id": "FormalMath500-024",
+    "reference": {
+      "status": "unsat",
+      "seconds": 3.875000402331352e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009850829374045134
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.254087641835213e-05
+    },
+    "variable_aliases": {
+      "b": "b",
+      "c": "c"
+    }
+  },
+  {
+    "id": "FormalMath500-025",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0007040000054985285,
+      "model": "[x1 = 191/100, x0 = 13/10]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0008394168689846992
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.0250055715441704e-05
+    },
+    "variable_aliases": {
+      "b": "b",
+      "c": "c"
+    },
+    "direct_sat_witness": {
+      "b": "13/10",
+      "c": "191/100"
+    }
+  },
+  {
+    "id": "FormalMath500-026",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.00084687490016222
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010378751903772354
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 2.8416980057954788e-05
+    },
+    "variable_aliases": {
+      "a₁": "a1",
+      "d": "d"
+    }
+  },
+  {
+    "id": "FormalMath500-027",
+    "reference": {
+      "status": "unsat",
+      "seconds": 3.5582808777689934e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009561670012772083
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.629201091825962e-05
+    },
+    "variable_aliases": {
+      "B": "B",
+      "h": "h"
+    }
+  },
+  {
+    "id": "FormalMath500-028",
+    "reference": {
+      "status": "unsat",
+      "seconds": 5.208398215472698e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010053750593215227
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.25001310557127e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "reciprocal": "reciprocal"
+    }
+  },
+  {
+    "id": "FormalMath500-029",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0008073339704424143,
+      "model": "[x1 = 1/6, x0 = 11]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010261661373078823
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.929203376173973e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "reciprocal": "reciprocal"
+    },
+    "direct_sat_witness": {
+      "x": "11",
+      "reciprocal": "1/6"
+    }
+  },
+  {
+    "id": "FormalMath500-030",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0007316670380532742
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0012027919292449951
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 2.8708018362522125e-05
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b",
+      "c": "c"
+    }
+  },
+  {
+    "id": "FormalMath500-031",
+    "reference": {
+      "status": "unsat",
+      "seconds": 3.63748986274004e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009207499679178
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 2.3916829377412796e-05
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b"
+    }
+  },
+  {
+    "id": "FormalMath500-032",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0007933750748634338
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0013217499945312738
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 5.150004290044308e-05
+    },
+    "variable_aliases": {
+      "u": "u",
+      "first_product": "first_product",
+      "second_product": "second_product",
+      "result": "result"
+    }
+  },
+  {
+    "id": "FormalMath500-033",
+    "reference": {
+      "status": "unsat",
+      "seconds": 3.887503407895565e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 5.0167087465524673e-05
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 2.879183739423752e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-034",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0008761249482631683
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0008636661805212498
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 2.9165996238589287e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-035",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.000869999872520566,
+      "model": "[x0 = -5/2]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0008835000917315483
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 2.879183739423752e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-036",
+    "reference": {
+      "status": "unsat",
+      "seconds": 5.8625126257538795e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010482501238584518
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.854208625853062e-05
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b",
+      "m": "m"
+    }
+  },
+  {
+    "id": "FormalMath500-037",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0008976671379059553,
+      "model": "[x2 = -3, x1 = 12, x0 = 4]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009527909569442272
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.570900298655033e-05
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b",
+      "m": "m"
+    },
+    "direct_sat_witness": {
+      "a": "4",
+      "b": "12",
+      "m": "-3"
+    }
+  },
+  {
+    "id": "FormalMath500-038",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0011826660484075546
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0012693328317254782
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 4.2584026232361794e-05
+    },
+    "variable_aliases": {
+      "x1": "x1",
+      "x2": "x2"
+    }
+  },
+  {
+    "id": "FormalMath500-039",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.001252416055649519,
+      "model": "[x0 = 16, x1 = -8]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0012594580184668303
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 4.016607999801636e-05
+    },
+    "variable_aliases": {
+      "x1": "x1",
+      "x2": "x2"
+    }
+  },
+  {
+    "id": "FormalMath500-040",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0008440830279141665
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009490419179201126
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.77078540623188e-05
+    },
+    "variable_aliases": {
+      "r": "r"
+    }
+  },
+  {
+    "id": "FormalMath500-041",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0009463331662118435,
+      "model": "[x0 = 4]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009875001851469278
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.591692075133324e-05
+    },
+    "variable_aliases": {
+      "r": "r"
+    }
+  },
+  {
+    "id": "FormalMath500-042",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0009297498036175966
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.001212041126564145
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 6.408290937542915e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-043",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0011266660876572132,
+      "model": "[x0 = -4]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010829160455614328
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 5.925004370510578e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-044",
+    "reference": {
+      "status": "unsat",
+      "seconds": 3.8790982216596603e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010076670441776514
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 2.7416041120886803e-05
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b",
+      "c": "c"
+    }
+  },
+  {
+    "id": "FormalMath500-045",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0007419171743094921,
+      "model": "[x2 = 33, x1 = 3, x0 = 5]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0011515000369399786
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.1708041206002235e-05
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b",
+      "c": "c"
+    },
+    "direct_sat_witness": {
+      "a": "5",
+      "b": "3",
+      "c": "33"
+    }
+  },
+  {
+    "id": "FormalMath500-046",
+    "reference": {
+      "status": "unsat",
+      "seconds": 4.791584797203541e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0012623330112546682
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 5.437503568828106e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "reciprocal": "reciprocal"
+    }
+  },
+  {
+    "id": "FormalMath500-047",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0008084170985966921,
+      "model": "[x1 = 1/2, x0 = 2]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0008969160262495279
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.1041912734508514e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "reciprocal": "reciprocal"
+    },
+    "direct_sat_witness": {
+      "x": "2",
+      "reciprocal": "1/2"
+    }
+  },
+  {
+    "id": "FormalMath500-048",
+    "reference": {
+      "status": "unsat",
+      "seconds": 6.5250089392066e-05
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.001232790993526578
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.4125056117773056e-05
+    },
+    "variable_aliases": {
+      "speed": "speed",
+      "time": "time",
+      "distance": "distance"
+    }
+  },
+  {
+    "id": "FormalMath500-049",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0007821670733392239,
+      "model": "[x2 = 275/2, x1 = 11/4, x0 = 50]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009673750028014183
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.0208146199584007e-05
+    },
+    "variable_aliases": {
+      "speed": "speed",
+      "time": "time",
+      "distance": "distance"
+    },
+    "direct_sat_witness": {
+      "speed": "50",
+      "time": "11/4",
+      "distance": "275/2"
+    }
+  },
+  {
+    "id": "FormalMath500-050",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0009283330291509628
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009944590274244547
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.8041966035962105e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-051",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0008922501001507044,
+      "model": "[x0 = 5]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009541669860482216
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 5.891709588468075e-05
+    },
+    "variable_aliases": {
+      "x": "x"
+    }
+  },
+  {
+    "id": "FormalMath500-052",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0011767500545829535
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0013047081883996725
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 0.0010767499916255474
+    },
+    "variable_aliases": {
+      "x": "x",
+      "numerator": "numerator",
+      "denominator": "denominator",
+      "value": "value"
+    }
+  },
+  {
+    "id": "FormalMath500-053",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0008546670433133841,
+      "model": "[x2 = 2, x1 = 18, x3 = 9, x0 = 1]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0010656248778104782
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 4.0041981264948845e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "numerator": "numerator",
+      "denominator": "denominator",
+      "value": "value"
+    }
+  },
+  {
+    "id": "FormalMath500-054",
+    "reference": {
+      "status": "unsat",
+      "seconds": 1.757860415847972
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 3.589490917045623
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 6.045796908438206e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "y": "y",
+      "z": "z"
+    }
+  },
+  {
+    "id": "FormalMath500-055",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0013213751371949911,
+      "model": "[x0 = 1, x1 = 0.4142135623?, x2 = 1]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0023581660352647305
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 4.554190672934055e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "y": "y",
+      "z": "z"
+    }
+  },
+  {
+    "id": "FormalMath500-056",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0138865418266505
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0015119579620659351
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 0.02719908393919468
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b",
+      "c": "c",
+      "d": "d",
+      "e": "e"
+    }
+  },
+  {
+    "id": "FormalMath500-057",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.001312917098402977,
+      "model": "[x0 = 6/5, x2 = 6/5, x1 = 6/5, x4 = 16/5, x3 = 6/5]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0011905829887837172
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 0.0011311669368296862
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b",
+      "c": "c",
+      "d": "d",
+      "e": "e"
+    }
+  },
+  {
+    "id": "FormalMath500-058",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0011345408856868744
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0011230839882045984
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 4.99580055475235e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "y": "y",
+      "z": "z"
+    }
+  },
+  {
+    "id": "FormalMath500-059",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.001249000197276473,
+      "model": "[x2 = 12,\n x1 = 6,\n x0 = 4,\n /0 = [(24, 6) -> 4, (72, 12) -> 6, else -> 0]]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 3.954092971980572e-05
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 3.624986857175827e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "y": "y",
+      "z": "z"
+    }
+  },
+  {
+    "id": "FormalMath500-060",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0008578328415751457
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.001447583083063364
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 0.0011654580011963844
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b",
+      "factor1": "factor1",
+      "factor2": "factor2",
+      "result": "result"
+    }
+  },
+  {
+    "id": "AIME-2024-001",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0011697921436280012
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0014017079956829548
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 5.1208073273301125e-05
+    },
+    "variable_aliases": {
+      "s": "s",
+      "t": "t",
+      "h": "h"
+    }
+  },
+  {
+    "id": "AIME-2024-002",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0009661249350756407,
+      "model": "[x0 = 5/2, x1 = 24, x2 = 204]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0012272919993847609
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 7.937499321997166e-05
+    },
+    "variable_aliases": {
+      "s": "s",
+      "t": "t",
+      "h": "h"
+    }
+  },
+  {
+    "id": "AIME-2024-003",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0057113750372081995
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.01002299995161593
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 6.641610525548458e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "y": "y",
+      "z": "z",
+      "r_sq": "r_sq"
+    }
+  },
+  {
+    "id": "AIME-2024-004",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.004321667132899165,
+      "model": "[x0 = 2,\n x2 = 2,\n x1 = 23/4,\n x3 = 657/64,\n /0 = [(23, 4) -> 23/4, else -> 0]]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.013836000114679337
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 4.7833891585469246e-05
+    },
+    "variable_aliases": {
+      "x": "x",
+      "y": "y",
+      "z": "z",
+      "r_sq": "r_sq"
+    }
+  },
+  {
+    "id": "AIME-2024-005",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.001038332935422659
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.001326416851952672
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 4.266691394150257e-05
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b",
+      "value": "value"
+    }
+  },
+  {
+    "id": "AIME-2024-006",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0008574170060455799,
+      "model": "[x0 = 12/5, x2 = 540, x1 = -16/5]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0009542079642415047
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 0.0008289169054478407
+    },
+    "variable_aliases": {
+      "a": "a",
+      "b": "b",
+      "value": "value"
+    }
+  },
+  {
+    "id": "AIME-2025-001",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.001037083100527525
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0025972500443458557
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 0.001301625045016408
+    },
+    "variable_aliases": {
+      "r": "r",
+      "s": "s"
+    }
+  },
+  {
+    "id": "AIME-2025-002",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.000971208093687892,
+      "model": "[x0 = 22.3923048454?, x1 = 1.6076951545?]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.0020867090206593275
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 0.0009995410218834877
+    },
+    "variable_aliases": {
+      "r": "r",
+      "s": "s"
+    }
+  },
+  {
+    "id": "AIME-2025-003",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0012488330248743296
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.001661541871726513
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 0.001042292220517993
+    },
+    "variable_aliases": {
+      "k1": "k1",
+      "k2": "k2",
+      "p1": "p1",
+      "q1": "q1",
+      "p2": "p2",
+      "q2": "q2"
+    }
+  },
+  {
+    "id": "AIME-2025-004",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0010830000974237919,
+      "model": "[x0 = 23/8, x1 = 123/8, x2 = 21, x4 = 29, x5 = 17, x3 = 23]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.001613082829862833
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 0.001169458031654358
+    },
+    "variable_aliases": {
+      "k1": "k1",
+      "k2": "k2",
+      "p1": "p1",
+      "q1": "q1",
+      "p2": "p2",
+      "q2": "q2"
+    }
+  },
+  {
+    "id": "AIME-2025-005",
+    "reference": {
+      "status": "unsat",
+      "seconds": 0.0032760000322014093
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.011933249887079
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 7.116701453924179e-05
+    },
+    "variable_aliases": {
+      "u": "u",
+      "x": "x",
+      "y": "y",
+      "v": "v"
+    }
+  },
+  {
+    "id": "AIME-2025-006",
+    "reference": {
+      "status": "sat",
+      "seconds": 0.0017941249534487724,
+      "model": "[x0 = 1.7320508075?,\n x1 = 1.3134240679?,\n x2 = -2.2749172176?,\n x3 = 7.5498344352?]"
+    },
+    "matches_label": true,
+    "txt_json_xor": {
+      "status": "unsat",
+      "seconds": 0.004039832856506109
+    },
+    "preprocess_xor": {
+      "status": "unsat",
+      "seconds": 0.009597624884918332
+    },
+    "variable_aliases": {
+      "u": "u",
+      "x": "x",
+      "y": "y",
+      "v": "v"
+    }
+  }
+]

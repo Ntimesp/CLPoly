@@ -18,9 +18,9 @@
 - [Lazard 与 CAD 细化](modular-cad/lazard-and-cad.md)
 - [完整理论 PDF](../theory/lazard-evaluation.pdf)
 - [完整 CAD 的伪代码与函数对应](full-cad/detailed-design.md)
-- 验证报告
+- [验证报告](../reports/modular-cad.md)
 - [后续形式化证明接口](modular-cad/formalization.md)
-- 实数公式的线性等式预处理：可满足性求解的上层设计与独立实验，保留原 CAD 的全空间分解契约。
+- [实数公式的线性等式预处理](formula-preprocessing.md)：可满足性求解的上层设计与独立实验，保留原 CAD 的全空间分解契约。
 - [开区间的最简有理数采样](rational-sampling.md)：独立 QQ 连分数算法、完整伪代码与证明、CAD 接口及阶段实验；整数平移仍为独立候选。
 
 ## 核心正确性决策

@@ -1,0 +1,10480 @@
+[
+  {
+    "id": "FormalMath500-001",
+    "dataset": "FormalMath500",
+    "number": "001",
+    "model_id": "FormalMath500:12",
+    "variables": [
+      "leak_ratio"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -2,
+          "den": 3
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 16,
+          "den": 27
+        },
+        {
+          "exp": [
+            3
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/001.txt",
+    "max_degree": 3,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-002",
+    "dataset": "FormalMath500",
+    "number": "002",
+    "model_id": "FormalMath500:14",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 5,
+          "den": 6
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/002.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-003",
+    "dataset": "FormalMath500",
+    "number": "003",
+    "model_id": "FormalMath500:18",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -15,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 5,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -18,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 6,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/003.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-004",
+    "dataset": "FormalMath500",
+    "number": "004",
+    "model_id": "FormalMath500:24",
+    "variables": [
+      "a",
+      "b"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -3139,
+          "den": 10
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -63,
+          "den": 5
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -653,
+          "den": 2
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/004.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-005",
+    "dataset": "FormalMath500",
+    "number": "005",
+    "model_id": "FormalMath500:27",
+    "variables": [
+      "exchange_rate"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -1,
+          "den": 800
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -1250,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1000000,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/005.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-006",
+    "dataset": "FormalMath500",
+    "number": "006",
+    "model_id": "FormalMath500:28",
+    "variables": [
+      "speed",
+      "distance_hallway"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 5
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 40
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -10,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1000,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/006.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-007",
+    "dataset": "FormalMath500",
+    "number": "007",
+    "model_id": "FormalMath500:39",
+    "variables": [
+      "smallest_angle",
+      "largest_angle",
+      "sum_of_angles"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -360,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -180,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -120,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/007.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-008",
+    "dataset": "FormalMath500",
+    "number": "008",
+    "model_id": "FormalMath500:50",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 9,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 9,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 9,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 5,
+          "den": 9
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/008.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-009",
+    "dataset": "FormalMath500",
+    "number": "009",
+    "model_id": "FormalMath500:54",
+    "variables": [
+      "s",
+      "original_area",
+      "new_area"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -9,
+          "den": 10
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -100,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 90,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/009.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-010",
+    "dataset": "FormalMath500",
+    "number": "010",
+    "model_id": "FormalMath500:54",
+    "variables": [
+      "s",
+      "original_area",
+      "new_area"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -9,
+          "den": 10
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/010.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-011",
+    "dataset": "FormalMath500",
+    "number": "011",
+    "model_id": "FormalMath500:58",
+    "variables": [
+      "sale_price",
+      "original_price"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -72,
+          "den": 5
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -2,
+          "den": 5
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -36,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/011.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-012",
+    "dataset": "FormalMath500",
+    "number": "012",
+    "model_id": "FormalMath500:59",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -17,
+          "den": 4
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 4
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -17,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/012.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-013",
+    "dataset": "FormalMath500",
+    "number": "013",
+    "model_id": "FormalMath500:62",
+    "variables": [
+      "x",
+      "first",
+      "second",
+      "result"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -19,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -81,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 80,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -15,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/013.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-014",
+    "dataset": "FormalMath500",
+    "number": "014",
+    "model_id": "FormalMath500:103",
+    "variables": [
+      "y",
+      "dot_product",
+      "norm_squared",
+      "projection_scale"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -5,
+          "den": 6
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          ">"
+        ],
+        [
+          4,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/014.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-015",
+    "dataset": "FormalMath500",
+    "number": "015",
+    "model_id": "FormalMath500:125",
+    "variables": [
+      "x",
+      "factor",
+      "first_product",
+      "second_product",
+      "value"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -11,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          ">"
+        ],
+        [
+          5,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/015.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-016",
+    "dataset": "FormalMath500",
+    "number": "016",
+    "model_id": "FormalMath500:126",
+    "variables": [
+      "treek",
+      "squig",
+      "goolee"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 10,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/016.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-017",
+    "dataset": "FormalMath500",
+    "number": "017",
+    "model_id": "FormalMath500:130",
+    "variables": [
+      "x",
+      "square_root"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/017.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-018",
+    "dataset": "FormalMath500",
+    "number": "018",
+    "model_id": "FormalMath500:130",
+    "variables": [
+      "x",
+      "square_root"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/018.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-019",
+    "dataset": "FormalMath500",
+    "number": "019",
+    "model_id": "FormalMath500:133",
+    "variables": [
+      "x",
+      "left_square",
+      "right_square",
+      "radicand"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -9,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 6,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -64,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 16,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -11,
+          "den": 2
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "smaller_domain_value",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/019.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-020",
+    "dataset": "FormalMath500",
+    "number": "020",
+    "model_id": "FormalMath500:133",
+    "variables": [
+      "x",
+      "left_square",
+      "right_square",
+      "radicand"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -9,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 6,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -64,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 16,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -11,
+          "den": 2
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "attainability",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/020.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-021",
+    "dataset": "FormalMath500",
+    "number": "021",
+    "model_id": "FormalMath500:134",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            3
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/021.txt",
+    "max_degree": 3,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-022",
+    "dataset": "FormalMath500",
+    "number": "022",
+    "model_id": "FormalMath500:149",
+    "variables": [
+      "a",
+      "b"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 6,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          ">"
+        ],
+        [
+          4,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/022.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-023",
+    "dataset": "FormalMath500",
+    "number": "023",
+    "model_id": "FormalMath500:149",
+    "variables": [
+      "a",
+      "b"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 6,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/023.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-024",
+    "dataset": "FormalMath500",
+    "number": "024",
+    "model_id": "FormalMath500:156",
+    "variables": [
+      "b",
+      "c"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 13,
+          "den": 5
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 18,
+          "den": 5
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -321,
+          "den": 100
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/024.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-025",
+    "dataset": "FormalMath500",
+    "number": "025",
+    "model_id": "FormalMath500:156",
+    "variables": [
+      "b",
+      "c"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 13,
+          "den": 5
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 18,
+          "den": 5
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/025.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-026",
+    "dataset": "FormalMath500",
+    "number": "026",
+    "model_id": "FormalMath500:162",
+    "variables": [
+      "a1",
+      "d"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -200,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -500,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 7,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -350,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/026.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-027",
+    "dataset": "FormalMath500",
+    "number": "027",
+    "model_id": "FormalMath500:172",
+    "variables": [
+      "B",
+      "h"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -30,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -13,
+          "den": 2
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 65,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": -1,
+          "den": 3
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/027.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-028",
+    "dataset": "FormalMath500",
+    "number": "028",
+    "model_id": "FormalMath500:174",
+    "variables": [
+      "x",
+      "reciprocal"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 3
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 4,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -11,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/028.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-029",
+    "dataset": "FormalMath500",
+    "number": "029",
+    "model_id": "FormalMath500:174",
+    "variables": [
+      "x",
+      "reciprocal"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 3
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 4,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/029.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-030",
+    "dataset": "FormalMath500",
+    "number": "030",
+    "model_id": "FormalMath500:184",
+    "variables": [
+      "a",
+      "b",
+      "c"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 120,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/030.txt",
+    "max_degree": 3,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-031",
+    "dataset": "FormalMath500",
+    "number": "031",
+    "model_id": "FormalMath500:185",
+    "variables": [
+      "a",
+      "b"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -12,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/031.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-032",
+    "dataset": "FormalMath500",
+    "number": "032",
+    "model_id": "FormalMath500:189",
+    "variables": [
+      "u",
+      "first_product",
+      "second_product",
+      "result"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 18,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -14,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/032.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-033",
+    "dataset": "FormalMath500",
+    "number": "033",
+    "model_id": "FormalMath500:192",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 1600,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -1600,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/033.txt",
+    "max_degree": 1,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-034",
+    "dataset": "FormalMath500",
+    "number": "034",
+    "model_id": "FormalMath500:199",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -25,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -20,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": -4,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ]
+    ],
+    "purpose": "larger_value",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/034.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-035",
+    "dataset": "FormalMath500",
+    "number": "035",
+    "model_id": "FormalMath500:199",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -25,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -20,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": -4,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "attainability",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/035.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-036",
+    "dataset": "FormalMath500",
+    "number": "036",
+    "model_id": "FormalMath500:202",
+    "variables": [
+      "a",
+      "b",
+      "m"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 4
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 12
+        }
+      ],
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -13,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          ">"
+        ],
+        [
+          4,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/036.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-037",
+    "dataset": "FormalMath500",
+    "number": "037",
+    "model_id": "FormalMath500:202",
+    "variables": [
+      "a",
+      "b",
+      "m"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 4
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 12
+        }
+      ],
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/037.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-038",
+    "dataset": "FormalMath500",
+    "number": "038",
+    "model_id": "FormalMath500:206",
+    "variables": [
+      "x1",
+      "x2"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -128,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -128,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 128,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/038.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-039",
+    "dataset": "FormalMath500",
+    "number": "039",
+    "model_id": "FormalMath500:206",
+    "variables": [
+      "x1",
+      "x2"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -128,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -128,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/039.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-040",
+    "dataset": "FormalMath500",
+    "number": "040",
+    "model_id": "FormalMath500:208",
+    "variables": [
+      "r"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -28,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 15,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/040.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-041",
+    "dataset": "FormalMath500",
+    "number": "041",
+    "model_id": "FormalMath500:208",
+    "variables": [
+      "r"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -28,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 15,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/041.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-042",
+    "dataset": "FormalMath500",
+    "number": "042",
+    "model_id": "FormalMath500:212",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 20,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 9,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/042.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-043",
+    "dataset": "FormalMath500",
+    "number": "043",
+    "model_id": "FormalMath500:212",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 20,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 9,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/043.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-044",
+    "dataset": "FormalMath500",
+    "number": "044",
+    "model_id": "FormalMath500:215",
+    "variables": [
+      "a",
+      "b",
+      "c"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -10,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 6,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -33,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/044.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-045",
+    "dataset": "FormalMath500",
+    "number": "045",
+    "model_id": "FormalMath500:215",
+    "variables": [
+      "a",
+      "b",
+      "c"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -10,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 6,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/045.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-046",
+    "dataset": "FormalMath500",
+    "number": "046",
+    "model_id": "FormalMath500:217",
+    "variables": [
+      "x",
+      "reciprocal"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -6,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/046.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-047",
+    "dataset": "FormalMath500",
+    "number": "047",
+    "model_id": "FormalMath500:217",
+    "variables": [
+      "x",
+      "reciprocal"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -6,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "<"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/047.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-048",
+    "dataset": "FormalMath500",
+    "number": "048",
+    "model_id": "FormalMath500:225",
+    "variables": [
+      "speed",
+      "time",
+      "distance"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -50,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -11,
+          "den": 4
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -275,
+          "den": 2
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/048.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-049",
+    "dataset": "FormalMath500",
+    "number": "049",
+    "model_id": "FormalMath500:225",
+    "variables": [
+      "speed",
+      "time",
+      "distance"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -50,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -11,
+          "den": 4
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/049.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-050",
+    "dataset": "FormalMath500",
+    "number": "050",
+    "model_id": "FormalMath500:232",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 11,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/050.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-051",
+    "dataset": "FormalMath500",
+    "number": "051",
+    "model_id": "FormalMath500:232",
+    "variables": [
+      "x"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": -4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 11,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0
+          ],
+          "num": 5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ],
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/051.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-052",
+    "dataset": "FormalMath500",
+    "number": "052",
+    "model_id": "FormalMath500:313",
+    "variables": [
+      "x",
+      "numerator",
+      "denominator",
+      "value"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -10,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -9,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "smaller_value",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/052.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-053",
+    "dataset": "FormalMath500",
+    "number": "053",
+    "model_id": "FormalMath500:313",
+    "variables": [
+      "x",
+      "numerator",
+      "denominator",
+      "value"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -10,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -9,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "attainability",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/053.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-054",
+    "dataset": "FormalMath500",
+    "number": "054",
+    "model_id": "FormalMath500:322",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            2,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "smaller_value",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/054.txt",
+    "max_degree": 4,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-055",
+    "dataset": "FormalMath500",
+    "number": "055",
+    "model_id": "FormalMath500:322",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            2,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "attainability",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/055.txt",
+    "max_degree": 4,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-056",
+    "dataset": "FormalMath500",
+    "number": "056",
+    "model_id": "FormalMath500:356",
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 5
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ]
+    ],
+    "purpose": "larger_value",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/056.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-057",
+    "dataset": "FormalMath500",
+    "number": "057",
+    "model_id": "FormalMath500:356",
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 5
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "attainability",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/057.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-058",
+    "dataset": "FormalMath500",
+    "number": "058",
+    "model_id": "FormalMath500:365",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -24,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -48,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -72,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -22,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          ">"
+        ],
+        [
+          6,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/058.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "FormalMath500-059",
+    "dataset": "FormalMath500",
+    "number": "059",
+    "model_id": "FormalMath500:365",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -24,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -48,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -72,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/059.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "FormalMath500-060",
+    "dataset": "FormalMath500",
+    "number": "060",
+    "model_id": "FormalMath500:376",
+    "variables": [
+      "a",
+      "b",
+      "factor1",
+      "factor2",
+      "result"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -10,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -5,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          ">"
+        ],
+        [
+          3,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/FormalMath500/FormalMath500_多项式系统子句文件/060.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "AIME-2024-001",
+    "dataset": "AIME-2024",
+    "number": "001",
+    "model_id": "AIME-2024:01",
+    "variables": [
+      "s",
+      "t",
+      "h"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 144,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -540,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 240,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -252,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 144,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1080,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -204,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          ">"
+        ],
+        [
+          6,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/AIME-2024/多项式系统子句文件/001.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "AIME-2024-002",
+    "dataset": "AIME-2024",
+    "number": "002",
+    "model_id": "AIME-2024:01",
+    "variables": [
+      "s",
+      "t",
+      "h"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": 144,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -540,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 240,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -252,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": 144,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -1080,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ],
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/AIME-2024/多项式系统子句文件/002.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "AIME-2024-003",
+    "dataset": "AIME-2024",
+    "number": "003",
+    "model_id": "AIME-2024:07",
+    "variables": [
+      "x",
+      "y",
+      "z",
+      "r_sq"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -27,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -23,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -657,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 64,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          ">"
+        ]
+      ]
+    ],
+    "purpose": "upper_bound",
+    "expected": "unsat",
+    "source_path": "转换结果/AIME-2024/多项式系统子句文件/003.txt",
+    "max_degree": 3,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "AIME-2024-004",
+    "dataset": "AIME-2024",
+    "number": "004",
+    "model_id": "AIME-2024:07",
+    "variables": [
+      "x",
+      "y",
+      "z",
+      "r_sq"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -27,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -23,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -657,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 64,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "attainability",
+    "expected": "sat",
+    "source_path": "转换结果/AIME-2024/多项式系统子句文件/004.txt",
+    "max_degree": 3,
+    "z3_status": "sat"
+  },
+  {
+    "id": "AIME-2024-005",
+    "dataset": "AIME-2024",
+    "number": "005",
+    "model_id": "AIME-2024:13",
+    "variables": [
+      "a",
+      "b",
+      "value"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 108,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -81,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -540,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ]
+    ],
+    "purpose": "upper_bound",
+    "expected": "unsat",
+    "source_path": "转换结果/AIME-2024/多项式系统子句文件/005.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "AIME-2024-006",
+    "dataset": "AIME-2024",
+    "number": "006",
+    "model_id": "AIME-2024:13",
+    "variables": [
+      "a",
+      "b",
+      "value"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0
+          ],
+          "num": 108,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0
+          ],
+          "num": -81,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0
+          ],
+          "num": -540,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "attainability",
+    "expected": "sat",
+    "source_path": "转换结果/AIME-2024/多项式系统子句文件/006.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "AIME-2025-001",
+    "dataset": "AIME-2025",
+    "number": "001",
+    "model_id": "AIME-2025:06",
+    "variables": [
+      "r",
+      "s"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -24,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -432,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -504,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          ">"
+        ],
+        [
+          5,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/AIME-2025/多项式系统子句文件/001.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "AIME-2025-002",
+    "dataset": "AIME-2025",
+    "number": "002",
+    "model_id": "AIME-2025:06",
+    "variables": [
+      "r",
+      "s"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -24,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0
+          ],
+          "num": -432,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          ">"
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ],
+        [
+          2,
+          "<"
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/AIME-2025/多项式系统子句文件/002.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "AIME-2025-003",
+    "dataset": "AIME-2025",
+    "number": "003",
+    "model_id": "AIME-2025:08",
+    "variables": [
+      "k1",
+      "k2",
+      "p1",
+      "q1",
+      "p2",
+      "q2"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1000,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -40,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -50,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 8,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -155,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1000,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": -40,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": -50,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 8,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -155,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -73,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          ">"
+        ],
+        [
+          6,
+          "<"
+        ]
+      ],
+      [
+        [
+          7,
+          ">"
+        ],
+        [
+          7,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/AIME-2025/多项式系统子句文件/003.txt",
+    "max_degree": 2,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "AIME-2025-004",
+    "dataset": "AIME-2025",
+    "number": "004",
+    "model_id": "AIME-2025:08",
+    "variables": [
+      "k1",
+      "k2",
+      "p1",
+      "q1",
+      "p2",
+      "q2"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1000,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -40,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": -50,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 8,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -155,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1000,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": -40,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": -50,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -7,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": -6,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 8,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -8,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -155,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 3,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          "="
+        ]
+      ],
+      [
+        [
+          2,
+          "="
+        ]
+      ],
+      [
+        [
+          3,
+          "="
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          ">"
+        ],
+        [
+          6,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "premises_satisfiable",
+    "expected": "sat",
+    "source_path": "转换结果/AIME-2025/多项式系统子句文件/004.txt",
+    "max_degree": 2,
+    "z3_status": "sat"
+  },
+  {
+    "id": "AIME-2025-005",
+    "dataset": "AIME-2025",
+    "number": "005",
+    "model_id": "AIME-2025:09",
+    "variables": [
+      "u",
+      "x",
+      "y",
+      "v"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -57,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "<"
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          "="
+        ]
+      ],
+      [
+        [
+          7,
+          ">"
+        ]
+      ],
+      [
+        [
+          8,
+          ">"
+        ],
+        [
+          8,
+          "<"
+        ]
+      ]
+    ],
+    "purpose": "counterexample",
+    "expected": "unsat",
+    "source_path": "转换结果/AIME-2025/多项式系统子句文件/005.txt",
+    "max_degree": 4,
+    "z3_status": "unsat"
+  },
+  {
+    "id": "AIME-2025-006",
+    "dataset": "AIME-2025",
+    "number": "006",
+    "model_id": "AIME-2025:09",
+    "variables": [
+      "u",
+      "x",
+      "y",
+      "v"
+    ],
+    "polynomials": [
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": 4,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": -1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -16,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": -2,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        },
+        {
+          "exp": [
+            2,
+            0,
+            2,
+            0
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -57,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        }
+      ],
+      [
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "num": -3,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "num": 1,
+          "den": 1
+        },
+        {
+          "exp": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "num": 2,
+          "den": 1
+        }
+      ]
+    ],
+    "clauses": [
+      [
+        [
+          0,
+          "="
+        ]
+      ],
+      [
+        [
+          1,
+          ">"
+        ]
+      ],
+      [
+        [
+          2,
+          ">"
+        ]
+      ],
+      [
+        [
+          3,
+          "<"
+        ]
+      ],
+      [
+        [
+          4,
+          "="
+        ]
+      ],
+      [
+        [
+          5,
+          "="
+        ]
+      ],
+      [
+        [
+          6,
+          "="
+        ]
+      ],
+      [
+        [
+          7,
+          ">"
+        ]
+      ],
+      [
+        [
+          8,
+          "="
+        ]
+      ]
+    ],
+    "purpose": "answer_attainability",
+    "expected": "sat",
+    "source_path": "转换结果/AIME-2025/多项式系统子句文件/006.txt",
+    "max_degree": 4,
+    "z3_status": "sat"
+  }
+]

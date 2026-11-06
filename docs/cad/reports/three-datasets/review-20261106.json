@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-06",
+  "production_commit": "bc9167d000d4c69cc0aa8cb29b9925fca5e59c71",
+  "scope": "Current tool validation; historical benchmark counts and timings were not rerun.",
+  "library_regression": {
+    "test_files_passed": 39,
+    "test_files_failed": 0,
+    "cad_debug_checks": 3369,
+    "cad_release_checks": 3369,
+    "public_header_checks": 8
+  },
+  "tools_tests": {
+    "command": "CLPOLY_CAD_DRIVER=<driver> python3 -O docs/cad/reports/three-datasets/test_tools.py",
+    "tests": 15,
+    "skipped": 0,
+    "failed": 0,
+    "z3_version": "5.1.0"
+  },
+  "archived_input_prepare": {
+    "cases": 72,
+    "txt_json_xor_unsat": 72,
+    "preprocess_xor_unsat": 72,
+    "reference_labels_match": 72
+  },
+  "preprocessing_maps": {
+    "cases": 72,
+    "directions_per_case": 2,
+    "z3_unsat_checks": 144
+  },
+  "independent_sat_witnesses": 25,
+  "profile_smoke": {
+    "returncode": 0,
+    "required_metrics": [
+      "ROOTS",
+      "LAZARD",
+      "POINT-ZERO"
+    ],
+    "note": "Temporary instrumented copy; no performance claim.",
+    "periodic_monitor_exit": true
+  },
+  "probes": [
+    {
+      "binary": "cad-literature-probes",
+      "mode": "geometry",
+      "returncode": 0,
+      "stdout": "parabola: leaves=9 expected=9 ms=0.802\ntwo-graphs: leaves=13 expected=13 ms=0.785\ncircle-plus-line: leaves=19 expected=19 ms=5.109\nnullification-pair: leaves=67 expected=67 ms=17.533\nparabola-order: leaves=9 expected=9 ms=0.434\nunbound-free-coordinate: leaves=5 expected=5 ms=0.321\nno-input: leaves=1 expected=1 ms=0.03\ngeometry probes complete\n"
+    },
+    {
+      "binary": "cad-literature-probes",
+      "mode": "uni",
+      "returncode": 0,
+      "stdout": "UNI: 12 个多项式，78 个解析根全部正确\n"
+    },
+    {
+      "binary": "cad-literature-probes",
+      "mode": "boundary",
+      "returncode": 0,
+      "stdout": "boundary=(poly=1,root=0) claimed_polynomial=audit_x-1 degree=1 actual_root_is_one=1\n"
+    },
+    {
+      "binary": "cad-literature-probes",
+      "mode": "fibre",
+      "returncode": 0,
+      "stdout": "fibre n=1 returned=1 elapsed_ms=0.065\nfibre n=2 returned=1 elapsed_ms=0.069\nfibre n=4 returned=1 elapsed_ms=0.093\nfibre n=8 returned=1 elapsed_ms=0.227\nfibre n=12 returned=1 elapsed_ms=0.418\n"
+    },
+    {
+      "binary": "review-probes",
+      "mode": "",
+      "returncode": 0,
+      "stdout": "48 generated point/fibre/certificate checks passed; assignment passed\n"
+    },
+    {
+      "binary": "review-probes",
+      "mode": "uni-zero",
+      "returncode": 0,
+      "stdout": "UNI(z): 1 (expected 1); UNI(z(z-1)): 2 (expected 2)\n"
+    },
+    {
+      "binary": "review-probes",
+      "mode": "uni-repeated",
+      "returncode": 0,
+      "stdout": "UNI: repeated roots rejected\n"
+    },
+    {
+      "binary": "review-probes",
+      "mode": "grid",
+      "returncode": 0,
+      "stdout": "25 cells: independently expected signs and count passed\n"
+    },
+    {
+      "binary": "rational-sampling-probes",
+      "mode": "",
+      "returncode": 0,
+      "stdout": "10000 rational intervals: membership and simplestness passed\n"
+    }
+  ],
+  "tool_sha256": {
+    "driver.cc": "62df5bdacb9d8fc9f9cd540bd6fbd58de5e056d00ef8378904f0551dd37a75e4",
+    "linear_preprocess.py": "4deea4df1d2ce9ea2f240c3bd0cf02a000343836cdea86381015d898e20e8f1a",
+    "run.py": "144424ba856acac077839b750abd0c2ca539ea20d828834d4b2fd34a3592a707",
+    "profile.py": "65064f6ab214599b25079ce65a8932d298dd20362881f8337f564a3b8e46671f",
+    "check_witnesses.py": "cee718cd7bbfaf7899f1d65d163b8d44a2bc3308e64b910fdf2fb17ccdb15ccc",
+    "test_tools.py": "031a5bef1e1f2c998011748d2fa3e405436594fd14b2a5ff6ffba2e129275f07"
+  },
+  "historical_manifest_entries_checked": 145
+}

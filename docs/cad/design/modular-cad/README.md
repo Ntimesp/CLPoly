@@ -11,7 +11,7 @@
 5. [实代数点细化](real-algebraic.md)：QQ 隔离盒、上下界证书、指定分支判零。
 6. [QQ Lazard 与 CAD](lazard-and-cad.md)：有理代表的语义与完整提升。
 7. [理论 PDF](../../theory/lazard-evaluation.pdf)：编号算法及人工证明。
-8. [后续形式化接口](formalization.md)、构建与测试验证。编号算法与函数的对应表直接写在实点、Lazard 和完整 CAD 设计中。
+8. [后续形式化接口](formalization.md)、[构建与测试验证](../../reports/modular-cad.md)。编号算法与函数的对应表直接写在实点、Lazard 和完整 CAD 设计中。
 
 ## 当前公共入口
 

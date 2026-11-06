@@ -6,6 +6,6 @@
 - [公共 API](api.md)
 - [理论 PDF](../../theory/lazard-evaluation.pdf)
 - [逐算法实现对应与证明要点](detailed-design.md)
-- 验证报告
+- [验证报告](../../reports/modular-cad.md)
 
 [架构](architecture.md)定义数据和算法边界；[详细设计](detailed-design.md)给出投影、提升与胞腔语义；[形式规格](formal-specification.md)说明正确性目标及机器证明义务。

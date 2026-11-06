@@ -355,7 +355,7 @@ Lazard 求值只保存 QQ 系数多项式，不构造无理系数多项式。
 `open_cad` 的既有接口保持不变。
 
 设计入口见 [独立模块](docs/cad/design/modular-cad/README.md)，
-测试及限制见 验证报告。
+测试及限制见 [验证报告](docs/cad/reports/modular-cad.md)。
 编号算法与证明见 [理论 PDF](docs/cad/theory/lazard-evaluation.pdf)。尚未完成机器形式化证明。
 
 ## 许可证

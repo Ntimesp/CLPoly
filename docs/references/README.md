@@ -7,8 +7,8 @@
 | [lazard/](lazard/README.md) | 既有调研引用的 MPP 投影/提升定理原文与引用位置 |
 | [triangular-set/](triangular-set/) | XY16、XZ06、XY02 等原论文/书籍，OCR、定理摘录和算法阅读笔记 |
 | [既有 papers/](../research/papers/) | 既有因式分解论文及 CAD 基准论文摘要，保持原位置 |
-| cad-implementation-survey/ | 外部 CAD 实现调研与参考材料 |
-| cad_benchmarks/ | 外部实现与实验资料 |
+| [cad-implementation-survey/](cad-implementation-survey/README.md) | 外部 CAD 实现调研与参考材料 |
+| [cad_benchmarks/](cad_benchmarks/) | 外部实现与实验资料 |
 
 当前三篇主要依据：
 

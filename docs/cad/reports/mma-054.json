@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-23",
+  "script_sha256": "1828ddc65f747b0840fe92a53950e62cf6dadd77edabdcefcd270a62d4227051",
+  "scope": "Each method runs in a separate fresh kernel. Per-call AbsoluteTiming excludes kernel startup. Repeated calls may reuse loaded code or caches. Original polynomial formulas, no hand-derived identities or witness substitutions.",
+  "runs": [
+    {
+      "version": "14.2.1 for Mac OS X ARM (64-bit) (March 16, 2025)",
+      "system": "MacOSX-ARM64",
+      "method": "resolve",
+      "results": [
+        {
+          "name": "054 Resolve / run 1",
+          "seconds": 0.102658,
+          "result": "False"
+        },
+        {
+          "name": "054 Resolve / run 2",
+          "seconds": 0.005614,
+          "result": "False"
+        },
+        {
+          "name": "054 Resolve / run 3",
+          "seconds": 0.005085,
+          "result": "False"
+        },
+        {
+          "name": "055 Resolve",
+          "seconds": 0.010435,
+          "result": "True"
+        }
+      ],
+      "process_wall_seconds": 1.6991356248036027,
+      "command": [
+        "/Applications/Wolfram.app/Contents/MacOS/WolframKernel",
+        "-noinit",
+        "-noprompt",
+        "-script",
+        "/Users/nxp/Projects/CLPoly/docs/cad/reports/mma-054.wls"
+      ],
+      "stdout": "\"054 Resolve / run 1\"\" : \"False\" / \"0.102658\" seconds\"\n\"054 Resolve / run 2\"\" : \"False\" / \"0.005614\" seconds\"\n\"054 Resolve / run 3\"\" : \"False\" / \"0.005085\" seconds\"\n\"055 Resolve\"\" : \"True\" / \"0.010435\" seconds\"\n",
+      "stderr": ""
+    },
+    {
+      "version": "14.2.1 for Mac OS X ARM (64-bit) (March 16, 2025)",
+      "system": "MacOSX-ARM64",
+      "method": "reduce",
+      "results": [
+        {
+          "name": "054 Reduce xyz / run 1",
+          "seconds": 0.723616,
+          "result": "False"
+        },
+        {
+          "name": "054 Reduce xyz / run 2",
+          "seconds": 0.004428,
+          "result": "False"
+        },
+        {
+          "name": "054 Reduce xyz / run 3",
+          "seconds": 0.004018,
+          "result": "False"
+        }
+      ],
+      "process_wall_seconds": 1.9232759999576956,
+      "command": [
+        "/Applications/Wolfram.app/Contents/MacOS/WolframKernel",
+        "-noinit",
+        "-noprompt",
+        "-script",
+        "/Users/nxp/Projects/CLPoly/docs/cad/reports/mma-054.wls"
+      ],
+      "stdout": "\"054 Reduce xyz / run 1\"\" : \"False\" / \"0.723616\" seconds\"\n\"054 Reduce xyz / run 2\"\" : \"False\" / \"0.004428\" seconds\"\n\"054 Reduce xyz / run 3\"\" : \"False\" / \"0.004018\" seconds\"\n",
+      "stderr": ""
+    },
+    {
+      "version": "14.2.1 for Mac OS X ARM (64-bit) (March 16, 2025)",
+      "system": "MacOSX-ARM64",
+      "method": "cadxyz",
+      "results": [
+        {
+          "name": "054 CylindricalDecomposition xyz / run 1",
+          "seconds": 0.708855,
+          "result": "False"
+        },
+        {
+          "name": "054 CylindricalDecomposition xyz / run 2",
+          "seconds": 0.004695,
+          "result": "False"
+        },
+        {
+          "name": "054 CylindricalDecomposition xyz / run 3",
+          "seconds": 0.003682,
+          "result": "False"
+        }
+      ],
+      "process_wall_seconds": 1.8728844169527292,
+      "command": [
+        "/Applications/Wolfram.app/Contents/MacOS/WolframKernel",
+        "-noinit",
+        "-noprompt",
+        "-script",
+        "/Users/nxp/Projects/CLPoly/docs/cad/reports/mma-054.wls"
+      ],
+      "stdout": "\"054 CylindricalDecomposition xyz / run 1\"\" : \"False\" / \"0.708855\" seconds\"\n\"054 CylindricalDecomposition xyz / run 2\"\" : \"False\" / \"0.004695\" seconds\"\n\"054 CylindricalDecomposition xyz / run 3\"\" : \"False\" / \"0.003682\" seconds\"\n",
+      "stderr": ""
+    },
+    {
+      "version": "14.2.1 for Mac OS X ARM (64-bit) (March 16, 2025)",
+      "system": "MacOSX-ARM64",
+      "method": "cadzyx",
+      "results": [
+        {
+          "name": "054 CylindricalDecomposition zyx / run 1",
+          "seconds": 0.682514,
+          "result": "False"
+        },
+        {
+          "name": "054 CylindricalDecomposition zyx / run 2",
+          "seconds": 0.004249,
+          "result": "False"
+        },
+        {
+          "name": "054 CylindricalDecomposition zyx / run 3",
+          "seconds": 0.003606,
+          "result": "False"
+        }
+      ],
+      "process_wall_seconds": 1.8466765831690282,
+      "command": [
+        "/Applications/Wolfram.app/Contents/MacOS/WolframKernel",
+        "-noinit",
+        "-noprompt",
+        "-script",
+        "/Users/nxp/Projects/CLPoly/docs/cad/reports/mma-054.wls"
+      ],
+      "stdout": "\"054 CylindricalDecomposition zyx / run 1\"\" : \"False\" / \"0.682514\" seconds\"\n\"054 CylindricalDecomposition zyx / run 2\"\" : \"False\" / \"0.004249\" seconds\"\n\"054 CylindricalDecomposition zyx / run 3\"\" : \"False\" / \"0.003606\" seconds\"\n",
+      "stderr": ""
+    }
+  ]
+}

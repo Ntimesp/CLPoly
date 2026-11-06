@@ -18,5 +18,8 @@ int main()
     auto points = isolate_real_points(t);
     CLPOLY_ASSERT_EQ(points.size(), size_t(2));
     CLPOLY_ASSERT(point_zero(polynomial_ZZ(y*y-x), points.front()));
+    CLPOLY_TEST("public header: QQ Lazard evaluation");
+    auto value = lazard_evaluate_qq(polynomial_ZZ(x*x-2), {x,y}, points.front().prefix(1));
+    CLPOLY_ASSERT(value.valuation == std::vector<size_t>{1});
     return clpoly_test::test_summary();
 }

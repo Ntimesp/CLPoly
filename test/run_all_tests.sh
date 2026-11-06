@@ -45,6 +45,7 @@ TESTS=(
     test_open_cad
     test_regular_chain
     test_real_algebraic
+    test_lazard_qq
 )
 
 TOTAL_PASS=0

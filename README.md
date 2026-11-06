@@ -313,6 +313,20 @@ auto roots = roots_over(polynomial_ZZ(y*y-x), points.front().prefix(1), y, &orde
 `__point_sign`、`__roots_over` 是调用方保证输入正确的特定字典序内核。
 接口与 XZ06 证书条件见[实代数点设计](docs/cad/design/modular-cad/real-algebraic.md)。
 
+### QQ Lazard 求值
+
+`lazard_evaluate_qq` 返回保留冻结变量的 QQ 代表和各坐标消失阶数；
+结果必须与原前缀点共同解释。公开入口接受一般多项式序，检查后转换为 QQ 字典序。
+
+```cpp
+auto value = lazard_evaluate_qq(polynomial_ZZ((x*x-2)*(y+1)),
+                                {x,y}, points.front().prefix(1));
+// value.valuation == {1}，QQ 代表在同一个前缀点上解释
+```
+
+结果数据类型与求值算法分别位于 `lazard_qq_result.hh`、`lazard_qq.hh`，
+均可通过库总头使用。接口、字典序内核和证明见[QQ Lazard 设计](docs/cad/design/modular-cad/lazard-and-cad.md)。
+
 ## 许可证
 
 MIT License

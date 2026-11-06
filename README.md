@@ -44,6 +44,16 @@ int main() {
 }
 ```
 
+## CAD 命令行程序
+
+```sh
+make cad
+_build/release/bin/clpoly-cad examples/cad/sat.txt          # SAT
+_build/release/bin/clpoly-cad --sample examples/cad/sat.txt # 输出精确解证书
+```
+
+直接读取题集的“变量表／多项式表／CNF 子句”三段式 TXT，输出 SAT 或 UNSAT。文件名 `-` 表示标准输入，`--check` 只检查格式，`--reverse` 反转投影变量序。格式、样本解释和退出码见[命令行使用说明](docs/cad/command-line.md)。
+
 ## 依赖
 
 - [GMP](https://gmplib.org/) >= 6.3.0（含 gmpxx；需要 `mpz_prevprime`）

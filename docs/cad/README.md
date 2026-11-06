@@ -36,3 +36,5 @@
 ```sh
 sh docs/cad/theory/build.sh
 ```
+
+命令行入口：[构建、题集格式与答案输出](command-line.md)，设计见[命令行规格](design/command-line.md)。

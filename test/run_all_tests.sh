@@ -27,6 +27,7 @@ TESTS=(
     test_polynomial_interval
     test_random
     test_parse
+    test_cad_input
     test_factorize_zp
     test_hensel
     test_recombine

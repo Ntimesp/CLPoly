@@ -122,6 +122,19 @@ test/%: test/%.cc $(CLPoly_LIB_DIR)/debug/libclpoly.a
 	mkdir -p $(BIN_DEB)
 	$(CXX) $(CLPoly_DEB) $(DEPFLAGS) $(CLPoly_IPATHS) $< -o $(BIN_DEB)/$* $(CLPoly_LIB_DIR)/debug/libclpoly.a $(CLPoly_LDFLAGS) $(Numberlib)
 
+## CAD command-line solver #######################################################################
+
+.PHONY: cad test-cad-cli
+cad: $(BIN_REL)/clpoly-cad
+
+$(BIN_REL)/clpoly-cad: tools/clpoly-cad.cc $(CLPoly_LIB_DIR)/libclpoly.a
+	mkdir -p $(BIN_REL)
+	$(CXX) -std=c++17 $(CLPoly_REL) $(DEPFLAGS) $(CLPoly_IPATHS) $< -o $@ $(CLPoly_LIB_DIR)/libclpoly.a $(CLPoly_LDFLAGS) $(Numberlib)
+
+test-cad-cli: cad test/test_cad_input
+	$(BIN_DEB)/test_cad_input
+	python3 test/test_cad_cli.py $(BIN_REL)/clpoly-cad
+
 ## Cross-library correctness tests (explicit rules take priority) ################################
 
 $(BIN_DEB)/test_crosscheck_flint: test/test_crosscheck_flint.cc $(CLPoly_LIB_DIR)/debug/libclpoly.a

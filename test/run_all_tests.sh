@@ -44,6 +44,7 @@ TESTS=(
     test_cad_tree
     test_open_cad
     test_regular_chain
+    test_real_algebraic
 )
 
 TOTAL_PASS=0

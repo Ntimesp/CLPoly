@@ -295,6 +295,24 @@ auto squarefree = squarefree_decomposition(T);
 包含 `<clpoly/clpoly.hh>` 或 `<clpoly/regular_chain.hh>`。
 接口、变量序和分解契约见[正则链设计](docs/cad/design/modular-cad/regular-chain.md)。
 
+### 实代数点
+
+`real_algebraic_point` 用平方自由正则链、QQ 严格根盒及固定平移表示指定实点。
+隔离、精化、判零、符号及纤维求根算法均为类外函数。
+
+```cpp
+auto points = isolate_real_points(T); // T 是正则平方自由链
+for (auto& a : points) {
+    refine(a, QQ(1,1000));
+    int sign = point_sign(polynomial_ZZ(y), a);
+}
+auto roots = roots_over(polynomial_ZZ(y*y-x), points.front().prefix(1), y, &order);
+```
+
+公开多项式查询检查变量并转为链所用的 QQ 字典序；`__point_zero`、
+`__point_sign`、`__roots_over` 是调用方保证输入正确的特定字典序内核。
+接口与 XZ06 证书条件见[实代数点设计](docs/cad/design/modular-cad/real-algebraic.md)。
+
 ## 许可证
 
 MIT License

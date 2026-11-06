@@ -18,6 +18,7 @@
 #include <clpoly/realroot.hh>
 #include <clpoly/charset.hh>
 #include <clpoly/regular_chain.hh>
+#include <clpoly/real_algebraic.hh>
 #include <clpoly/cad.hh>
 #include <clpoly/groebner.hh>
 // #include <clpoly/interval.hh>
